@@ -173,7 +173,7 @@ function processAndMapDocs() {
                 // Ulteriore filtro: se c'è un first name
                 if (nameParts[0] && fileNameUpper.includes(nameParts[0])) {
                     hasMatch = true;
-                } else if (fileNameUpper.includes("GENEALOGIA") || fileNameUpper.includes("ALBERO") || fileNameUpper.includes("CASATE")) {
+                } else if (fileNameUpper.includes("GENEALOGIA") || fileNameUpper.includes("ALBERO") || fileNameUpper.includes("CASATE") || fileNameUpper.includes("ARALDICA") || ext === '.svg') {
                     // Documento di famiglia generico, assegnalo a tutti quelli col cognome se vogliamo, o solo al "Root"
                     hasMatch = true;
                 }
@@ -202,9 +202,12 @@ function processAndMapDocs() {
                     if (ext === '.svg') {
                         const svgRaw = fs.readFileSync(sourcePath, 'utf8');
                         person.worlds["7_eredita"].is_active = true;
+
+                        person.worlds["7_eredita"].data = person.worlds["7_eredita"].data || {};
                         person.worlds["7_eredita"].data.heraldry = person.worlds["7_eredita"].data.heraldry || [];
                         person.worlds["7_eredita"].data.heraldry.push(svgRaw);
 
+                        person.worlds["1_origini"].data = person.worlds["1_origini"].data || {};
                         person.worlds["1_origini"].data.heraldry = person.worlds["1_origini"].data.heraldry || [];
                         person.worlds["1_origini"].data.heraldry.push(svgRaw);
                     }

@@ -8360,7 +8360,8 @@
       "birth": "ABT 1500",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -8370,9 +8371,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -8389,7 +8394,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -8417,9 +8422,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -8460,6 +8469,7 @@
       "death": "",
       "docs": [
         "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg",
         "/docs/famiglie/Giardina/LUIGI_GERARDO_GIARDINA_PROFILO_CONCLUSIVO.md"
       ],
       "worlds": {
@@ -8471,9 +8481,13 @@
           "data": {
             "documents": [
               "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg",
               "/docs/famiglie/Giardina/LUIGI_GERARDO_GIARDINA_PROFILO_CONCLUSIVO.md"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -8490,7 +8504,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -8518,9 +8532,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -8561,7 +8579,8 @@
       "death": "",
       "docs": [
         "/docs/famiglie/Giardina/DIEGO_GIARDINA_INTEGRAZIONE_MAPPA_ARCHIVISTICA.docx",
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -8572,9 +8591,13 @@
           "data": {
             "documents": [
               "/docs/famiglie/Giardina/DIEGO_GIARDINA_INTEGRAZIONE_MAPPA_ARCHIVISTICA.docx",
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -8591,7 +8614,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -8619,9 +8642,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -8846,6 +8873,7 @@
       "death": "",
       "docs": [
         "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg",
         "/docs/famiglie/Giardina/LUIGI_GERARDO_GIARDINA_PROFILO_CONCLUSIVO.md"
       ],
       "worlds": {
@@ -8857,9 +8885,13 @@
           "data": {
             "documents": [
               "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg",
               "/docs/famiglie/Giardina/LUIGI_GERARDO_GIARDINA_PROFILO_CONCLUSIVO.md"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -8876,7 +8908,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -8904,9 +8936,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -9039,7 +9075,8 @@
       "death": "",
       "docs": [
         "/docs/famiglie/Giardina/DIEGO_GIARDINA_INTEGRAZIONE_MAPPA_ARCHIVISTICA.docx",
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -9050,9 +9087,13 @@
           "data": {
             "documents": [
               "/docs/famiglie/Giardina/DIEGO_GIARDINA_INTEGRAZIONE_MAPPA_ARCHIVISTICA.docx",
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -9069,7 +9110,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -9097,9 +9138,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -9232,6 +9277,7 @@
       "death": "",
       "docs": [
         "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg",
         "/docs/famiglie/Giardina/LUIGI_GERARDO_GIARDINA_PROFILO_CONCLUSIVO.md"
       ],
       "worlds": {
@@ -9243,9 +9289,13 @@
           "data": {
             "documents": [
               "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg",
               "/docs/famiglie/Giardina/LUIGI_GERARDO_GIARDINA_PROFILO_CONCLUSIVO.md"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -9262,7 +9312,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -9290,9 +9340,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -9332,7 +9386,8 @@
       "birth": "ABT 1668",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -9342,9 +9397,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -9361,7 +9420,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -9389,9 +9448,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -9431,7 +9494,8 @@
       "birth": "ABT 1680",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -9441,9 +9505,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -9460,7 +9528,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -9488,9 +9556,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -9531,7 +9603,8 @@
       "death": "",
       "docs": [
         "/docs/famiglie/Giardina/DIEGO_GIARDINA_INTEGRAZIONE_MAPPA_ARCHIVISTICA.docx",
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -9542,9 +9615,13 @@
           "data": {
             "documents": [
               "/docs/famiglie/Giardina/DIEGO_GIARDINA_INTEGRAZIONE_MAPPA_ARCHIVISTICA.docx",
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -9561,7 +9638,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -9589,9 +9666,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -9631,7 +9712,8 @@
       "birth": "ABT 1710",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -9641,9 +9723,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -9660,7 +9746,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -9688,9 +9774,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -9730,7 +9820,8 @@
       "birth": "ABT 1715",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -9740,9 +9831,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -9759,7 +9854,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -9787,9 +9882,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -9829,7 +9928,8 @@
       "birth": "ABT 1725",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -9839,9 +9939,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -9858,7 +9962,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -9886,9 +9990,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -10020,7 +10128,8 @@
       "birth": "ABT 1750",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -10030,9 +10139,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -10049,7 +10162,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -10077,9 +10190,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -10303,7 +10420,8 @@
       "birth": "ABT 1857",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -10313,9 +10431,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -10332,7 +10454,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -10360,9 +10482,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -10470,7 +10596,8 @@
       "birth": "ABT 1863",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -10480,9 +10607,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -10499,7 +10630,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -10527,9 +10658,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -10647,7 +10782,8 @@
       "birth": "ABT 1921",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -10657,9 +10793,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -10676,7 +10816,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -10704,9 +10844,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -10734,7 +10878,8 @@
       "birth": "ABT 1917",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -10744,9 +10889,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -10763,7 +10912,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -10791,9 +10940,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -10833,7 +10986,8 @@
       "birth": "",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -10843,9 +10997,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -10860,7 +11018,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -10888,9 +11046,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -11090,7 +11252,8 @@
       "birth": "ABT 1943",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -11100,9 +11263,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -11119,7 +11286,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -11147,9 +11314,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -11257,7 +11428,8 @@
       "birth": "ABT 1977",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -11267,9 +11439,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -11286,7 +11462,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -11314,9 +11490,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -11344,7 +11524,8 @@
       "birth": "ABT 1975",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -11354,9 +11535,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -11373,7 +11558,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -11401,9 +11586,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -11431,7 +11620,8 @@
       "birth": "",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -11441,9 +11631,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -11458,7 +11652,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -11486,9 +11680,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -11695,7 +11893,8 @@
       "birth": "ABT 1859",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -11705,9 +11904,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -11724,7 +11927,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -11752,9 +11955,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -11782,7 +11989,8 @@
       "birth": "ABT 1861",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -11792,9 +12000,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -11811,7 +12023,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -11839,9 +12051,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -11869,7 +12085,8 @@
       "birth": "ABT 1866",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -11879,9 +12096,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -11898,7 +12119,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -11926,9 +12147,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -11956,7 +12181,8 @@
       "birth": "ABT 1868",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -11966,9 +12192,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -11985,7 +12215,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -12013,9 +12243,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -12043,7 +12277,8 @@
       "birth": "ABT 1870",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -12053,9 +12288,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -12072,7 +12311,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -12100,9 +12339,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -12130,7 +12373,8 @@
       "birth": "ABT 1874",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -12140,9 +12384,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -12159,7 +12407,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -12187,9 +12435,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -12217,7 +12469,8 @@
       "birth": "ABT 1876",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -12227,9 +12480,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -12246,7 +12503,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -12274,9 +12531,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -12304,7 +12565,8 @@
       "birth": "ABT 1879",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -12314,9 +12576,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -12333,7 +12599,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -12361,9 +12627,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
@@ -16903,7 +17173,8 @@
       "birth": "ABT 1585",
       "death": "",
       "docs": [
-        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+        "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+        "/docs/famiglie/Giardina/Giardina_Araldica.svg"
       ],
       "worlds": {
         "1_origini": {
@@ -16913,9 +17184,13 @@
           "color_var": "var(--accent-color)",
           "data": {
             "documents": [
-              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md"
+              "/docs/famiglie/Giardina/GENEALOGIA_GIARDINA_APPROFONDIMENTO_COMPLETO.md",
+              "/docs/famiglie/Giardina/Giardina_Araldica.svg"
             ],
-            "surname": "Giardina"
+            "surname": "Giardina",
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
           }
         },
         "2_cicli": {
@@ -16932,7 +17207,7 @@
         "3_doni": {
           "id": "3",
           "name": "DONI",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
           "data": null
         },
@@ -16960,9 +17235,13 @@
         "7_eredita": {
           "id": "7",
           "name": "EREDITÀ",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--secondary-color)",
-          "data": null
+          "data": {
+            "heraldry": [
+              "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\r\n<!-- Created with Inkscape (http://www.inkscape.org/) -->\r\n<svg id=\"svg2157\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\" xmlns=\"http://www.w3.org/2000/svg\" height=\"600\" width=\"600\" version=\"1.0\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\r\n <metadata id=\"metadata2162\">\r\n  <rdf:RDF>\r\n   <cc:Work rdf:about=\"\">\r\n    <dc:format>image/svg+xml</dc:format>\r\n    <dc:type rdf:resource=\"http://purl.org/dc/dcmitype/StillImage\"/>\r\n   </cc:Work>\r\n  </rdf:RDF>\r\n </metadata>\r\n <g id=\"layer1\">\r\n  <g id=\"g3765\" stroke=\"#2a4b8d\" fill=\"none\">\r\n   <path id=\"rect2990\" d=\"m70.064 422.35 374.27-374.26 107.58 107.58-374.26 374.27-129.56 21.97z\" stroke-width=\"30\"/>\r\n   <path id=\"path3771\" d=\"m70.569 417.81 110.61 110.61\" stroke-width=\"25\"/>\r\n   <path id=\"path3777\" d=\"m491.47 108.37-366.69 366.68\" stroke-width=\"25\"/>\r\n   <path id=\"path3763\" d=\"m54.222 507.26 40.975 39.546\" stroke-width=\"25\"/>\r\n  </g>\r\n </g>\r\n</svg>\r\n"
+            ]
+          }
         },
         "8_nebbia": {
           "id": "8",
