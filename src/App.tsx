@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from './context/ThemeContext';
 import { ThemeSwitcher } from './components/ThemeSwitcher';
 import { Dashboard } from './pages/Dashboard';
@@ -34,10 +34,12 @@ function App() {
         </header>
 
         <main style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
-          <Routes>
-            <Route path="/" element={<Dashboard defaultPersonId="I290" />} /> {/* I290 is likely a prominent ancestor, could be anyone */}
-            <Route path="/world/:worldId" element={<WorldDetail defaultPersonId="I290" />} />
-          </Routes>
+          <HashRouter>
+            <Routes>
+              <Route path="/" element={<Dashboard defaultPersonId="I290" />} /> {/* I290 is likely a prominent ancestor, could be anyone */}
+              <Route path="/world/:worldId" element={<WorldDetail defaultPersonId="I290" />} />
+            </Routes>
+          </HashRouter>
         </main>
 
         <ThemeSwitcher />
