@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mario-gregorio.github.io/gn370-web-ui",
+  "homepage": "https://FineDiMondo.github.io/gn370-web-ui",
   "scripts": {
     "generate": "node scripts/generate_data.js",
     "predeploy": "npm run build",
