@@ -1,8 +1,15 @@
 import { useState, useEffect, useRef } from 'react';
 import { WorldTile } from '../components/WorldTile';
 import { motion } from 'framer-motion';
-import { parseGedcom } from '../utils/gedcomParser';
+import { parseGedcomFull, toPersonDataDict } from '../utils/gedcomParser';
+import { buildAndDownloadZip } from '../utils/zipExport';
+import { journal } from '../utils/journalManager';
 import dbDataMock from '../data/db.json';
+
+// Conserva il GEDCOM originale per VH-08 / I17
+let _originalGedcomText: string | null = null;
+let _originalGedcomFilename = 'dataset.ged';
+let _parsedFamilies: Record<string, any> = {};
 
 interface DashboardProps {
     defaultPersonId: string;
@@ -55,7 +62,25 @@ export const Dashboard: React.FC<DashboardProps> = ({ defaultPersonId }) => {
         reader.onload = (e) => {
             const content = e.target?.result as string;
             try {
-                const parsed = parseGedcom(content);
+                // Conserva originale (VH-08 / I17)
+                _originalGedcomText = content;
+                _originalGedcomFilename = file.name;
+
+                const result = parseGedcomFull(content);
+                _parsedFamilies = result.families as Record<string, any>;
+
+                // Invariante I8: verifica conteggio
+                const parsed = toPersonDataDict(result);
+                const parsedCount = Object.keys(parsed).length;
+                if (parsedCount !== result.indiCount) {
+                    console.warn(`GN370 I8: INDI in GEDCOM=${result.indiCount}, PERSON in DB=${parsedCount}`);
+                }
+
+                journal.append('GEDCOM_IMPORT',
+                    `Import ${file.name}: ${result.indiCount} INDI, ${result.famCount} FAM`,
+                    { entity_type: 'GEDCOM', entity_count: result.indiCount }
+                );
+
                 const values = Object.values(parsed);
 
                 // Sort
@@ -111,16 +136,18 @@ export const Dashboard: React.FC<DashboardProps> = ({ defaultPersonId }) => {
         setDbStatus('READY');
     };
 
-    const handleExport = () => {
-        const timestamp = new Date().toISOString().replace(/[-:T]/g, '').slice(0, 12);
-        const filename = `${timestamp}.zip`;
-        const blob = new Blob(["MOCK_ZIP_CONTENT_FOR_EXPORT_TESTING"], { type: 'application/zip' });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = filename;
-        a.click();
-        URL.revokeObjectURL(url);
+    const handleExport = async () => {
+        try {
+            await buildAndDownloadZip({
+                persons: personsDict,
+                families: _parsedFamilies,
+                originalGedcom: _originalGedcomText ?? undefined,
+                originalGedcomFilename: _originalGedcomFilename,
+            });
+        } catch (err) {
+            console.error('GN370 EXPORT ERROR:', err);
+            alert('Errore durante la generazione del file ZIP.');
+        }
     };
 
     if (dbStatus === 'EMPTY') {

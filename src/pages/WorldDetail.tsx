@@ -3,6 +3,8 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import dbData from '../data/db.json';
 import DOMPurify from 'dompurify';
+import { GenealogyTree } from '../components/GenealogyTree';
+import { PersonTimeline } from '../components/PersonTimeline';
 
 export const WorldDetail: React.FC = () => {
     const { personId, worldId } = useParams<{ personId: string, worldId: string }>();
@@ -62,7 +64,38 @@ export const WorldDetail: React.FC = () => {
                     </p>
                 ) : (
                     <div style={{ marginTop: '20px', color: 'var(--text-color)' }}>
-                        {/* Render dynamic data based on world */}
+
+                        {/* ── MONDO 1: ORIGINI / MONDO 9: RADICI → Albero genealogico ── */}
+                        {(worldId === '1_origini' || worldId === '9_radici') && (
+                            <div style={{ marginBottom: '25px' }}>
+                                <h3 style={{ color: 'var(--accent-color)', marginBottom: '10px' }}>
+                                    {worldId === '9_radici' ? '🌳 |PATH| Radici Genetiche e Documentali' : '🌳 |PATH| Albero Genealogico'}
+                                </h3>
+                                <GenealogyTree
+                                    persons={(dbData as any).persons ?? {}}
+                                    families={(dbData as any).families ?? {}}
+                                    focusPersonId={personId ?? person.id}
+                                    mode={worldId === '9_radici' ? 'ancestors' : 'ancestors'}
+                                    maxGenerations={worldId === '9_radici' ? 5 : 4}
+                                />
+                            </div>
+                        )}
+
+                        {/* ── MONDO 2: CICLI → Timeline con =ERA= ── */}
+                        {worldId === '2_cicli' && (
+                            <div style={{ marginBottom: '25px' }}>
+                                <h3 style={{ color: 'var(--text-color)', marginBottom: '10px' }}>
+                                    ⏱ Cronologia / Timeline
+                                </h3>
+                                <PersonTimeline
+                                    personName={`${person.name ?? ''} ${person.surname ?? ''}`.trim()}
+                                    birthYear={person.birth ? parseInt(person.birth.match(/\d{4}/)?.[0] ?? '0') || null : null}
+                                    deathYear={person.death ? parseInt(person.death.match(/\d{4}/)?.[0] ?? '0') || null : null}
+                                    rawEvents={worldData.data?.events ?? []}
+                                    rawGaps={worldData.data?.gaps ?? []}
+                                />
+                            </div>
+                        )}
 
                         {worldData.data?.events && (
                             <div style={{ marginBottom: '15px' }}>
