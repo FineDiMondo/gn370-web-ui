@@ -4,6 +4,8 @@
       "id": "I1",
       "name": "Nicoló Abbate",
       "surname": "Abbate",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1325",
       "death": "",
       "docs": [],
@@ -75,12 +77,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I2": {
       "id": "I2",
       "name": "Matilda Palizzi",
       "surname": "Palizzi",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1325",
       "death": "",
       "docs": [],
@@ -152,12 +157,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I3": {
       "id": "I3",
       "name": "Riccardo Abbate",
       "surname": "Abbate",
+      "sex": "M",
+      "famc": "F1",
       "birth": "ABT 1355",
       "death": "",
       "docs": [],
@@ -229,12 +237,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I4": {
       "id": "I4",
       "name": "Costanza di Chiaromonte",
       "surname": "Chiaromonte",
+      "sex": "F",
+      "famc": "F33",
       "birth": "ABT 1376",
       "death": "",
       "docs": [],
@@ -306,12 +317,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I5": {
       "id": "I5",
       "name": "Gabriele Abbate",
       "surname": "Abbate",
+      "sex": "M",
+      "famc": "F2",
       "birth": "ABT 1410",
       "death": "",
       "docs": [],
@@ -383,12 +397,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I6": {
       "id": "I6",
       "name": "Isabella Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1410",
       "death": "",
       "docs": [],
@@ -460,12 +477,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I7": {
       "id": "I7",
       "name": "Gaspare Abbate",
       "surname": "Abbate",
+      "sex": "M",
+      "famc": "F3",
       "birth": "ABT 1435",
       "death": "",
       "docs": [],
@@ -537,12 +557,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I8": {
       "id": "I8",
       "name": "Gaspare Abbate",
       "surname": "Abbate",
+      "sex": "M",
+      "famc": "F3",
       "birth": "ABT 1445",
       "death": "",
       "docs": [],
@@ -614,12 +637,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I9": {
       "id": "I9",
       "name": "Gabriele Abbate",
       "surname": "Abbate",
+      "sex": "M",
+      "famc": "F4",
       "birth": "ABT 1470",
       "death": "",
       "docs": [],
@@ -691,12 +717,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I10": {
       "id": "I10",
       "name": "Eufemia Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1458",
       "death": "",
       "docs": [],
@@ -768,12 +797,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I11": {
       "id": "I11",
       "name": "Giovanna Scammacca",
       "surname": "Scammacca",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1480",
       "death": "",
       "docs": [],
@@ -845,12 +877,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I12": {
       "id": "I12",
       "name": "Antonio Abbate",
       "surname": "Abbate",
+      "sex": "M",
+      "famc": "F6",
       "birth": "ABT 1500",
       "death": "",
       "docs": [],
@@ -922,12 +957,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I13": {
       "id": "I13",
       "name": "Lucrezia Ingargia",
       "surname": "Ingargia",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1510",
       "death": "",
       "docs": [],
@@ -999,12 +1037,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I14": {
       "id": "I14",
       "name": "Gabriele Abbate",
       "surname": "Abbate",
+      "sex": "M",
+      "famc": "F7",
       "birth": "ABT 1530",
       "death": "",
       "docs": [],
@@ -1076,12 +1117,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I15": {
       "id": "I15",
       "name": "Laura",
       "surname": "",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1535",
       "death": "",
       "docs": [],
@@ -1153,12 +1197,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I16": {
       "id": "I16",
       "name": "Anna Abbate",
       "surname": "Abbate",
+      "sex": "F",
+      "famc": "F9",
       "birth": "ABT 1550",
       "death": "",
       "docs": [],
@@ -1230,12 +1277,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I17": {
       "id": "I17",
       "name": "Giovanni Abbatellis",
       "surname": "Abbatellis",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1367",
       "death": "",
       "docs": [],
@@ -1307,12 +1357,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I18": {
       "id": "I18",
       "name": "Giovanna Chiaramonte",
       "surname": "Chiaramonte",
+      "sex": "F",
+      "famc": "F33",
       "birth": "ABT 1369",
       "death": "",
       "docs": [],
@@ -1384,12 +1437,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I19": {
       "id": "I19",
       "name": "Abbatellis",
       "surname": "",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1370",
       "death": "",
       "docs": [],
@@ -1461,12 +1517,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I20": {
       "id": "I20",
       "name": "Giovanna Chiaramonte",
       "surname": "Chiaramonte",
+      "sex": "F",
+      "famc": "F33",
       "birth": "ABT 1375",
       "death": "",
       "docs": [],
@@ -1538,12 +1597,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I21": {
       "id": "I21",
       "name": "Girolamo Alagona",
       "surname": "Alagona",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1480",
       "death": "",
       "docs": [],
@@ -1615,12 +1677,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I22": {
       "id": "I22",
       "name": "Artale Alagona",
       "surname": "Alagona",
+      "sex": "M",
+      "famc": "F12",
       "birth": "ABT 1500",
       "death": "",
       "docs": [],
@@ -1692,12 +1757,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I23": {
       "id": "I23",
       "name": "Girolamo Alagona",
       "surname": "Alagona",
+      "sex": "M",
+      "famc": "F13",
       "birth": "ABT 1537",
       "death": "",
       "docs": [],
@@ -1769,12 +1837,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I24": {
       "id": "I24",
       "name": "Matteo Alagona",
       "surname": "Alagona",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1510",
       "death": "",
       "docs": [],
@@ -1846,12 +1917,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I25": {
       "id": "I25",
       "name": "Maria Bonajuto",
       "surname": "Bonajuto",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1510",
       "death": "",
       "docs": [],
@@ -1923,12 +1997,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I26": {
       "id": "I26",
       "name": "Artale Alagona",
       "surname": "Alagona",
+      "sex": "M",
+      "famc": "F14",
       "birth": "",
       "death": "",
       "docs": [],
@@ -1998,12 +2075,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I27": {
       "id": "I27",
       "name": "Maria Gravina",
       "surname": "Gravina",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1540",
       "death": "",
       "docs": [],
@@ -2075,12 +2155,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I28": {
       "id": "I28",
       "name": "Giuseppe Alagona",
       "surname": "Alagona",
+      "sex": "M",
+      "famc": "F15",
       "birth": "ABT 1560",
       "death": "",
       "docs": [],
@@ -2152,12 +2235,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I29": {
       "id": "I29",
       "name": "Maria Alagona",
       "surname": "Alagona",
+      "sex": "F",
+      "famc": "F16",
       "birth": "ABT 1600",
       "death": "",
       "docs": [],
@@ -2229,12 +2315,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I30": {
       "id": "I30",
       "name": "Vincenzo Alagona",
       "surname": "Alagona",
+      "sex": "M",
+      "famc": "F18",
       "birth": "ABT 1600",
       "death": "",
       "docs": [],
@@ -2306,12 +2395,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I31": {
       "id": "I31",
       "name": "Laura Lucia d'Alagona",
       "surname": "d'Alagona",
+      "sex": "F",
+      "famc": "F17",
       "birth": "ABT 1620",
       "death": "",
       "docs": [],
@@ -2383,12 +2475,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I32": {
       "id": "I32",
       "name": "Vincenza Lucchese",
       "surname": "Lucchese",
+      "sex": "F",
+      "famc": "F76",
       "birth": "",
       "death": "",
       "docs": [],
@@ -2458,12 +2553,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I33": {
       "id": "I33",
       "name": "Giuseppe Alagona",
       "surname": "Alagona",
+      "sex": "M",
+      "famc": "F18",
       "birth": "ABT 1598",
       "death": "",
       "docs": [],
@@ -2535,12 +2633,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I34": {
       "id": "I34",
       "name": "Girolamo Albanese",
       "surname": "Albanese",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1780",
       "death": "",
       "docs": [],
@@ -2612,12 +2713,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I35": {
       "id": "I35",
       "name": "Provvidenza Vella",
       "surname": "Vella",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1780",
       "death": "",
       "docs": [],
@@ -2689,12 +2793,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I36": {
       "id": "I36",
       "name": "Girolamo Albanese",
       "surname": "Albanese",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1788",
       "death": "",
       "docs": [],
@@ -2766,12 +2873,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I37": {
       "id": "I37",
       "name": "Rosaria Albanese",
       "surname": "Albanese",
+      "sex": "F",
+      "famc": "F20",
       "birth": "ABT 1818",
       "death": "",
       "docs": [],
@@ -2843,12 +2953,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I38": {
       "id": "I38",
       "name": "Girolamo Albanese",
       "surname": "Albanese",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1794",
       "death": "",
       "docs": [],
@@ -2920,12 +3033,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I39": {
       "id": "I39",
       "name": "Ladislaus Anjou-Durazzo",
       "surname": "Anjou-Durazzo",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1376",
       "death": "",
       "docs": [],
@@ -2997,12 +3113,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I40": {
       "id": "I40",
       "name": "Matteo Barresi",
       "surname": "Barresi",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1480",
       "death": "",
       "docs": [],
@@ -3074,12 +3193,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I41": {
       "id": "I41",
       "name": "Beatrice Valguarnera",
       "surname": "Valguarnera",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1494",
       "death": "",
       "docs": [],
@@ -3151,12 +3273,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I42": {
       "id": "I42",
       "name": "Eleonora Barresi",
       "surname": "Barresi",
+      "sex": "F",
+      "famc": "F23",
       "birth": "ABT 1535",
       "death": "",
       "docs": [],
@@ -3228,12 +3353,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I43": {
       "id": "I43",
       "name": "Girolamo Barresi",
       "surname": "Barresi",
+      "sex": "M",
+      "famc": "F23",
       "birth": "ABT 1510",
       "death": "",
       "docs": [],
@@ -3305,12 +3433,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I44": {
       "id": "I44",
       "name": "Melchiorra Barresi",
       "surname": "Barresi",
+      "sex": "F",
+      "famc": "F23",
       "birth": "ABT 1532",
       "death": "",
       "docs": [],
@@ -3382,12 +3513,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I45": {
       "id": "I45",
       "name": "Luigi Biasi",
       "surname": "Biasi",
+      "sex": "M",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -3457,12 +3591,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I46": {
       "id": "I46",
       "name": "Rosa Biasi",
       "surname": "Biasi",
+      "sex": "F",
+      "famc": "F24",
       "birth": "ABT 1880",
       "death": "",
       "docs": [],
@@ -3534,12 +3671,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I47": {
       "id": "I47",
       "name": "Domenica Boreati",
       "surname": "Boreati",
+      "sex": "F",
+      "famc": "F118",
       "birth": "",
       "death": "",
       "docs": [],
@@ -3609,12 +3749,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I48": {
       "id": "I48",
       "name": "Carlo Valentini",
       "surname": "Valentini",
+      "sex": "M",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -3684,12 +3827,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I49": {
       "id": "I49",
       "name": "Rocco Valentini",
       "surname": "Valentini",
+      "sex": "M",
+      "famc": "F25",
       "birth": "ABT 1813",
       "death": "",
       "docs": [],
@@ -3761,12 +3907,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I50": {
       "id": "I50",
       "name": "Lucia Carcereri",
       "surname": "Carcereri",
+      "sex": "F",
+      "famc": "F116",
       "birth": "",
       "death": "",
       "docs": [],
@@ -3836,12 +3985,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I51": {
       "id": "I51",
       "name": "Giovanni Valentini",
       "surname": "Valentini",
+      "sex": "M",
+      "famc": "F26",
       "birth": "ABT 1856",
       "death": "",
       "docs": [],
@@ -3913,12 +4065,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I52": {
       "id": "I52",
       "name": "Vincenzo Chianello",
       "surname": "Chianello",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1821",
       "death": "",
       "docs": [],
@@ -3990,12 +4145,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I53": {
       "id": "I53",
       "name": "Anna Lipari",
       "surname": "Lipari",
+      "sex": "F",
+      "famc": "F70",
       "birth": "ABT 1825",
       "death": "",
       "docs": [],
@@ -4067,12 +4225,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I54": {
       "id": "I54",
       "name": "Federico Chiaramonte",
       "surname": "Chiaramonte",
+      "sex": "M",
+      "famc": "F152",
       "birth": "ABT 1270",
       "death": "",
       "docs": [],
@@ -4144,12 +4305,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I55": {
       "id": "I55",
       "name": "Giovanna Camerario",
       "surname": "Camerario",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1270",
       "death": "",
       "docs": [],
@@ -4221,12 +4385,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I56": {
       "id": "I56",
       "name": "Giovanna Gravina",
       "surname": "Gravina",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1281",
       "death": "",
       "docs": [],
@@ -4298,12 +4465,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I57": {
       "id": "I57",
       "name": "Manfredi I Chiaramonte",
       "surname": "Chiaramonte",
+      "sex": "M",
+      "famc": "F152",
       "birth": "ABT 1274",
       "death": "",
       "docs": [],
@@ -4375,12 +4545,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I58": {
       "id": "I58",
       "name": "Beatrice Sclafani Termine",
       "surname": "Termine",
+      "sex": "F",
+      "famc": "F109",
       "birth": "ABT 1274",
       "death": "",
       "docs": [],
@@ -4452,12 +4625,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I59": {
       "id": "I59",
       "name": "Giovanni II Chiaramonte Sclafani",
       "surname": "Sclafani",
+      "sex": "M",
+      "famc": "F30",
       "birth": "ABT 1294",
       "death": "",
       "docs": [],
@@ -4529,12 +4705,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I60": {
       "id": "I60",
       "name": "Isabella Mosca",
       "surname": "Mosca",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1280",
       "death": "",
       "docs": [],
@@ -4606,12 +4785,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I61": {
       "id": "I61",
       "name": "Giovanni I \"Il vecchio\" Chiaramonte",
       "surname": "Chiaramonte",
+      "sex": "M",
+      "famc": "F152",
       "birth": "ABT 1274",
       "death": "",
       "docs": [],
@@ -4683,12 +4865,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I62": {
       "id": "I62",
       "name": "Lucca Palizzi",
       "surname": "Palizzi",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1276",
       "death": "",
       "docs": [],
@@ -4760,12 +4945,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I63": {
       "id": "I63",
       "name": "Manfredi Chiaramonte",
       "surname": "Chiaramonte",
+      "sex": "M",
+      "famc": "F35",
       "birth": "ABT 1340",
       "death": "",
       "docs": [],
@@ -4837,12 +5025,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I64": {
       "id": "I64",
       "name": "Eufemia di Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "F",
+      "famc": "F167",
       "birth": "ABT 1340",
       "death": "",
       "docs": [],
@@ -4914,12 +5105,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I65": {
       "id": "I65",
       "name": "Isabella Elisabetta di Chiaromonte",
       "surname": "Chiaromonte",
+      "sex": "F",
+      "famc": "F33",
       "birth": "ABT 1361",
       "death": "",
       "docs": [],
@@ -4991,12 +5185,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I66": {
       "id": "I66",
       "name": "Margherita Passaneto",
       "surname": "Passaneto",
+      "sex": "F",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -5066,12 +5263,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I67": {
       "id": "I67",
       "name": "Eleonora di Sicilia",
       "surname": "Sicilia",
+      "sex": "F",
+      "famc": "F142",
       "birth": "ABT 1298",
       "death": "",
       "docs": [],
@@ -5143,12 +5343,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I68": {
       "id": "I68",
       "name": "Margherita Chiaramonte",
       "surname": "Chiaramonte",
+      "sex": "F",
+      "famc": "F35",
       "birth": "ABT 1336",
       "death": "",
       "docs": [],
@@ -5220,12 +5423,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I69": {
       "id": "I69",
       "name": "Matteo Chiaramonte Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "M",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -5295,12 +5501,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I70": {
       "id": "I70",
       "name": "Giacoma di Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "F",
+      "famc": "F167",
       "birth": "ABT 1353",
       "death": "",
       "docs": [],
@@ -5372,12 +5581,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I71": {
       "id": "I71",
       "name": "Giovanni Chiaromonte",
       "surname": "Chiaromonte",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1338",
       "death": "",
       "docs": [],
@@ -5449,12 +5661,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I72": {
       "id": "I72",
       "name": "Isabella di Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "F",
+      "famc": "F167",
       "birth": "ABT 1355",
       "death": "",
       "docs": [],
@@ -5526,12 +5741,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I73": {
       "id": "I73",
       "name": "Giovanni Corvino",
       "surname": "Corvino",
+      "sex": "M",
+      "famc": "F41",
       "birth": "ABT 1500",
       "death": "",
       "docs": [],
@@ -5603,12 +5821,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I74": {
       "id": "I74",
       "name": "Girolama Torres",
       "surname": "Torres",
+      "sex": "F",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -5678,12 +5899,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I75": {
       "id": "I75",
       "name": "Giovanello Corvino",
       "surname": "Corvino",
+      "sex": "M",
+      "famc": "F38",
       "birth": "ABT 1529",
       "death": "",
       "docs": [],
@@ -5755,12 +5979,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I76": {
       "id": "I76",
       "name": "Elisabetta Corvino",
       "surname": "Corvino",
+      "sex": "F",
+      "famc": "F39",
       "birth": "ABT 1555",
       "death": "",
       "docs": [],
@@ -5832,12 +6059,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I77": {
       "id": "I77",
       "name": "Blasco Corvino",
       "surname": "Corvino",
+      "sex": "M",
+      "famc": "F39",
       "birth": "ABT 1550",
       "death": "",
       "docs": [],
@@ -5909,12 +6139,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I78": {
       "id": "I78",
       "name": "Angela Centelles",
       "surname": "Centelles",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1550",
       "death": "",
       "docs": [],
@@ -5986,12 +6219,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I79": {
       "id": "I79",
       "name": "Corvino",
       "surname": "",
+      "sex": "M",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -6061,12 +6297,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I80": {
       "id": "I80",
       "name": "Domenico D'Amato or Amato",
       "surname": "Amato",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1805",
       "death": "",
       "docs": [],
@@ -6138,12 +6377,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I81": {
       "id": "I81",
       "name": "Rosaria Lipari",
       "surname": "Lipari",
+      "sex": "F",
+      "famc": "F70",
       "birth": "ABT 1807",
       "death": "",
       "docs": [],
@@ -6215,12 +6457,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I82": {
       "id": "I82",
       "name": "Federico D'Antiochia",
       "surname": "D'Antiochia",
+      "sex": "M",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -6290,12 +6535,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I83": {
       "id": "I83",
       "name": "Margherita Consolo d'Antiochia",
       "surname": "d'Antiochia",
+      "sex": "F",
+      "famc": "F148",
       "birth": "ABT 1288",
       "death": "",
       "docs": [],
@@ -6367,12 +6615,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I84": {
       "id": "I84",
       "name": "Ismaele Danese",
       "surname": "Danese",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1879",
       "death": "",
       "docs": [],
@@ -6444,12 +6695,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I85": {
       "id": "I85",
       "name": "Marcella Danese",
       "surname": "Danese",
+      "sex": "F",
+      "famc": "F44",
       "birth": "ABT 1919",
       "death": "",
       "docs": [],
@@ -6521,12 +6775,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I86": {
       "id": "I86",
       "name": "Enrico Angelo Danese",
       "surname": "Danese",
+      "sex": "M",
+      "famc": "F44",
       "birth": "ABT 1912",
       "death": "",
       "docs": [],
@@ -6598,12 +6855,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I87": {
       "id": "I87",
       "name": "Rosa Biasi",
       "surname": "Biasi",
+      "sex": "F",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -6673,12 +6933,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I88": {
       "id": "I88",
       "name": "Diego Lopez Del Castillo",
       "surname": "Castillo",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1510",
       "death": "",
       "docs": [],
@@ -6750,12 +7013,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I89": {
       "id": "I89",
       "name": "Giulia Del Castillo",
       "surname": "Castillo",
+      "sex": "F",
+      "famc": "F46",
       "birth": "ABT 1530",
       "death": "",
       "docs": [
@@ -6834,12 +7100,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I90": {
       "id": "I90",
       "name": "Don Can Francesco \"Cangrande\" I Della Scala",
       "surname": "Scala",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1291",
       "death": "",
       "docs": [],
@@ -6911,12 +7180,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I91": {
       "id": "I91",
       "name": "Giovanna von Hohenstaufen",
       "surname": "Hohenstaufen",
+      "sex": "F",
+      "famc": "F148",
       "birth": "ABT 1280",
       "death": "",
       "docs": [],
@@ -6988,12 +7260,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I92": {
       "id": "I92",
       "name": "Francesco Paolo Desconhecido",
       "surname": "Desconhecido",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1659",
       "death": "",
       "docs": [],
@@ -7065,12 +7340,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I93": {
       "id": "I93",
       "name": "Agata Grimaldi",
       "surname": "Grimaldi",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1668",
       "death": "",
       "docs": [],
@@ -7142,12 +7420,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I94": {
       "id": "I94",
       "name": "Giulia Massa",
       "surname": "Massa",
+      "sex": "F",
+      "famc": "F48",
       "birth": "ABT 1686",
       "death": "",
       "docs": [],
@@ -7219,12 +7500,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I95": {
       "id": "I95",
       "name": "Guillelmo Di Ragusa",
       "surname": "Ragusa",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1304",
       "death": "",
       "docs": [],
@@ -7296,12 +7580,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I96": {
       "id": "I96",
       "name": "Ilagia Constanza Di Solimella",
       "surname": "Solimella",
+      "sex": "F",
+      "famc": "F161",
       "birth": "ABT 1306",
       "death": "",
       "docs": [],
@@ -7373,12 +7660,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I97": {
       "id": "I97",
       "name": "Antonio Fardella - Maida",
       "surname": "Maida",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1356",
       "death": "",
       "docs": [],
@@ -7450,12 +7740,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I98": {
       "id": "I98",
       "name": "Perna Ventimiglia - Spadafora",
       "surname": "Spadafora",
+      "sex": "F",
+      "famc": "F167",
       "birth": "ABT 1356",
       "death": "",
       "docs": [],
@@ -7527,12 +7820,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I99": {
       "id": "I99",
       "name": "Pietro Giardina",
       "surname": "Giardina",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1500",
       "death": "",
       "docs": [
@@ -7611,12 +7907,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I100": {
       "id": "I100",
       "name": "Luigi Giardina",
       "surname": "Giardina",
+      "sex": "M",
+      "famc": "F51",
       "birth": "ABT 1555",
       "death": "",
       "docs": [
@@ -7697,12 +7996,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I101": {
       "id": "I101",
       "name": "Diego Giardina",
       "surname": "Giardina",
+      "sex": "M",
+      "famc": "F52",
       "birth": "ABT 1580",
       "death": "",
       "docs": [
@@ -7783,12 +8085,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I102": {
       "id": "I102",
       "name": "Maria de Guevara",
       "surname": "Guevara",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1560",
       "death": "",
       "docs": [],
@@ -7860,12 +8165,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I103": {
       "id": "I103",
       "name": "Maria Morso",
       "surname": "Morso",
+      "sex": "F",
+      "famc": "F90",
       "birth": "ABT 1580",
       "death": "",
       "docs": [],
@@ -7937,12 +8245,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I104": {
       "id": "I104",
       "name": "Luigi Giardina",
       "surname": "Giardina",
+      "sex": "M",
+      "famc": "F54",
       "birth": "ABT 1610",
       "death": "",
       "docs": [
@@ -8023,12 +8334,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I105": {
       "id": "I105",
       "name": "Vincenza Marquet",
       "surname": "Marquet",
+      "sex": "F",
+      "famc": "F87",
       "birth": "ABT 1620",
       "death": "",
       "docs": [],
@@ -8100,12 +8414,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I106": {
       "id": "I106",
       "name": "Diego Giardina",
       "surname": "Giardina",
+      "sex": "M",
+      "famc": "F55",
       "birth": "ABT 1640",
       "death": "",
       "docs": [
@@ -8186,12 +8503,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I107": {
       "id": "I107",
       "name": "Maria Rosalia Lucchesi",
       "surname": "Lucchesi",
+      "sex": "F",
+      "famc": "F81",
       "birth": "ABT 1650",
       "death": "",
       "docs": [],
@@ -8263,12 +8583,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I108": {
       "id": "I108",
       "name": "Luigi Gerardo Giardina",
       "surname": "Giardina",
+      "sex": "M",
+      "famc": "F56",
       "birth": "ABT 1680",
       "death": "",
       "docs": [
@@ -8349,12 +8672,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I109": {
       "id": "I109",
       "name": "Antonia Giardina",
       "surname": "Giardina",
+      "sex": "F",
+      "famc": "F56",
       "birth": "ABT 1668",
       "death": "",
       "docs": [
@@ -8433,12 +8759,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I110": {
       "id": "I110",
       "name": "Lucia Giardina",
       "surname": "Giardina",
+      "sex": "F",
+      "famc": "F56",
       "birth": "ABT 1680",
       "death": "",
       "docs": [
@@ -8517,12 +8846,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I111": {
       "id": "I111",
       "name": "Diego Giardina",
       "surname": "Giardina",
+      "sex": "M",
+      "famc": "F57",
       "birth": "ABT 1720",
       "death": "",
       "docs": [
@@ -8603,12 +8935,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I112": {
       "id": "I112",
       "name": "Rosalia Giardina",
       "surname": "Giardina",
+      "sex": "F",
+      "famc": "F57",
       "birth": "ABT 1710",
       "death": "",
       "docs": [
@@ -8687,12 +9022,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I113": {
       "id": "I113",
       "name": "Giuseppe Giardina",
       "surname": "Giardina",
+      "sex": "M",
+      "famc": "F57",
       "birth": "ABT 1715",
       "death": "",
       "docs": [
@@ -8771,12 +9109,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I114": {
       "id": "I114",
       "name": "Caterina Giardina",
       "surname": "Giardina",
+      "sex": "F",
+      "famc": "F57",
       "birth": "ABT 1725",
       "death": "",
       "docs": [
@@ -8855,12 +9196,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I115": {
       "id": "I115",
       "name": "Eumilia Grimaldi",
       "surname": "Grimaldi",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1720",
       "death": "",
       "docs": [],
@@ -8932,12 +9276,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I116": {
       "id": "I116",
       "name": "Giulio Antonio Giardina",
       "surname": "Giardina",
+      "sex": "M",
+      "famc": "F58",
       "birth": "ABT 1750",
       "death": "",
       "docs": [
@@ -9016,12 +9363,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I117": {
       "id": "I117",
       "name": "Giuseppa Naselli",
       "surname": "Naselli",
+      "sex": "F",
+      "famc": "F113",
       "birth": "ABT 1760",
       "death": "",
       "docs": [],
@@ -9093,12 +9443,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I118": {
       "id": "I118",
       "name": "Paolo Giardina - Naselli",
       "surname": "Naselli",
+      "sex": "M",
+      "famc": "F59",
       "birth": "ABT 1791",
       "death": "",
       "docs": [],
@@ -9170,12 +9523,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I119": {
       "id": "I119",
       "name": "Salvatore Giardina",
       "surname": "Giardina",
+      "sex": "M",
+      "famc": "F66",
       "birth": "ABT 1857",
       "death": "",
       "docs": [
@@ -9254,12 +9610,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I120": {
       "id": "I120",
       "name": "Caterina Giacona",
       "surname": "Giacona",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1864",
       "death": "",
       "docs": [],
@@ -9331,12 +9690,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I121": {
       "id": "I121",
       "name": "Giuseppe Giardina",
       "surname": "Giardina",
+      "sex": "M",
+      "famc": "F66",
       "birth": "ABT 1863",
       "death": "",
       "docs": [
@@ -9415,12 +9777,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I122": {
       "id": "I122",
       "name": "Clementina Boerio",
       "surname": "Boerio",
+      "sex": "F",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -9490,12 +9855,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I123": {
       "id": "I123",
       "name": "Franco Giardina",
       "surname": "Giardina",
+      "sex": "M",
+      "famc": "F61",
       "birth": "ABT 1921",
       "death": "",
       "docs": [
@@ -9574,12 +9942,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I124": {
       "id": "I124",
       "name": "Marco Aurelio Pasquale Giardina",
       "surname": "Giardina",
+      "sex": "M",
+      "famc": "F61",
       "birth": "ABT 1917",
       "death": "",
       "docs": [
@@ -9658,12 +10029,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I125": {
       "id": "I125",
       "name": "Flavia Giardina",
       "surname": "Giardina",
+      "sex": "F",
+      "famc": "F61",
       "birth": "",
       "death": "",
       "docs": [
@@ -9740,12 +10114,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I126": {
       "id": "I126",
       "name": "Orietta Ripafratti",
       "surname": "Ripafratti",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1933",
       "death": "",
       "docs": [],
@@ -9817,12 +10194,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I127": {
       "id": "I127",
       "name": "Maria Valentini",
       "surname": "Valentini",
+      "sex": "F",
+      "famc": "F117",
       "birth": "ABT 1923",
       "death": "",
       "docs": [],
@@ -9894,12 +10274,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I128": {
       "id": "I128",
       "name": "Franco Giardina",
       "surname": "Giardina",
+      "sex": "M",
+      "famc": "F63",
       "birth": "ABT 1943",
       "death": "",
       "docs": [
@@ -9978,12 +10361,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I129": {
       "id": "I129",
       "name": "Fiamma Negrini",
       "surname": "Negrini",
+      "sex": "F",
+      "famc": "F99",
       "birth": "ABT 1945",
       "death": "",
       "docs": [],
@@ -10055,12 +10441,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I130": {
       "id": "I130",
       "name": "Daniel Giardina",
       "surname": "Giardina",
+      "sex": "M",
+      "famc": "F64",
       "birth": "ABT 1977",
       "death": "",
       "docs": [
@@ -10139,12 +10528,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I131": {
       "id": "I131",
       "name": "Dimitri Giardina",
       "surname": "Giardina",
+      "sex": "M",
+      "famc": "F64",
       "birth": "ABT 1975",
       "death": "",
       "docs": [
@@ -10223,12 +10615,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I132": {
       "id": "I132",
       "name": "Franco Giardina",
       "surname": "Giardina",
+      "sex": "M",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [
@@ -10305,12 +10700,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I133": {
       "id": "I133",
       "name": "Antonino Giardina - Iaci",
       "surname": "Iaci",
+      "sex": "M",
+      "famc": "F67",
       "birth": "ABT 1831",
       "death": "",
       "docs": [
@@ -10389,12 +10787,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I134": {
       "id": "I134",
       "name": "Rosa Lipari",
       "surname": "Lipari",
+      "sex": "F",
+      "famc": "F72",
       "birth": "ABT 1838",
       "death": "",
       "docs": [],
@@ -10466,12 +10867,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I135": {
       "id": "I135",
       "name": "Antonia Giardina",
       "surname": "Giardina",
+      "sex": "F",
+      "famc": "F66",
       "birth": "ABT 1859",
       "death": "",
       "docs": [
@@ -10550,12 +10954,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I136": {
       "id": "I136",
       "name": "Antonia Giardina",
       "surname": "Giardina",
+      "sex": "F",
+      "famc": "F66",
       "birth": "ABT 1861",
       "death": "",
       "docs": [
@@ -10634,12 +11041,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I137": {
       "id": "I137",
       "name": "Rosaria Giardina",
       "surname": "Giardina",
+      "sex": "F",
+      "famc": "F66",
       "birth": "ABT 1866",
       "death": "",
       "docs": [
@@ -10718,12 +11128,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I138": {
       "id": "I138",
       "name": "Rosaria Giardina",
       "surname": "Giardina",
+      "sex": "F",
+      "famc": "F66",
       "birth": "ABT 1868",
       "death": "",
       "docs": [
@@ -10802,12 +11215,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I139": {
       "id": "I139",
       "name": "Rosaria Giardina",
       "surname": "Giardina",
+      "sex": "F",
+      "famc": "F66",
       "birth": "ABT 1870",
       "death": "",
       "docs": [
@@ -10886,12 +11302,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I140": {
       "id": "I140",
       "name": "Eligio Giardina",
       "surname": "Giardina",
+      "sex": "M",
+      "famc": "F66",
       "birth": "ABT 1874",
       "death": "",
       "docs": [
@@ -10970,12 +11389,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I141": {
       "id": "I141",
       "name": "Rosaria Giardina",
       "surname": "Giardina",
+      "sex": "F",
+      "famc": "F66",
       "birth": "ABT 1876",
       "death": "",
       "docs": [
@@ -11054,12 +11476,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I142": {
       "id": "I142",
       "name": "Provvidenza Giardina",
       "surname": "Giardina",
+      "sex": "F",
+      "famc": "F66",
       "birth": "ABT 1879",
       "death": "",
       "docs": [
@@ -11138,12 +11563,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I143": {
       "id": "I143",
       "name": "Maria Antonia Teresa Maddalena Iaci",
       "surname": "Iaci",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1796",
       "death": "",
       "docs": [],
@@ -11215,12 +11643,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I144": {
       "id": "I144",
       "name": "Francesco Ibarra",
       "surname": "Ibarra",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1530",
       "death": "",
       "docs": [],
@@ -11292,12 +11723,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I145": {
       "id": "I145",
       "name": "Gaspare La Grotta Guccio",
       "surname": "Guccio",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1658",
       "death": "",
       "docs": [],
@@ -11369,12 +11803,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I146": {
       "id": "I146",
       "name": "Giovanni Lipari",
       "surname": "Lipari",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1785",
       "death": "",
       "docs": [],
@@ -11446,12 +11883,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I147": {
       "id": "I147",
       "name": "Maria Rosa Cortina or Cortica",
       "surname": "Cortica",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1786",
       "death": "",
       "docs": [],
@@ -11523,12 +11963,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I148": {
       "id": "I148",
       "name": "Giuseppe Lipari",
       "surname": "Lipari",
+      "sex": "M",
+      "famc": "F70",
       "birth": "ABT 1820",
       "death": "",
       "docs": [],
@@ -11600,12 +12043,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I149": {
       "id": "I149",
       "name": "Domenico Lipari",
       "surname": "Lipari",
+      "sex": "M",
+      "famc": "F70",
       "birth": "ABT 1815",
       "death": "",
       "docs": [],
@@ -11677,12 +12123,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I150": {
       "id": "I150",
       "name": "Anna Lipari",
       "surname": "Lipari",
+      "sex": "F",
+      "famc": "F70",
       "birth": "ABT 1823",
       "death": "",
       "docs": [],
@@ -11754,12 +12203,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I151": {
       "id": "I151",
       "name": "Vincenza Lipari",
       "surname": "Lipari",
+      "sex": "F",
+      "famc": "F70",
       "birth": "ABT 1825",
       "death": "",
       "docs": [],
@@ -11831,12 +12283,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I152": {
       "id": "I152",
       "name": "Maddalena Favaloro",
       "surname": "Favaloro",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1815",
       "death": "",
       "docs": [],
@@ -11908,12 +12363,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I153": {
       "id": "I153",
       "name": "Emmanuele Lipari",
       "surname": "Lipari",
+      "sex": "M",
+      "famc": "F72",
       "birth": "ABT 1840",
       "death": "",
       "docs": [],
@@ -11985,12 +12443,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I154": {
       "id": "I154",
       "name": "Giovanni Lipari",
       "surname": "Lipari",
+      "sex": "M",
+      "famc": "F72",
       "birth": "ABT 1842",
       "death": "",
       "docs": [],
@@ -12062,12 +12523,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I155": {
       "id": "I155",
       "name": "Francesco Paolo Lipari",
       "surname": "Lipari",
+      "sex": "M",
+      "famc": "F72",
       "birth": "ABT 1844",
       "death": "",
       "docs": [],
@@ -12139,12 +12603,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I156": {
       "id": "I156",
       "name": "Provvidenza Lipari",
       "surname": "Lipari",
+      "sex": "F",
+      "famc": "F72",
       "birth": "ABT 1845",
       "death": "",
       "docs": [],
@@ -12216,12 +12683,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I157": {
       "id": "I157",
       "name": "Giovanni Lipari",
       "surname": "Lipari",
+      "sex": "M",
+      "famc": "F72",
       "birth": "ABT 1846",
       "death": "",
       "docs": [],
@@ -12293,12 +12763,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I158": {
       "id": "I158",
       "name": "Giuseppa Lipari",
       "surname": "Lipari",
+      "sex": "F",
+      "famc": "F72",
       "birth": "ABT 1848",
       "death": "",
       "docs": [],
@@ -12370,12 +12843,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I159": {
       "id": "I159",
       "name": "Giuseppa Lipari",
       "surname": "Lipari",
+      "sex": "F",
+      "famc": "F72",
       "birth": "ABT 1850",
       "death": "",
       "docs": [],
@@ -12447,12 +12923,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I160": {
       "id": "I160",
       "name": "Anna Lipari",
       "surname": "Lipari",
+      "sex": "F",
+      "famc": "F72",
       "birth": "ABT 1852",
       "death": "",
       "docs": [],
@@ -12524,12 +13003,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I161": {
       "id": "I161",
       "name": "Vincenza Lipari",
       "surname": "Lipari",
+      "sex": "F",
+      "famc": "F72",
       "birth": "ABT 1856",
       "death": "",
       "docs": [],
@@ -12601,12 +13083,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I162": {
       "id": "I162",
       "name": "bianca rossi",
       "surname": "rossi",
+      "sex": "F",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -12676,12 +13161,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I163": {
       "id": "I163",
       "name": "Mariano Lo Porto",
       "surname": "Porto",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1530",
       "death": "",
       "docs": [],
@@ -12753,12 +13241,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I164": {
       "id": "I164",
       "name": "Elisabetta Isfar",
       "surname": "Isfar",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1530",
       "death": "",
       "docs": [],
@@ -12830,12 +13321,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I165": {
       "id": "I165",
       "name": "Vittoria Lo Porto",
       "surname": "Porto",
+      "sex": "F",
+      "famc": "F74",
       "birth": "ABT 1562",
       "death": "",
       "docs": [],
@@ -12907,12 +13401,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I166": {
       "id": "I166",
       "name": "Giovanna Lo Porto",
       "surname": "Porto",
+      "sex": "F",
+      "famc": "F74",
       "birth": "ABT 1550",
       "death": "",
       "docs": [],
@@ -12984,12 +13481,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I167": {
       "id": "I167",
       "name": "Gaspare Lo Porto",
       "surname": "Porto",
+      "sex": "M",
+      "famc": "F74",
       "birth": "ABT 1560",
       "death": "",
       "docs": [],
@@ -13061,12 +13561,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I168": {
       "id": "I168",
       "name": "Gaetano Lombardo",
       "surname": "Lombardo",
+      "sex": "M",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -13136,12 +13639,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I169": {
       "id": "I169",
       "name": "Matteo Lucchese",
       "surname": "Lucchese",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1512",
       "death": "",
       "docs": [],
@@ -13213,12 +13719,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I170": {
       "id": "I170",
       "name": "Eleonora Ortolano",
       "surname": "Ortolano",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1505",
       "death": "",
       "docs": [],
@@ -13290,12 +13799,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I171": {
       "id": "I171",
       "name": "Bernardo Lucchesi",
       "surname": "Lucchesi",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1532",
       "death": "",
       "docs": [],
@@ -13367,12 +13879,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I172": {
       "id": "I172",
       "name": "Vincenza d'Aragona",
       "surname": "d'Aragona",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1530",
       "death": "",
       "docs": [],
@@ -13444,12 +13959,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I173": {
       "id": "I173",
       "name": "Matteo Lucchesi",
       "surname": "Lucchesi",
+      "sex": "M",
+      "famc": "F77",
       "birth": "ABT 1562",
       "death": "",
       "docs": [],
@@ -13521,12 +14039,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I174": {
       "id": "I174",
       "name": "Ignazio Lucchesi",
       "surname": "Lucchesi",
+      "sex": "M",
+      "famc": "F77",
       "birth": "",
       "death": "",
       "docs": [],
@@ -13596,12 +14117,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I175": {
       "id": "I175",
       "name": "Francesco Lucchesi",
       "surname": "Lucchesi",
+      "sex": "M",
+      "famc": "F78",
       "birth": "ABT 1590",
       "death": "",
       "docs": [],
@@ -13673,12 +14197,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I176": {
       "id": "I176",
       "name": "Giacomo Lucchesi",
       "surname": "Lucchesi",
+      "sex": "M",
+      "famc": "F78",
       "birth": "ABT 1570",
       "death": "",
       "docs": [],
@@ -13750,12 +14277,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I177": {
       "id": "I177",
       "name": "Caterina Lucchesi",
       "surname": "Lucchesi",
+      "sex": "F",
+      "famc": "F78",
       "birth": "",
       "death": "",
       "docs": [],
@@ -13825,12 +14355,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I178": {
       "id": "I178",
       "name": "Melchiora Spinola",
       "surname": "Spinola",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1570",
       "death": "",
       "docs": [],
@@ -13902,12 +14435,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I179": {
       "id": "I179",
       "name": "Caterina Lo Porto",
       "surname": "Porto",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1590",
       "death": "",
       "docs": [],
@@ -13979,12 +14515,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I180": {
       "id": "I180",
       "name": "Giuseppe Lucchesi",
       "surname": "Lucchesi",
+      "sex": "M",
+      "famc": "F80",
       "birth": "ABT 1624",
       "death": "",
       "docs": [],
@@ -14056,12 +14595,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I181": {
       "id": "I181",
       "name": "Matteo Lucchesi",
       "surname": "Lucchesi",
+      "sex": "M",
+      "famc": "F80",
       "birth": "ABT 1628",
       "death": "",
       "docs": [],
@@ -14133,12 +14675,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I182": {
       "id": "I182",
       "name": "Vittoria Lucchesi",
       "surname": "Lucchesi",
+      "sex": "F",
+      "famc": "F80",
       "birth": "ABT 1630",
       "death": "",
       "docs": [],
@@ -14210,12 +14755,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I183": {
       "id": "I183",
       "name": "Antonino Lucchesi",
       "surname": "Lucchesi",
+      "sex": "M",
+      "famc": "F81",
       "birth": "ABT 1638",
       "death": "",
       "docs": [],
@@ -14287,12 +14835,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I184": {
       "id": "I184",
       "name": "Nicolò Lucchesi",
       "surname": "Lucchesi",
+      "sex": "M",
+      "famc": "F81",
       "birth": "ABT 1660",
       "death": "",
       "docs": [],
@@ -14364,12 +14915,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I185": {
       "id": "I185",
       "name": "Ne de Caro",
       "surname": "Caro",
+      "sex": "F",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -14439,12 +14993,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I186": {
       "id": "I186",
       "name": "Marianna Retana",
       "surname": "Retana",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1660",
       "death": "",
       "docs": [],
@@ -14516,12 +15073,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I187": {
       "id": "I187",
       "name": "Salvatore Mammana",
       "surname": "Mammana",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1814",
       "death": "",
       "docs": [],
@@ -14593,12 +15153,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I188": {
       "id": "I188",
       "name": "Pietro Marquet",
       "surname": "Marquet",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1485",
       "death": "",
       "docs": [],
@@ -14670,12 +15233,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I189": {
       "id": "I189",
       "name": "Violante Alifia",
       "surname": "Alifia",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1500",
       "death": "",
       "docs": [],
@@ -14747,12 +15313,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I190": {
       "id": "I190",
       "name": "Giuseppe Marquet",
       "surname": "Marquet",
+      "sex": "M",
+      "famc": "F85",
       "birth": "ABT 1530",
       "death": "",
       "docs": [],
@@ -14824,12 +15393,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I191": {
       "id": "I191",
       "name": "Anna Gravina",
       "surname": "Gravina",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1530",
       "death": "",
       "docs": [],
@@ -14901,12 +15473,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I192": {
       "id": "I192",
       "name": "Peder Marquit",
       "surname": "Marquit",
+      "sex": "M",
+      "famc": "F86",
       "birth": "",
       "death": "",
       "docs": [],
@@ -14976,12 +15551,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I193": {
       "id": "I193",
       "name": "Guiscardo Marquet",
       "surname": "Marquet",
+      "sex": "M",
+      "famc": "F88",
       "birth": "ABT 1580",
       "death": "",
       "docs": [],
@@ -15053,12 +15631,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I194": {
       "id": "I194",
       "name": "Francesca Giardina",
       "surname": "Giardina",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1585",
       "death": "",
       "docs": [
@@ -15137,12 +15718,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I195": {
       "id": "I195",
       "name": "Margaret",
       "surname": "",
+      "sex": "F",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -15212,12 +15796,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I196": {
       "id": "I196",
       "name": "Girolamo Morso",
       "surname": "Morso",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1535",
       "death": "",
       "docs": [],
@@ -15289,12 +15876,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I197": {
       "id": "I197",
       "name": "Elisabetta Corvino",
       "surname": "Corvino",
+      "sex": "F",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -15364,12 +15954,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I198": {
       "id": "I198",
       "name": "FRANCESCO NEGRINI",
       "surname": "NEGRINI",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1785",
       "death": "",
       "docs": [],
@@ -15441,12 +16034,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I199": {
       "id": "I199",
       "name": "ANGELA GOTTARDELLI",
       "surname": "GOTTARDELLI",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1796",
       "death": "",
       "docs": [],
@@ -15518,12 +16114,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I200": {
       "id": "I200",
       "name": "ANTONIO MARIA NEGRINI",
       "surname": "NEGRINI",
+      "sex": "M",
+      "famc": "F91",
       "birth": "ABT 1819",
       "death": "",
       "docs": [],
@@ -15595,12 +16194,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I201": {
       "id": "I201",
       "name": "Giuseppe Negrini",
       "surname": "Negrini",
+      "sex": "M",
+      "famc": "F91",
       "birth": "ABT 1811",
       "death": "",
       "docs": [],
@@ -15672,12 +16274,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I202": {
       "id": "I202",
       "name": "GIOVANNA MASSAGRANDE",
       "surname": "MASSAGRANDE",
+      "sex": "F",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -15747,12 +16352,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I203": {
       "id": "I203",
       "name": "MARIA MARTINELLI",
       "surname": "MARTINELLI",
+      "sex": "F",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -15822,12 +16430,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I204": {
       "id": "I204",
       "name": "Cesare Antonio Negrini",
       "surname": "Negrini",
+      "sex": "M",
+      "famc": "F93",
       "birth": "ABT 1874",
       "death": "",
       "docs": [],
@@ -15899,12 +16510,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I205": {
       "id": "I205",
       "name": "CESARE GIUSEPPE NEGRINI",
       "surname": "NEGRINI",
+      "sex": "M",
+      "famc": "F93",
       "birth": "ABT 1869",
       "death": "",
       "docs": [],
@@ -15976,12 +16590,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I206": {
       "id": "I206",
       "name": "NOEMI NEGRINI",
       "surname": "NEGRINI",
+      "sex": "F",
+      "famc": "F93",
       "birth": "ABT 1870",
       "death": "",
       "docs": [],
@@ -16053,12 +16670,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I207": {
       "id": "I207",
       "name": "VIRGINIA PASQUA",
       "surname": "PASQUA",
+      "sex": "",
+      "famc": "F93",
       "birth": "",
       "death": "",
       "docs": [],
@@ -16128,12 +16748,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I208": {
       "id": "I208",
       "name": "LUIGI GIUSEPPE NEGRINI",
       "surname": "NEGRINI",
+      "sex": "M",
+      "famc": "F98",
       "birth": "ABT 1908",
       "death": "",
       "docs": [],
@@ -16205,12 +16828,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I209": {
       "id": "I209",
       "name": "ROMA RECCHI",
       "surname": "RECCHI",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1912",
       "death": "",
       "docs": [],
@@ -16282,12 +16908,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I210": {
       "id": "I210",
       "name": "ANTONIO NEGRINI",
       "surname": "NEGRINI",
+      "sex": "M",
+      "famc": "F98",
       "birth": "ABT 1911",
       "death": "",
       "docs": [],
@@ -16359,12 +16988,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I211": {
       "id": "I211",
       "name": "GELMINA SORIO",
       "surname": "SORIO",
+      "sex": "F",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -16434,12 +17066,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I212": {
       "id": "I212",
       "name": "Paschoal Negri",
       "surname": "Negri",
+      "sex": "M",
+      "famc": "F98",
       "birth": "ABT 1897",
       "death": "",
       "docs": [],
@@ -16511,12 +17146,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I213": {
       "id": "I213",
       "name": "Rosina Negri",
       "surname": "Negri",
+      "sex": "F",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -16586,12 +17224,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I214": {
       "id": "I214",
       "name": "Giuditta Frigeri",
       "surname": "Frigeri",
+      "sex": "F",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -16661,12 +17302,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I215": {
       "id": "I215",
       "name": "EMILIA PERON",
       "surname": "PERON",
+      "sex": "F",
+      "famc": "F106",
       "birth": "ABT 1875",
       "death": "",
       "docs": [],
@@ -16738,12 +17382,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I216": {
       "id": "I216",
       "name": "Angelo Negrini",
       "surname": "Negrini",
+      "sex": "M",
+      "famc": "F98",
       "birth": "ABT 1913",
       "death": "",
       "docs": [],
@@ -16815,12 +17462,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I217": {
       "id": "I217",
       "name": "ERMINIO NEGRINI",
       "surname": "NEGRINI",
+      "sex": "M",
+      "famc": "F98",
       "birth": "ABT 1899",
       "death": "",
       "docs": [],
@@ -16892,12 +17542,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I218": {
       "id": "I218",
       "name": "MARIA VIRGINIA NEGRINI",
       "surname": "NEGRINI",
+      "sex": "F",
+      "famc": "F98",
       "birth": "ABT 1904",
       "death": "",
       "docs": [],
@@ -16969,12 +17622,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I219": {
       "id": "I219",
       "name": "LUIGI ANTONIO NEGRINI",
       "surname": "NEGRINI",
+      "sex": "M",
+      "famc": "F98",
       "birth": "ABT 1906",
       "death": "",
       "docs": [],
@@ -17046,12 +17702,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I220": {
       "id": "I220",
       "name": "ROMANO NEGRINI",
       "surname": "NEGRINI",
+      "sex": "M",
+      "famc": "F98",
       "birth": "ABT 1916",
       "death": "",
       "docs": [],
@@ -17123,12 +17782,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I221": {
       "id": "I221",
       "name": "BRUNO NEGRINI",
       "surname": "NEGRINI",
+      "sex": "M",
+      "famc": "F98",
       "birth": "",
       "death": "",
       "docs": [],
@@ -17198,12 +17860,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I222": {
       "id": "I222",
       "name": "GIACOMO NEGRINI",
       "surname": "NEGRINI",
+      "sex": "M",
+      "famc": "F98",
       "birth": "",
       "death": "",
       "docs": [],
@@ -17273,12 +17938,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I223": {
       "id": "I223",
       "name": "Bartolo Notarbartolo",
       "surname": "Notarbartolo",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1330",
       "death": "",
       "docs": [],
@@ -17350,12 +18018,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I224": {
       "id": "I224",
       "name": "Eleonora Ventimiglia Alagona",
       "surname": "Alagona",
+      "sex": "F",
+      "famc": "F164",
       "birth": "ABT 1330",
       "death": "",
       "docs": [],
@@ -17427,12 +18098,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I225": {
       "id": "I225",
       "name": "Berengario Orioles",
       "surname": "Orioles",
+      "sex": "M",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -17502,12 +18176,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I226": {
       "id": "I226",
       "name": "Giovanna Chiaramonte",
       "surname": "Chiaramonte",
+      "sex": "F",
+      "famc": "F152",
       "birth": "ABT 1280",
       "death": "",
       "docs": [],
@@ -17579,12 +18256,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I227": {
       "id": "I227",
       "name": "Paola Pasquali",
       "surname": "Pasquali",
+      "sex": "F",
+      "famc": "F122",
       "birth": "ABT 1860",
       "death": "",
       "docs": [],
@@ -17656,12 +18336,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I228": {
       "id": "I228",
       "name": "Giuseppe Valentini",
       "surname": "Valentini",
+      "sex": "M",
+      "famc": "F102",
       "birth": "",
       "death": "",
       "docs": [],
@@ -17731,12 +18414,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I229": {
       "id": "I229",
       "name": "Luigi Pasquali",
       "surname": "Pasquali",
+      "sex": "M",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -17806,12 +18492,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I230": {
       "id": "I230",
       "name": "Maddalena Venturini",
       "surname": "Venturini",
+      "sex": "F",
+      "famc": "F103",
       "birth": "",
       "death": "",
       "docs": [],
@@ -17881,12 +18570,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I231": {
       "id": "I231",
       "name": "Nicolò Peralta",
       "surname": "Peralta",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1361",
       "death": "",
       "docs": [],
@@ -17958,12 +18650,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I232": {
       "id": "I232",
       "name": "Giovanni Peralta",
       "surname": "Peralta",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1365",
       "death": "",
       "docs": [],
@@ -18035,12 +18730,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I233": {
       "id": "I233",
       "name": "Giacomo Peron",
       "surname": "Peron",
+      "sex": "M",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -18110,12 +18808,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I234": {
       "id": "I234",
       "name": "Francesco Maria Rivarola",
       "surname": "Rivarola",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1675",
       "death": "",
       "docs": [],
@@ -18187,12 +18888,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I235": {
       "id": "I235",
       "name": "Enrico Rosso",
       "surname": "Rosso",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1268",
       "death": "",
       "docs": [],
@@ -18264,12 +18968,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I236": {
       "id": "I236",
       "name": "Elisabetta Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "F",
+      "famc": "F164",
       "birth": "ABT 1270",
       "death": "",
       "docs": [],
@@ -18341,12 +19048,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I237": {
       "id": "I237",
       "name": "Giovan Antonio Sclafani",
       "surname": "Sclafani",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1237",
       "death": "",
       "docs": [],
@@ -18418,12 +19128,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I238": {
       "id": "I238",
       "name": "Antonia Termine",
       "surname": "Termine",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1240",
       "death": "",
       "docs": [],
@@ -18495,12 +19208,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I239": {
       "id": "I239",
       "name": "Michelangelo Sgarlata",
       "surname": "Sgarlata",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1840",
       "death": "",
       "docs": [],
@@ -18572,12 +19288,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I240": {
       "id": "I240",
       "name": "Vincenzo Sgarlata",
       "surname": "Sgarlata",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1846",
       "death": "",
       "docs": [],
@@ -18649,12 +19368,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I241": {
       "id": "I241",
       "name": "Lucia Steccanella",
       "surname": "Steccanella",
+      "sex": "F",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -18724,12 +19446,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I242": {
       "id": "I242",
       "name": "Ferdinando Bennati",
       "surname": "Bennati",
+      "sex": "M",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -18799,12 +19524,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I243": {
       "id": "I243",
       "name": "Aurelia Bennati",
       "surname": "Bennati",
+      "sex": "F",
+      "famc": "F112",
       "birth": "",
       "death": "",
       "docs": [],
@@ -18874,12 +19602,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I244": {
       "id": "I244",
       "name": "Eugenia Amabile Benatti",
       "surname": "Benatti",
+      "sex": "F",
+      "famc": "F112",
       "birth": "ABT 1890",
       "death": "",
       "docs": [],
@@ -18951,12 +19682,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I245": {
       "id": "I245",
       "name": "America Bennati",
       "surname": "Bennati",
+      "sex": "F",
+      "famc": "F112",
       "birth": "ABT 1901",
       "death": "",
       "docs": [],
@@ -19028,12 +19762,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I246": {
       "id": "I246",
       "name": "Benvenuta Pellegrina Benatti",
       "surname": "Benatti",
+      "sex": "F",
+      "famc": "F112",
       "birth": "ABT 1902",
       "death": "",
       "docs": [],
@@ -19105,12 +19842,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I247": {
       "id": "I247",
       "name": "Giovanna Tagliavia",
       "surname": "Tagliavia",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1740",
       "death": "",
       "docs": [],
@@ -19182,12 +19922,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I248": {
       "id": "I248",
       "name": "Ugolino IV Ubaldini",
       "surname": "Ubaldini",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1238",
       "death": "",
       "docs": [],
@@ -19259,12 +20002,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I249": {
       "id": "I249",
       "name": "Beatrice Lancia",
       "surname": "Lancia",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1245",
       "death": "",
       "docs": [],
@@ -19336,12 +20082,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I250": {
       "id": "I250",
       "name": "Maurizio Valdina",
       "surname": "Valdina",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1568",
       "death": "",
       "docs": [],
@@ -19413,12 +20162,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I251": {
       "id": "I251",
       "name": "Luigi Valentini",
       "surname": "Valentini",
+      "sex": "M",
+      "famc": "F117",
       "birth": "ABT 1915",
       "death": "",
       "docs": [],
@@ -19490,12 +20242,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I252": {
       "id": "I252",
       "name": "Guido Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "M",
+      "famc": "F164",
       "birth": "",
       "death": "",
       "docs": [],
@@ -19565,12 +20320,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I253": {
       "id": "I253",
       "name": "Antonella di Vassallo",
       "surname": "Vassallo",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1412",
       "death": "",
       "docs": [],
@@ -19642,12 +20400,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I254": {
       "id": "I254",
       "name": "Enrico II Ventimiglia,",
       "surname": "Ventimiglia,",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1230",
       "death": "",
       "docs": [],
@@ -19719,12 +20480,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I255": {
       "id": "I255",
       "name": "Maria Jacona de Vassallo",
       "surname": "Vassallo",
+      "sex": "F",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -19794,12 +20558,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I256": {
       "id": "I256",
       "name": "Francesco I di Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "M",
+      "famc": "F120",
       "birth": "ABT 1280",
       "death": "",
       "docs": [],
@@ -19871,12 +20638,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I257": {
       "id": "I257",
       "name": "Giacoma Filingeri",
       "surname": "Filingeri",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1255",
       "death": "",
       "docs": [],
@@ -19948,12 +20718,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I258": {
       "id": "I258",
       "name": "Elena Pasquali",
       "surname": "Pasquali",
+      "sex": "F",
+      "famc": "F122",
       "birth": "ABT 1845",
       "death": "",
       "docs": [],
@@ -20025,12 +20798,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I259": {
       "id": "I259",
       "name": "Giacomo d'ARAGONA",
       "surname": "d'ARAGONA",
+      "sex": "M",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -20100,12 +20876,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I260": {
       "id": "I260",
       "name": "Eleonora di Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "F",
+      "famc": "F167",
       "birth": "ABT 1355",
       "death": "",
       "docs": [],
@@ -20177,12 +20956,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I261": {
       "id": "I261",
       "name": "Robert \"le Bon\" de Anjou",
       "surname": "Anjou",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1275",
       "death": "",
       "docs": [],
@@ -20254,12 +21036,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I262": {
       "id": "I262",
       "name": "Violante de Aragón",
       "surname": "Aragón",
+      "sex": "F",
+      "famc": "F128",
       "birth": "ABT 1273",
       "death": "",
       "docs": [],
@@ -20331,12 +21116,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I263": {
       "id": "I263",
       "name": "Orlando de Aragona",
       "surname": "Aragona",
+      "sex": "M",
+      "famc": "F142",
       "birth": "ABT 1288",
       "death": "",
       "docs": [],
@@ -20408,12 +21196,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I264": {
       "id": "I264",
       "name": "Maria de Stromoncourt",
       "surname": "Stromoncourt",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1301",
       "death": "",
       "docs": [],
@@ -20485,12 +21276,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I265": {
       "id": "I265",
       "name": "Beatrice Mazzara",
       "surname": "Mazzara",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1339",
       "death": "",
       "docs": [],
@@ -20562,12 +21356,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I266": {
       "id": "I266",
       "name": "Pedro de Aragón",
       "surname": "Aragón",
+      "sex": "M",
+      "famc": "F128",
       "birth": "ABT 1275",
       "death": "",
       "docs": [],
@@ -20639,12 +21436,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I267": {
       "id": "I267",
       "name": "Guillermina de Moncada",
       "surname": "Moncada",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1280",
       "death": "",
       "docs": [],
@@ -20716,12 +21516,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I268": {
       "id": "I268",
       "name": "Pedro III \"el Grande\" de Aragón et Valencia,",
       "surname": "Valencia,",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1240",
       "death": "",
       "docs": [],
@@ -20793,12 +21596,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I269": {
       "id": "I269",
       "name": "Constance de Sicilia",
       "surname": "Sicilia",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1248",
       "death": "",
       "docs": [],
@@ -20870,12 +21676,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I270": {
       "id": "I270",
       "name": "Fadrique III de Sicilia \"of Trinacria\",",
       "surname": "Trinacria\",",
+      "sex": "M",
+      "famc": "F128",
       "birth": "ABT 1272",
       "death": "",
       "docs": [],
@@ -20947,12 +21756,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I271": {
       "id": "I271",
       "name": "Alfonso III de Aragón y Valencia",
       "surname": "Valencia",
+      "sex": "M",
+      "famc": "F128",
       "birth": "ABT 1265",
       "death": "",
       "docs": [],
@@ -21024,12 +21836,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I272": {
       "id": "I272",
       "name": "Jaime II de Aragón y Valencia",
       "surname": "Valencia",
+      "sex": "M",
+      "famc": "F128",
       "birth": "ABT 1267",
       "death": "",
       "docs": [],
@@ -21101,12 +21916,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I273": {
       "id": "I273",
       "name": "Isabel de Aragón.",
       "surname": "Aragón.",
+      "sex": "F",
+      "famc": "F128",
       "birth": "ABT 1271",
       "death": "",
       "docs": [],
@@ -21178,12 +21996,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I274": {
       "id": "I274",
       "name": "Inés de Zapata",
       "surname": "Zapata",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1240",
       "death": "",
       "docs": [],
@@ -21255,12 +22076,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I275": {
       "id": "I275",
       "name": "Maria Nicolau",
       "surname": "Nicolau",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1240",
       "death": "",
       "docs": [],
@@ -21332,12 +22156,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I276": {
       "id": "I276",
       "name": "Dulcia",
       "surname": "",
+      "sex": "F",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -21407,12 +22234,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I277": {
       "id": "I277",
       "name": "Isabel de Castilla y Molina",
       "surname": "Molina",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1283",
       "death": "",
       "docs": [],
@@ -21484,12 +22314,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I278": {
       "id": "I278",
       "name": "Blanca d'Anjou",
       "surname": "d'Anjou",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1280",
       "death": "",
       "docs": [],
@@ -21561,12 +22394,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I279": {
       "id": "I279",
       "name": "María de Chipre",
       "surname": "Chipre",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1273",
       "death": "",
       "docs": [],
@@ -21638,12 +22474,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I280": {
       "id": "I280",
       "name": "Elisenda de Montcada",
       "surname": "Montcada",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1292",
       "death": "",
       "docs": [],
@@ -21715,12 +22554,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I281": {
       "id": "I281",
       "name": "Gerolda",
       "surname": "",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1269",
       "death": "",
       "docs": [],
@@ -21792,12 +22634,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I282": {
       "id": "I282",
       "name": "Giovanni de Caro",
       "surname": "Caro",
+      "sex": "M",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -21867,12 +22712,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I283": {
       "id": "I283",
       "name": "Illagia di Santa Sofia",
       "surname": "Sofia",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1250",
       "death": "",
       "docs": [],
@@ -21944,12 +22792,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I284": {
       "id": "I284",
       "name": "Niccolò de Joinville",
       "surname": "Joinville",
+      "sex": "M",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -22019,12 +22870,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I285": {
       "id": "I285",
       "name": "Margherita di Lauria",
       "surname": "Lauria",
+      "sex": "F",
+      "famc": "F154",
       "birth": "ABT 1294",
       "death": "",
       "docs": [],
@@ -22096,12 +22950,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I286": {
       "id": "I286",
       "name": "Roger de Lluria",
       "surname": "Lluria",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1290",
       "death": "",
       "docs": [],
@@ -22173,12 +23030,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I287": {
       "id": "I287",
       "name": "Raimondo de Peralta",
       "surname": "Peralta",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1280",
       "death": "",
       "docs": [],
@@ -22250,12 +23110,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I288": {
       "id": "I288",
       "name": "Isabella D'Aragón",
       "surname": "D'Aragón",
+      "sex": "F",
+      "famc": "F142",
       "birth": "ABT 1294",
       "death": "",
       "docs": [],
@@ -22327,12 +23190,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I289": {
       "id": "I289",
       "name": "Dinis Alfonso \"Dionís, O Trovador\" de Portugal",
       "surname": "Portugal",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1261",
       "death": "",
       "docs": [],
@@ -22404,12 +23270,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I290": {
       "id": "I290",
       "name": "Sibilla di Solimella",
       "surname": "Solimella",
+      "sex": "F",
+      "famc": "F161",
       "birth": "ABT 1273",
       "death": "",
       "docs": [],
@@ -22481,12 +23350,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": true
     },
     "I291": {
       "id": "I291",
       "name": "Alfonso Federico di Sicilia",
       "surname": "Sicilia",
+      "sex": "M",
+      "famc": "F142",
       "birth": "ABT 1290",
       "death": "",
       "docs": [],
@@ -22558,12 +23430,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I292": {
       "id": "I292",
       "name": "Sancho di Sicilia",
       "surname": "Sicilia",
+      "sex": "M",
+      "famc": "F142",
       "birth": "ABT 1300",
       "death": "",
       "docs": [],
@@ -22635,12 +23510,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I293": {
       "id": "I293",
       "name": "Éléonore d’Anjou",
       "surname": "d’Anjou",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1289",
       "death": "",
       "docs": [],
@@ -22712,12 +23590,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I294": {
       "id": "I294",
       "name": "Vassallo de Vassallo",
       "surname": "Vassallo",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1269",
       "death": "",
       "docs": [],
@@ -22789,12 +23670,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I295": {
       "id": "I295",
       "name": "Eleanora di Antiocha",
       "surname": "Antiocha",
+      "sex": "F",
+      "famc": "F148",
       "birth": "ABT 1270",
       "death": "",
       "docs": [],
@@ -22866,12 +23750,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I296": {
       "id": "I296",
       "name": "Bernat de Vilaragut",
       "surname": "Vilaragut",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1310",
       "death": "",
       "docs": [],
@@ -22943,12 +23830,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I297": {
       "id": "I297",
       "name": "Federico della Scala",
       "surname": "Scala",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1288",
       "death": "",
       "docs": [],
@@ -23020,12 +23910,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I298": {
       "id": "I298",
       "name": "Imperatrice von Hohenstaufen",
       "surname": "Hohenstaufen",
+      "sex": "F",
+      "famc": "F148",
       "birth": "ABT 1275",
       "death": "",
       "docs": [],
@@ -23097,12 +23990,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I299": {
       "id": "I299",
       "name": "Andrea di Altavilla",
       "surname": "Altavilla",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1375",
       "death": "",
       "docs": [],
@@ -23174,12 +24070,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I300": {
       "id": "I300",
       "name": "Corrado di Antiochia",
       "surname": "Antiochia",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1240",
       "death": "",
       "docs": [],
@@ -23251,12 +24150,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I301": {
       "id": "I301",
       "name": "Federico di Antiochia",
       "surname": "Antiochia",
+      "sex": "M",
+      "famc": "F148",
       "birth": "ABT 1259",
       "death": "",
       "docs": [],
@@ -23328,12 +24230,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I302": {
       "id": "I302",
       "name": "Bartolomeo di Antiochia, archbishop of Palermo",
       "surname": "Palermo",
+      "sex": "M",
+      "famc": "F148",
       "birth": "ABT 1260",
       "death": "",
       "docs": [],
@@ -23405,12 +24310,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I303": {
       "id": "I303",
       "name": "Francesco di Antiochia, archbishop of Palermo",
       "surname": "Palermo",
+      "sex": "M",
+      "famc": "F148",
       "birth": "ABT 1265",
       "death": "",
       "docs": [],
@@ -23482,12 +24390,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I304": {
       "id": "I304",
       "name": "Corrado von Hohenstaufen",
       "surname": "Hohenstaufen",
+      "sex": "M",
+      "famc": "F148",
       "birth": "ABT 1275",
       "death": "",
       "docs": [],
@@ -23559,12 +24470,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I305": {
       "id": "I305",
       "name": "Galvano von Hohenstaufen",
       "surname": "Hohenstaufen",
+      "sex": "M",
+      "famc": "F148",
       "birth": "ABT 1279",
       "death": "",
       "docs": [],
@@ -23636,12 +24550,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I306": {
       "id": "I306",
       "name": "Costanza di Antioch dei Conti di Loreto",
       "surname": "Loreto",
+      "sex": "F",
+      "famc": "F148",
       "birth": "ABT 1285",
       "death": "",
       "docs": [],
@@ -23713,12 +24630,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I307": {
       "id": "I307",
       "name": "Beatrice Caputo",
       "surname": "Caputo",
+      "sex": "F",
+      "famc": "F148",
       "birth": "",
       "death": "",
       "docs": [],
@@ -23788,12 +24708,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I308": {
       "id": "I308",
       "name": "Caputo",
       "surname": "",
+      "sex": "M",
+      "famc": "F148",
       "birth": "",
       "death": "",
       "docs": [],
@@ -23863,12 +24786,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I309": {
       "id": "I309",
       "name": "Antiochetta von Hohenstaufen",
       "surname": "Hohenstaufen",
+      "sex": "F",
+      "famc": "F148",
       "birth": "",
       "death": "",
       "docs": [],
@@ -23938,12 +24864,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I310": {
       "id": "I310",
       "name": "Beatrice Vassallo",
       "surname": "Vassallo",
+      "sex": "F",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -24013,12 +24942,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I311": {
       "id": "I311",
       "name": "Donna Macalda Palizzi",
       "surname": "Palizzi",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1261",
       "death": "",
       "docs": [],
@@ -24090,12 +25022,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I312": {
       "id": "I312",
       "name": "Otavianno di Brunforte",
       "surname": "Brunforte",
+      "sex": "M",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -24165,12 +25100,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I313": {
       "id": "I313",
       "name": "Federico I di Chiaramonte",
       "surname": "Chiaramonte",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1250",
       "death": "",
       "docs": [],
@@ -24242,12 +25180,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I314": {
       "id": "I314",
       "name": "Rosalia Marchisia Prefoglio",
       "surname": "Prefoglio",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1248",
       "death": "",
       "docs": [],
@@ -24319,12 +25260,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I315": {
       "id": "I315",
       "name": "Costanza di Chiaramonte",
       "surname": "Chiaramonte",
+      "sex": "F",
+      "famc": "F152",
       "birth": "ABT 1276",
       "death": "",
       "docs": [],
@@ -24396,12 +25340,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I316": {
       "id": "I316",
       "name": "Ugo di Chiaromonte",
       "surname": "Chiaromonte",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1285",
       "death": "",
       "docs": [],
@@ -24473,12 +25420,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I317": {
       "id": "I317",
       "name": "Ruggiero di Lauria",
       "surname": "Lauria",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1245",
       "death": "",
       "docs": [],
@@ -24550,12 +25500,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I318": {
       "id": "I318",
       "name": "Saturnina de Entenza y Montcada",
       "surname": "Montcada",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1265",
       "death": "",
       "docs": [],
@@ -24627,12 +25580,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I319": {
       "id": "I319",
       "name": "Niccolò di Lauria Entenza",
       "surname": "Entenza",
+      "sex": "M",
+      "famc": "F154",
       "birth": "ABT 1295",
       "death": "",
       "docs": [],
@@ -24704,12 +25660,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I320": {
       "id": "I320",
       "name": "Roberto di Lauria",
       "surname": "Lauria",
+      "sex": "M",
+      "famc": "F154",
       "birth": "ABT 1286",
       "death": "",
       "docs": [],
@@ -24781,12 +25740,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I321": {
       "id": "I321",
       "name": "Carlo di Lauria Entenza",
       "surname": "Entenza",
+      "sex": "M",
+      "famc": "F154",
       "birth": "ABT 1292",
       "death": "",
       "docs": [],
@@ -24858,12 +25820,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I322": {
       "id": "I322",
       "name": "Ruggero Berenguer di Lauria",
       "surname": "Lauria",
+      "sex": "M",
+      "famc": "F154",
       "birth": "",
       "death": "",
       "docs": [],
@@ -24933,12 +25898,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I323": {
       "id": "I323",
       "name": "Giovanni de Lauria",
       "surname": "Lauria",
+      "sex": "M",
+      "famc": "F154",
       "birth": "",
       "death": "",
       "docs": [],
@@ -25008,12 +25976,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I324": {
       "id": "I324",
       "name": "Margherita Lancia",
       "surname": "Lancia",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1251",
       "death": "",
       "docs": [],
@@ -25085,12 +26056,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I325": {
       "id": "I325",
       "name": "Albertina Abbate",
       "surname": "Abbate",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1310",
       "death": "",
       "docs": [],
@@ -25162,12 +26136,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I326": {
       "id": "I326",
       "name": "Elisabetta di Lauria Spadafora",
       "surname": "Spadafora",
+      "sex": "F",
+      "famc": "F156",
       "birth": "ABT 1325",
       "death": "",
       "docs": [],
@@ -25239,12 +26216,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I327": {
       "id": "I327",
       "name": "Guglielmo di Ragusa",
       "surname": "Ragusa",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1280",
       "death": "",
       "docs": [],
@@ -25316,12 +26296,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I328": {
       "id": "I328",
       "name": "Federico di Sicilia",
       "surname": "Sicilia",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1261",
       "death": "",
       "docs": [],
@@ -25393,12 +26376,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I329": {
       "id": "I329",
       "name": "Marulla da Verona",
       "surname": "Verona",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1298",
       "death": "",
       "docs": [],
@@ -25470,12 +26456,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I330": {
       "id": "I330",
       "name": "Macalda Palizzi",
       "surname": "Palizzi",
+      "sex": "F",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -25545,12 +26534,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I331": {
       "id": "I331",
       "name": "Siro di Solimella",
       "surname": "Solimella",
+      "sex": "M",
+      "famc": null,
       "birth": "ABT 1245",
       "death": "",
       "docs": [],
@@ -25622,12 +26614,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": true
     },
     "I332": {
       "id": "I332",
       "name": "Arnaldo Di Solimella, Castellano Di Malta",
       "surname": "Malta",
+      "sex": "M",
+      "famc": "F161",
       "birth": "ABT 1280",
       "death": "",
       "docs": [],
@@ -25699,12 +26694,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I333": {
       "id": "I333",
       "name": "Arnaldo di Solimella",
       "surname": "Solimella",
+      "sex": "M",
+      "famc": "F161",
       "birth": "ABT 1295",
       "death": "",
       "docs": [],
@@ -25776,12 +26774,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I334": {
       "id": "I334",
       "name": "Isabella Surdo",
       "surname": "Surdo",
+      "sex": "F",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -25851,12 +26852,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I335": {
       "id": "I335",
       "name": "Illagia Surdo",
       "surname": "Surdo",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1295",
       "death": "",
       "docs": [],
@@ -25928,12 +26932,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I336": {
       "id": "I336",
       "name": "Francesco II di Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "M",
+      "famc": "F164",
       "birth": "ABT 1325",
       "death": "",
       "docs": [],
@@ -26005,12 +27012,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I337": {
       "id": "I337",
       "name": "Giordano di Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "M",
+      "famc": "F164",
       "birth": "ABT 1310",
       "death": "",
       "docs": [],
@@ -26082,12 +27092,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I338": {
       "id": "I338",
       "name": "Uberto di Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "M",
+      "famc": "F164",
       "birth": "ABT 1323",
       "death": "",
       "docs": [],
@@ -26159,12 +27172,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I339": {
       "id": "I339",
       "name": "Emanuele di Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "M",
+      "famc": "F164",
       "birth": "ABT 1324",
       "death": "",
       "docs": [],
@@ -26236,12 +27252,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I340": {
       "id": "I340",
       "name": "Ruggiero di Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "M",
+      "famc": "F164",
       "birth": "ABT 1326",
       "death": "",
       "docs": [],
@@ -26313,12 +27332,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I341": {
       "id": "I341",
       "name": "Alduino di Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "M",
+      "famc": "F164",
       "birth": "ABT 1327",
       "death": "",
       "docs": [],
@@ -26390,12 +27412,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I342": {
       "id": "I342",
       "name": "Filippo di Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "M",
+      "famc": "F164",
       "birth": "ABT 1328",
       "death": "",
       "docs": [],
@@ -26467,12 +27492,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I343": {
       "id": "I343",
       "name": "Federico Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "M",
+      "famc": "F164",
       "birth": "ABT 1330",
       "death": "",
       "docs": [],
@@ -26544,12 +27572,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I344": {
       "id": "I344",
       "name": "Guglielmo di Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "M",
+      "famc": "F164",
       "birth": "ABT 1331",
       "death": "",
       "docs": [],
@@ -26621,12 +27652,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I345": {
       "id": "I345",
       "name": "Giacomina di Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "F",
+      "famc": "F164",
       "birth": "ABT 1332",
       "death": "",
       "docs": [],
@@ -26698,12 +27732,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I346": {
       "id": "I346",
       "name": "Guarneri di Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "M",
+      "famc": "F164",
       "birth": "ABT 1333",
       "death": "",
       "docs": [],
@@ -26775,12 +27812,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I347": {
       "id": "I347",
       "name": "Guido di Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "M",
+      "famc": "F164",
       "birth": "ABT 1334",
       "death": "",
       "docs": [],
@@ -26852,12 +27892,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I348": {
       "id": "I348",
       "name": "Emanuele Ventimiglia,",
       "surname": "Ventimiglia,",
+      "sex": "M",
+      "famc": "F164",
       "birth": "",
       "death": "",
       "docs": [],
@@ -26927,12 +27970,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I349": {
       "id": "I349",
       "name": "Costanza Chiaramonte",
       "surname": "Chiaramonte",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1297",
       "death": "",
       "docs": [],
@@ -27004,12 +28050,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I350": {
       "id": "I350",
       "name": "Anna di Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1336",
       "death": "",
       "docs": [],
@@ -27081,12 +28130,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I351": {
       "id": "I351",
       "name": "Thakur di Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "M",
+      "famc": "F167",
       "birth": "ABT 1345",
       "death": "",
       "docs": [],
@@ -27158,12 +28210,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I352": {
       "id": "I352",
       "name": "Antonio di Ventimiglia III Conte di Golisano",
       "surname": "Golisano",
+      "sex": "M",
+      "famc": "F167",
       "birth": "ABT 1350",
       "death": "",
       "docs": [],
@@ -27235,12 +28290,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I353": {
       "id": "I353",
       "name": "Aldoino di Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "M",
+      "famc": "F167",
       "birth": "ABT 1351",
       "death": "",
       "docs": [],
@@ -27312,12 +28370,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I354": {
       "id": "I354",
       "name": "Enrico di Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "M",
+      "famc": "F167",
       "birth": "ABT 1352",
       "death": "",
       "docs": [],
@@ -27389,12 +28450,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I355": {
       "id": "I355",
       "name": "Francesco Uberto di Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "M",
+      "famc": "F167",
       "birth": "",
       "death": "",
       "docs": [],
@@ -27464,12 +28528,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I356": {
       "id": "I356",
       "name": "Eufemia Emmanuele",
       "surname": "Emmanuele",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1325",
       "death": "",
       "docs": [],
@@ -27541,12 +28608,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I357": {
       "id": "I357",
       "name": "Selvaggia di Ventimiglia",
       "surname": "Ventimiglia",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1326",
       "death": "",
       "docs": [],
@@ -27618,12 +28688,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I358": {
       "id": "I358",
       "name": "Marchisia Aurea",
       "surname": "Aurea",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1327",
       "death": "",
       "docs": [],
@@ -27695,12 +28768,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I359": {
       "id": "I359",
       "name": "Costanza Abbate",
       "surname": "Abbate",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1328",
       "death": "",
       "docs": [],
@@ -27772,12 +28848,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I360": {
       "id": "I360",
       "name": "Damiata Rosso",
       "surname": "Rosso",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1350",
       "death": "",
       "docs": [],
@@ -27849,12 +28928,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I361": {
       "id": "I361",
       "name": "Anna Abbate",
       "surname": "Abbate",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1337",
       "death": "",
       "docs": [],
@@ -27926,12 +29008,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I362": {
       "id": "I362",
       "name": "Constanza Rosso",
       "surname": "Rosso",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1360",
       "death": "",
       "docs": [],
@@ -28003,12 +29088,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I363": {
       "id": "I363",
       "name": "Bartolomea D'Aragona",
       "surname": "D'Aragona",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1355",
       "death": "",
       "docs": [],
@@ -28080,12 +29168,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I364": {
       "id": "I364",
       "name": "Elvira Elena Moncada Abbate",
       "surname": "Abbate",
+      "sex": "F",
+      "famc": null,
       "birth": "ABT 1350",
       "death": "",
       "docs": [],
@@ -28157,12 +29248,15 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
     },
     "I365": {
       "id": "I365",
       "name": "Ponce du Maugalin",
       "surname": "Maugalin",
+      "sex": "M",
+      "famc": null,
       "birth": "",
       "death": "",
       "docs": [],
@@ -28232,7 +29326,895 @@
           "color_var": "var(--text-color)",
           "data": null
         }
-      }
+      },
+      "isMaleAncestor": false
+    }
+  },
+  "families": {
+    "F1": {
+      "id": "F1",
+      "husb": "I1",
+      "wife": "I2"
+    },
+    "F2": {
+      "id": "F2",
+      "husb": "I3",
+      "wife": "I4"
+    },
+    "F3": {
+      "id": "F3",
+      "husb": "I5",
+      "wife": "I6"
+    },
+    "F4": {
+      "id": "F4",
+      "husb": "I7",
+      "wife": null
+    },
+    "F5": {
+      "id": "F5",
+      "husb": "I8",
+      "wife": "I10"
+    },
+    "F6": {
+      "id": "F6",
+      "husb": "I9",
+      "wife": "I11"
+    },
+    "F7": {
+      "id": "F7",
+      "husb": "I12",
+      "wife": "I13"
+    },
+    "F8": {
+      "id": "F8",
+      "husb": "I12",
+      "wife": "I13"
+    },
+    "F9": {
+      "id": "F9",
+      "husb": "I14",
+      "wife": "I15"
+    },
+    "F10": {
+      "id": "F10",
+      "husb": "I17",
+      "wife": "I18"
+    },
+    "F11": {
+      "id": "F11",
+      "husb": "I19",
+      "wife": "I20"
+    },
+    "F12": {
+      "id": "F12",
+      "husb": "I21",
+      "wife": null
+    },
+    "F13": {
+      "id": "F13",
+      "husb": "I22",
+      "wife": null
+    },
+    "F14": {
+      "id": "F14",
+      "husb": "I24",
+      "wife": "I25"
+    },
+    "F15": {
+      "id": "F15",
+      "husb": "I23",
+      "wife": "I27"
+    },
+    "F16": {
+      "id": "F16",
+      "husb": "I28",
+      "wife": null
+    },
+    "F17": {
+      "id": "F17",
+      "husb": "I30",
+      "wife": "I29"
+    },
+    "F18": {
+      "id": "F18",
+      "husb": "I26",
+      "wife": "I32"
+    },
+    "F19": {
+      "id": "F19",
+      "husb": "I34",
+      "wife": "I35"
+    },
+    "F20": {
+      "id": "F20",
+      "husb": "I36",
+      "wife": "I35"
+    },
+    "F21": {
+      "id": "F21",
+      "husb": "I38",
+      "wife": "I35"
+    },
+    "F22": {
+      "id": "F22",
+      "husb": "I39",
+      "wife": "I4"
+    },
+    "F23": {
+      "id": "F23",
+      "husb": "I40",
+      "wife": "I41"
+    },
+    "F24": {
+      "id": "F24",
+      "husb": "I45",
+      "wife": null
+    },
+    "F25": {
+      "id": "F25",
+      "husb": "I48",
+      "wife": "I47"
+    },
+    "F26": {
+      "id": "F26",
+      "husb": "I49",
+      "wife": "I50"
+    },
+    "F27": {
+      "id": "F27",
+      "husb": "I52",
+      "wife": "I53"
+    },
+    "F28": {
+      "id": "F28",
+      "husb": "I54",
+      "wife": "I55"
+    },
+    "F29": {
+      "id": "F29",
+      "husb": "I54",
+      "wife": "I56"
+    },
+    "F30": {
+      "id": "F30",
+      "husb": "I57",
+      "wife": "I58"
+    },
+    "F31": {
+      "id": "F31",
+      "husb": "I57",
+      "wife": "I60"
+    },
+    "F32": {
+      "id": "F32",
+      "husb": "I61",
+      "wife": "I62"
+    },
+    "F33": {
+      "id": "F33",
+      "husb": "I63",
+      "wife": "I64"
+    },
+    "F34": {
+      "id": "F34",
+      "husb": "I63",
+      "wife": "I66"
+    },
+    "F35": {
+      "id": "F35",
+      "husb": "I59",
+      "wife": "I67"
+    },
+    "F36": {
+      "id": "F36",
+      "husb": "I69",
+      "wife": "I70"
+    },
+    "F37": {
+      "id": "F37",
+      "husb": "I71",
+      "wife": "I72"
+    },
+    "F38": {
+      "id": "F38",
+      "husb": "I73",
+      "wife": "I74"
+    },
+    "F39": {
+      "id": "F39",
+      "husb": "I75",
+      "wife": "I42"
+    },
+    "F40": {
+      "id": "F40",
+      "husb": "I77",
+      "wife": "I78"
+    },
+    "F41": {
+      "id": "F41",
+      "husb": "I79",
+      "wife": null
+    },
+    "F42": {
+      "id": "F42",
+      "husb": "I80",
+      "wife": "I81"
+    },
+    "F43": {
+      "id": "F43",
+      "husb": "I82",
+      "wife": "I83"
+    },
+    "F44": {
+      "id": "F44",
+      "husb": "I84",
+      "wife": "I46"
+    },
+    "F45": {
+      "id": "F45",
+      "husb": "I84",
+      "wife": "I87"
+    },
+    "F46": {
+      "id": "F46",
+      "husb": "I88",
+      "wife": null
+    },
+    "F47": {
+      "id": "F47",
+      "husb": "I90",
+      "wife": "I91"
+    },
+    "F48": {
+      "id": "F48",
+      "husb": "I92",
+      "wife": "I93"
+    },
+    "F49": {
+      "id": "F49",
+      "husb": "I95",
+      "wife": "I96"
+    },
+    "F50": {
+      "id": "F50",
+      "husb": "I97",
+      "wife": "I98"
+    },
+    "F51": {
+      "id": "F51",
+      "husb": "I99",
+      "wife": "I89"
+    },
+    "F52": {
+      "id": "F52",
+      "husb": "I100",
+      "wife": "I76"
+    },
+    "F53": {
+      "id": "F53",
+      "husb": "I100",
+      "wife": "I102"
+    },
+    "F54": {
+      "id": "F54",
+      "husb": "I101",
+      "wife": "I103"
+    },
+    "F55": {
+      "id": "F55",
+      "husb": "I104",
+      "wife": "I105"
+    },
+    "F56": {
+      "id": "F56",
+      "husb": "I106",
+      "wife": "I107"
+    },
+    "F57": {
+      "id": "F57",
+      "husb": "I108",
+      "wife": "I94"
+    },
+    "F58": {
+      "id": "F58",
+      "husb": "I111",
+      "wife": "I115"
+    },
+    "F59": {
+      "id": "F59",
+      "husb": "I116",
+      "wife": "I117"
+    },
+    "F60": {
+      "id": "F60",
+      "husb": "I119",
+      "wife": "I120"
+    },
+    "F61": {
+      "id": "F61",
+      "husb": "I121",
+      "wife": "I122"
+    },
+    "F62": {
+      "id": "F62",
+      "husb": "I124",
+      "wife": "I126"
+    },
+    "F63": {
+      "id": "F63",
+      "husb": "I123",
+      "wife": "I127"
+    },
+    "F64": {
+      "id": "F64",
+      "husb": "I128",
+      "wife": "I129"
+    },
+    "F65": {
+      "id": "F65",
+      "husb": "I132",
+      "wife": "I127"
+    },
+    "F66": {
+      "id": "F66",
+      "husb": "I133",
+      "wife": "I134"
+    },
+    "F67": {
+      "id": "F67",
+      "husb": "I118",
+      "wife": "I143"
+    },
+    "F68": {
+      "id": "F68",
+      "husb": "I144",
+      "wife": "I42"
+    },
+    "F69": {
+      "id": "F69",
+      "husb": "I145",
+      "wife": "I109"
+    },
+    "F70": {
+      "id": "F70",
+      "husb": "I146",
+      "wife": "I147"
+    },
+    "F71": {
+      "id": "F71",
+      "husb": "I149",
+      "wife": "I152"
+    },
+    "F72": {
+      "id": "F72",
+      "husb": "I148",
+      "wife": "I37"
+    },
+    "F73": {
+      "id": "F73",
+      "husb": "I155",
+      "wife": "I162"
+    },
+    "F74": {
+      "id": "F74",
+      "husb": "I163",
+      "wife": "I164"
+    },
+    "F75": {
+      "id": "F75",
+      "husb": "I168",
+      "wife": "I161"
+    },
+    "F76": {
+      "id": "F76",
+      "husb": "I169",
+      "wife": "I170"
+    },
+    "F77": {
+      "id": "F77",
+      "husb": "I171",
+      "wife": "I172"
+    },
+    "F78": {
+      "id": "F78",
+      "husb": "I173",
+      "wife": "I165"
+    },
+    "F79": {
+      "id": "F79",
+      "husb": "I176",
+      "wife": "I178"
+    },
+    "F80": {
+      "id": "F80",
+      "husb": "I175",
+      "wife": "I179"
+    },
+    "F81": {
+      "id": "F81",
+      "husb": "I180",
+      "wife": "I31"
+    },
+    "F82": {
+      "id": "F82",
+      "husb": "I181",
+      "wife": "I185"
+    },
+    "F83": {
+      "id": "F83",
+      "husb": "I184",
+      "wife": "I186"
+    },
+    "F84": {
+      "id": "F84",
+      "husb": "I187",
+      "wife": "I151"
+    },
+    "F85": {
+      "id": "F85",
+      "husb": "I188",
+      "wife": "I189"
+    },
+    "F86": {
+      "id": "F86",
+      "husb": "I190",
+      "wife": "I191"
+    },
+    "F87": {
+      "id": "F87",
+      "husb": "I193",
+      "wife": "I194"
+    },
+    "F88": {
+      "id": "F88",
+      "husb": "I192",
+      "wife": "I16"
+    },
+    "F89": {
+      "id": "F89",
+      "husb": "I192",
+      "wife": "I195"
+    },
+    "F90": {
+      "id": "F90",
+      "husb": "I196",
+      "wife": "I197"
+    },
+    "F91": {
+      "id": "F91",
+      "husb": "I198",
+      "wife": "I199"
+    },
+    "F92": {
+      "id": "F92",
+      "husb": "I198",
+      "wife": "I202"
+    },
+    "F93": {
+      "id": "F93",
+      "husb": "I200",
+      "wife": "I203"
+    },
+    "F94": {
+      "id": "F94",
+      "husb": "I208",
+      "wife": "I209"
+    },
+    "F95": {
+      "id": "F95",
+      "husb": "I210",
+      "wife": "I211"
+    },
+    "F96": {
+      "id": "F96",
+      "husb": "I212",
+      "wife": "I213"
+    },
+    "F97": {
+      "id": "F97",
+      "husb": "I201",
+      "wife": "I214"
+    },
+    "F98": {
+      "id": "F98",
+      "husb": "I204",
+      "wife": "I215"
+    },
+    "F99": {
+      "id": "F99",
+      "husb": "I216",
+      "wife": "I85"
+    },
+    "F100": {
+      "id": "F100",
+      "husb": "I223",
+      "wife": "I224"
+    },
+    "F101": {
+      "id": "F101",
+      "husb": "I225",
+      "wife": "I226"
+    },
+    "F102": {
+      "id": "F102",
+      "husb": "I51",
+      "wife": "I227"
+    },
+    "F103": {
+      "id": "F103",
+      "husb": "I229",
+      "wife": null
+    },
+    "F104": {
+      "id": "F104",
+      "husb": "I231",
+      "wife": "I65"
+    },
+    "F105": {
+      "id": "F105",
+      "husb": "I232",
+      "wife": "I4"
+    },
+    "F106": {
+      "id": "F106",
+      "husb": "I233",
+      "wife": null
+    },
+    "F107": {
+      "id": "F107",
+      "husb": "I234",
+      "wife": "I110"
+    },
+    "F108": {
+      "id": "F108",
+      "husb": "I235",
+      "wife": "I236"
+    },
+    "F109": {
+      "id": "F109",
+      "husb": "I237",
+      "wife": "I238"
+    },
+    "F110": {
+      "id": "F110",
+      "husb": "I239",
+      "wife": "I156"
+    },
+    "F111": {
+      "id": "F111",
+      "husb": "I240",
+      "wife": "I160"
+    },
+    "F112": {
+      "id": "F112",
+      "husb": "I242",
+      "wife": "I241"
+    },
+    "F113": {
+      "id": "F113",
+      "husb": null,
+      "wife": "I247"
+    },
+    "F114": {
+      "id": "F114",
+      "husb": "I248",
+      "wife": "I249"
+    },
+    "F115": {
+      "id": "F115",
+      "husb": "I250",
+      "wife": "I177"
+    },
+    "F116": {
+      "id": "F116",
+      "husb": "I49",
+      "wife": null
+    },
+    "F117": {
+      "id": "F117",
+      "husb": "I228",
+      "wife": "I243"
+    },
+    "F118": {
+      "id": "F118",
+      "husb": "I48",
+      "wife": null
+    },
+    "F119": {
+      "id": "F119",
+      "husb": "I252",
+      "wife": "I253"
+    },
+    "F120": {
+      "id": "F120",
+      "husb": "I254",
+      "wife": "I255"
+    },
+    "F121": {
+      "id": "F121",
+      "husb": "I254",
+      "wife": "I257"
+    },
+    "F122": {
+      "id": "F122",
+      "husb": "I229",
+      "wife": "I230"
+    },
+    "F123": {
+      "id": "F123",
+      "husb": "I259",
+      "wife": "I260"
+    },
+    "F124": {
+      "id": "F124",
+      "husb": "I261",
+      "wife": "I262"
+    },
+    "F125": {
+      "id": "F125",
+      "husb": "I263",
+      "wife": "I264"
+    },
+    "F126": {
+      "id": "F126",
+      "husb": "I263",
+      "wife": "I265"
+    },
+    "F127": {
+      "id": "F127",
+      "husb": "I266",
+      "wife": "I267"
+    },
+    "F128": {
+      "id": "F128",
+      "husb": "I268",
+      "wife": "I269"
+    },
+    "F129": {
+      "id": "F129",
+      "husb": "I268",
+      "wife": "I274"
+    },
+    "F130": {
+      "id": "F130",
+      "husb": "I268",
+      "wife": "I275"
+    },
+    "F131": {
+      "id": "F131",
+      "husb": "I271",
+      "wife": "I276"
+    },
+    "F132": {
+      "id": "F132",
+      "husb": "I272",
+      "wife": "I277"
+    },
+    "F133": {
+      "id": "F133",
+      "husb": "I272",
+      "wife": "I278"
+    },
+    "F134": {
+      "id": "F134",
+      "husb": "I272",
+      "wife": "I279"
+    },
+    "F135": {
+      "id": "F135",
+      "husb": "I272",
+      "wife": "I280"
+    },
+    "F136": {
+      "id": "F136",
+      "husb": "I272",
+      "wife": "I281"
+    },
+    "F137": {
+      "id": "F137",
+      "husb": "I282",
+      "wife": "I283"
+    },
+    "F138": {
+      "id": "F138",
+      "husb": "I284",
+      "wife": "I285"
+    },
+    "F139": {
+      "id": "F139",
+      "husb": "I286",
+      "wife": "I67"
+    },
+    "F140": {
+      "id": "F140",
+      "husb": "I287",
+      "wife": "I288"
+    },
+    "F141": {
+      "id": "F141",
+      "husb": "I289",
+      "wife": "I273"
+    },
+    "F142": {
+      "id": "F142",
+      "husb": "I270",
+      "wife": "I290"
+    },
+    "F143": {
+      "id": "F143",
+      "husb": "I270",
+      "wife": "I293"
+    },
+    "F144": {
+      "id": "F144",
+      "husb": "I294",
+      "wife": "I295"
+    },
+    "F145": {
+      "id": "F145",
+      "husb": "I296",
+      "wife": "I285"
+    },
+    "F146": {
+      "id": "F146",
+      "husb": "I297",
+      "wife": "I298"
+    },
+    "F147": {
+      "id": "F147",
+      "husb": "I299",
+      "wife": "I4"
+    },
+    "F148": {
+      "id": "F148",
+      "husb": "I300",
+      "wife": "I249"
+    },
+    "F149": {
+      "id": "F149",
+      "husb": "I301",
+      "wife": "I310"
+    },
+    "F150": {
+      "id": "F150",
+      "husb": "I301",
+      "wife": "I311"
+    },
+    "F151": {
+      "id": "F151",
+      "husb": "I312",
+      "wife": "I307"
+    },
+    "F152": {
+      "id": "F152",
+      "husb": "I313",
+      "wife": "I314"
+    },
+    "F153": {
+      "id": "F153",
+      "husb": "I316",
+      "wife": "I285"
+    },
+    "F154": {
+      "id": "F154",
+      "husb": "I317",
+      "wife": "I318"
+    },
+    "F155": {
+      "id": "F155",
+      "husb": "I317",
+      "wife": "I324"
+    },
+    "F156": {
+      "id": "F156",
+      "husb": "I319",
+      "wife": "I325"
+    },
+    "F157": {
+      "id": "F157",
+      "husb": "I327",
+      "wife": "I306"
+    },
+    "F158": {
+      "id": "F158",
+      "husb": "I328",
+      "wife": "I91"
+    },
+    "F159": {
+      "id": "F159",
+      "husb": "I291",
+      "wife": "I329"
+    },
+    "F160": {
+      "id": "F160",
+      "husb": "I292",
+      "wife": "I330"
+    },
+    "F161": {
+      "id": "F161",
+      "husb": "I331",
+      "wife": "I283"
+    },
+    "F162": {
+      "id": "F162",
+      "husb": "I333",
+      "wife": "I334"
+    },
+    "F163": {
+      "id": "F163",
+      "husb": "I333",
+      "wife": "I335"
+    },
+    "F164": {
+      "id": "F164",
+      "husb": "I256",
+      "wife": "I83"
+    },
+    "F165": {
+      "id": "F165",
+      "husb": "I256",
+      "wife": "I349"
+    },
+    "F166": {
+      "id": "F166",
+      "husb": "I338",
+      "wife": "I350"
+    },
+    "F167": {
+      "id": "F167",
+      "husb": "I336",
+      "wife": "I326"
+    },
+    "F168": {
+      "id": "F168",
+      "husb": "I336",
+      "wife": "I356"
+    },
+    "F169": {
+      "id": "F169",
+      "husb": "I340",
+      "wife": "I357"
+    },
+    "F170": {
+      "id": "F170",
+      "husb": "I341",
+      "wife": "I358"
+    },
+    "F171": {
+      "id": "F171",
+      "husb": "I342",
+      "wife": "I359"
+    },
+    "F172": {
+      "id": "F172",
+      "husb": "I344",
+      "wife": "I360"
+    },
+    "F173": {
+      "id": "F173",
+      "husb": "I347",
+      "wife": "I361"
+    },
+    "F174": {
+      "id": "F174",
+      "husb": "I354",
+      "wife": "I362"
+    },
+    "F175": {
+      "id": "F175",
+      "husb": "I354",
+      "wife": "I363"
+    },
+    "F176": {
+      "id": "F176",
+      "husb": "I352",
+      "wife": "I364"
+    },
+    "F177": {
+      "id": "F177",
+      "husb": "I365",
+      "wife": "I288"
     }
   }
 }

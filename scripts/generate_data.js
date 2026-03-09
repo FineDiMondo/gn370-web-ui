@@ -14,7 +14,8 @@ if (!fs.existsSync(PUBLIC_DOCS_DIR)) {
 
 // Struttura base del DB
 const db = {
-    persons: {}
+    persons: {},
+    families: {}
 };
 
 // Lettura e parsing semplice del file GEDCOM
@@ -27,8 +28,8 @@ function parse_gedcom(filepath) {
     const content = fs.readFileSync(filepath, 'utf-8');
     const lines = content.split(/\r?\n/);
 
-    let currentPersonId = null;
-    let currentPersonData = null;
+    let currentObjType = null;
+    let currentObjId = null;
 
     for (let i = 0; i < lines.length; i++) {
         const line = lines[i].trim();
@@ -36,57 +37,100 @@ function parse_gedcom(filepath) {
 
         // Nuovo Individuo: '0 @I1@ INDI'
         const indiMatch = line.match(/^0\s+@([^@]+)@\s+INDI$/);
+        const famMatch = line.match(/^0\s+@([^@]+)@\s+FAM$/);
+
         if (indiMatch) {
-            if (currentPersonData) {
-                db.persons[currentPersonId] = currentPersonData;
-            }
-            currentPersonId = indiMatch[1];
-            currentPersonData = {
-                id: currentPersonId,
+            currentObjType = 'INDI';
+            currentObjId = indiMatch[1];
+            db.persons[currentObjId] = {
+                id: currentObjId,
                 name: 'Sconosciuto',
                 surname: '',
+                sex: '',
+                famc: null,
                 birth: '',
                 death: '',
                 docs: [],
-                worlds: generateDefaultWorlds()
+                worlds: generateDefaultWorlds(),
+                isMaleAncestor: false
             };
             continue;
         }
 
-        if (!currentPersonData) continue;
+        if (famMatch) {
+            currentObjType = 'FAM';
+            currentObjId = famMatch[1];
+            db.families[currentObjId] = {
+                id: currentObjId,
+                husb: null,
+                wife: null
+            };
+            continue;
+        }
 
-        // Nome
-        if (line.startsWith('1 NAME')) {
-            const nameMatch = line.match(/1 NAME (.*)/);
-            if (nameMatch) {
-                currentPersonData.name = nameMatch[1].replace(/\//g, '').trim();
-                const surnameMatch = line.match(/\/(.*?)\//);
-                if (surnameMatch) {
-                    currentPersonData.surname = surnameMatch[1].trim();
+        if (currentObjType === 'INDI') {
+            const p = db.persons[currentObjId];
+            if (line.startsWith('1 NAME')) {
+                const nameMatch = line.match(/1 NAME (.*)/);
+                if (nameMatch) {
+                    p.name = nameMatch[1].replace(/\//g, '').trim();
+                    const surnameMatch = line.match(/\/(.*?)\//);
+                    if (surnameMatch) {
+                        p.surname = surnameMatch[1].trim();
+                    }
                 }
             }
-        }
 
-        // Date
-        if (line.startsWith('1 BIRT')) {
-            let j = i + 1;
-            while (j < lines.length && !lines[j].startsWith('1 ') && !lines[j].startsWith('0 ')) {
-                if (lines[j].startsWith('2 DATE')) currentPersonData.birth = lines[j].substring(7).trim();
-                j++;
+            if (line.startsWith('1 SEX')) {
+                p.sex = line.substring(6).trim();
             }
-        }
 
-        if (line.startsWith('1 DEAT')) {
-            let j = i + 1;
-            while (j < lines.length && !lines[j].startsWith('1 ') && !lines[j].startsWith('0 ')) {
-                if (lines[j].startsWith('2 DATE')) currentPersonData.death = lines[j].substring(7).trim();
-                j++;
+            if (line.startsWith('1 FAMC')) {
+                const match = line.match(/@([^@]+)@/);
+                if (match) p.famc = match[1];
+            }
+
+            // Date
+            if (line.startsWith('1 BIRT')) {
+                let j = i + 1;
+                while (j < lines.length && !lines[j].startsWith('1 ') && !lines[j].startsWith('0 ')) {
+                    if (lines[j].startsWith('2 DATE')) p.birth = lines[j].substring(7).trim();
+                    j++;
+                }
+            }
+            if (line.startsWith('1 DEAT')) {
+                let j = i + 1;
+                while (j < lines.length && !lines[j].startsWith('1 ') && !lines[j].startsWith('0 ')) {
+                    if (lines[j].startsWith('2 DATE')) p.death = lines[j].substring(7).trim();
+                    j++;
+                }
+            }
+        } else if (currentObjType === 'FAM') {
+            const f = db.families[currentObjId];
+            if (line.startsWith('1 HUSB')) {
+                const match = line.match(/@([^@]+)@/);
+                if (match) f.husb = match[1];
+            } else if (line.startsWith('1 WIFE')) {
+                const match = line.match(/@([^@]+)@/);
+                if (match) f.wife = match[1];
             }
         }
     }
-    // Salva l'ultimo
-    if (currentPersonData) {
-        db.persons[currentPersonId] = currentPersonData;
+}
+
+function computeMaleAncestors(rootId) {
+    let currentId = rootId;
+    while (currentId) {
+        const person = db.persons[currentId];
+        if (!person) break;
+
+        person.isMaleAncestor = true;
+
+        if (!person.famc) break;
+        const family = db.families[person.famc];
+        if (!family || !family.husb) break;
+
+        currentId = family.husb;
     }
 }
 
@@ -186,6 +230,7 @@ console.log(`Trovate ${Object.keys(db.persons).length} persone nel GEDCOM.`);
 
 processAndMapDocs();
 finalizeWorlds();
+computeMaleAncestors('I290');
 
 const outputStr = JSON.stringify(db, null, 2);
 fs.writeFileSync(DB_OUTPUT_PATH, outputStr);

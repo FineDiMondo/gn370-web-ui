@@ -11,6 +11,22 @@ export const Dashboard: React.FC<DashboardProps> = ({ defaultPersonId }) => {
     const [personId, setPersonId] = useState(defaultPersonId);
     const [person, setPerson] = useState<any>(null);
 
+    // Priorità: prima gli ascendenti maschi (isMaleAncestor = true), poi alfabetico per Cognome e Nome
+    const sortedPersons = Object.values(dbData.persons).sort((a: any, b: any) => {
+        if (a.isMaleAncestor && !b.isMaleAncestor) return -1;
+        if (!a.isMaleAncestor && b.isMaleAncestor) return 1;
+
+        const surnameA = a.surname || '';
+        const surnameB = b.surname || '';
+        if (surnameA !== surnameB) {
+            return surnameA.localeCompare(surnameB);
+        }
+
+        const nameA = a.name || '';
+        const nameB = b.name || '';
+        return nameA.localeCompare(nameB);
+    });
+
     useEffect(() => {
         // If not found, pick the first one as a fallback
         const target = (dbData.persons as any)[personId] || Object.values(dbData.persons)[0];
@@ -47,8 +63,10 @@ export const Dashboard: React.FC<DashboardProps> = ({ defaultPersonId }) => {
                             maxWidth: '300px'
                         }}
                     >
-                        {Object.values(dbData.persons).map((p: any) => (
-                            <option key={p.id} value={p.id}>{p.name} {p.surname} ({p.id})</option>
+                        {sortedPersons.map((p: any) => (
+                            <option key={p.id} value={p.id}>
+                                {p.isMaleAncestor ? '★ ' : ''}{p.surname} {p.name} ({p.id})
+                            </option>
                         ))}
                     </select>
                 </div>
