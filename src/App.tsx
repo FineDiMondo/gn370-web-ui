@@ -4,10 +4,26 @@ import { Dashboard } from './pages/Dashboard';
 import { WorldDetail } from './pages/WorldDetail';
 import { BootSequence } from './components/BootSequence';
 import { AnimatePresence } from 'framer-motion';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+
+// Add globals for debug and invariants testing
+declare global {
+  interface Window {
+    __GN370_DB_STATUS: 'EMPTY' | 'READY';
+    GN370: { CTX: { openedRecord: string | null } };
+  }
+}
 
 export const App: React.FC = () => {
   const [bootCompleted, setBootCompleted] = useState(false);
+
+  useEffect(() => {
+    // Initialize global invariants
+    if (typeof window !== 'undefined') {
+      window.__GN370_DB_STATUS = 'EMPTY';
+      window.GN370 = { CTX: { openedRecord: null } };
+    }
+  }, []);
 
   return (
     <ThemeProvider>

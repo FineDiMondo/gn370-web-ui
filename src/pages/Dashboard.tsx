@@ -1,39 +1,186 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { WorldTile } from '../components/WorldTile';
 import { motion } from 'framer-motion';
-import dbData from '../data/db.json';
+import { parseGedcom } from '../utils/gedcomParser';
+import dbDataMock from '../data/db.json';
 
 interface DashboardProps {
     defaultPersonId: string;
 }
 
 export const Dashboard: React.FC<DashboardProps> = ({ defaultPersonId }) => {
+    const [dbStatus, setDbStatus] = useState<'EMPTY' | 'READY'>(
+        typeof window !== 'undefined' && window.__GN370_DB_STATUS ? window.__GN370_DB_STATUS : 'EMPTY'
+    );
+    const [personsList, setPersonsList] = useState<any[]>([]);
+    const [personsDict, setPersonsDict] = useState<Record<string, any>>({});
+
     const [personId, setPersonId] = useState(defaultPersonId);
     const [person, setPerson] = useState<any>(null);
-
-    // Priorità: prima gli ascendenti maschi (isMaleAncestor = true), poi alfabetico per Cognome e Nome
-    const sortedPersons = Object.values(dbData.persons).sort((a: any, b: any) => {
-        if (a.isMaleAncestor && !b.isMaleAncestor) return -1;
-        if (!a.isMaleAncestor && b.isMaleAncestor) return 1;
-
-        const surnameA = a.surname || '';
-        const surnameB = b.surname || '';
-        if (surnameA !== surnameB) {
-            return surnameA.localeCompare(surnameB);
-        }
-
-        const nameA = a.name || '';
-        const nameB = b.name || '';
-        return nameA.localeCompare(nameB);
-    });
+    const fileInputRef = useRef<HTMLInputElement>(null);
 
     useEffect(() => {
-        // If not found, pick the first one as a fallback
-        const target = (dbData.persons as any)[personId] || Object.values(dbData.persons)[0];
-        setPerson(target);
-    }, [personId]);
+        // Sync with global state
+        if (typeof window !== 'undefined') {
+            window.__GN370_DB_STATUS = dbStatus;
 
-    if (!person) return <div>CARICAMENTO DATI...</div>;
+            // Ensure GN370 exists just in case
+            if (!window.GN370) {
+                window.GN370 = { CTX: { openedRecord: null } };
+            }
+
+            if (dbStatus === 'EMPTY') {
+                window.GN370.CTX.openedRecord = null;
+            }
+        }
+    }, [dbStatus]);
+
+    useEffect(() => {
+        if (dbStatus === 'READY' && Object.keys(personsDict).length > 0) {
+            const target = personsDict[personId] || personsList[0];
+            setPerson(target);
+            if (target && target.id && typeof window !== 'undefined' && window.GN370) {
+                window.GN370.CTX.openedRecord = target.id;
+            }
+        } else {
+            setPerson(null);
+        }
+    }, [personId, dbStatus, personsDict, personsList]);
+
+    const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
+        const file = event.target.files?.[0];
+        if (!file) return;
+
+        const reader = new FileReader();
+        reader.onload = (e) => {
+            const content = e.target?.result as string;
+            try {
+                const parsed = parseGedcom(content);
+                const values = Object.values(parsed);
+
+                // Sort
+                const sorted = values.sort((a: any, b: any) => {
+                    if (a.isMaleAncestor && !b.isMaleAncestor) return -1;
+                    if (!a.isMaleAncestor && b.isMaleAncestor) return 1;
+                    const surnameA = a.surname || '';
+                    const surnameB = b.surname || '';
+                    if (surnameA !== surnameB) return surnameA.localeCompare(surnameB);
+                    const nameA = a.name || '';
+                    const nameB = b.name || '';
+                    return nameA.localeCompare(nameB);
+                });
+
+                if (sorted.length > 0) {
+                    setPersonsDict(parsed);
+                    setPersonsList(sorted);
+                    setPersonId(sorted[0].id);
+                    setDbStatus('READY');
+                } else {
+                    alert('Nessuna persona valida trovata nel GEDCOM.');
+                }
+            } catch (err) {
+                console.error("Errore parsing GEDCOM:", err);
+                alert("Errore durante la lettura del file GEDCOM.");
+            }
+        };
+        reader.readAsText(file);
+    };
+
+    const handleLoadMock = () => {
+        // For testing/fallback since mockData has heraldry and worlds
+        const parsed = dbDataMock.persons;
+        const values = Object.values(parsed);
+        const sorted = values.sort((a: any, b: any) => {
+            if (a.isMaleAncestor && !b.isMaleAncestor) return -1;
+            if (!a.isMaleAncestor && b.isMaleAncestor) return 1;
+            const surnameA = a.surname || '';
+            const surnameB = b.surname || '';
+            if (surnameA !== surnameB) return surnameA.localeCompare(surnameB);
+            const nameA = a.name || '';
+            const nameB = b.name || '';
+            return nameA.localeCompare(nameB);
+        });
+
+        setPersonsDict(parsed);
+        setPersonsList(sorted);
+
+        // Se I99 esiste usalo, altrimenti usa il primo palese
+        const hasDefault = !!parsed[defaultPersonId as keyof typeof parsed];
+        setPersonId(hasDefault ? defaultPersonId : sorted[0].id);
+
+        setDbStatus('READY');
+    };
+
+    const handleExport = () => {
+        const timestamp = new Date().toISOString().replace(/[-:T]/g, '').slice(0, 12);
+        const filename = `${timestamp}.zip`;
+        const blob = new Blob(["MOCK_ZIP_CONTENT_FOR_EXPORT_TESTING"], { type: 'application/zip' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = filename;
+        a.click();
+        URL.revokeObjectURL(url);
+    };
+
+    if (dbStatus === 'EMPTY') {
+        return (
+            <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+                style={{ display: 'flex', flexDirection: 'column', flex: 1, alignItems: 'center', justifyContent: 'center' }}
+            >
+                <div style={{ textAlign: 'center', border: 'var(--border-style)', padding: '40px', backgroundColor: 'var(--tile-bg)', maxWidth: '500px' }}>
+                    <h2 style={{ color: 'var(--accent-color)', marginBottom: '20px' }}>SISTEMA IN ATTESA</h2>
+                    <p style={{ color: 'var(--text-color)', marginBottom: '30px' }}>Nessun dataset genealogico attivo nel DOMINIO. Inserire una fonte di verità GEDCOM per inizializzare l'interfaccia 9 Mondi.</p>
+
+                    <input
+                        type="file"
+                        accept=".ged"
+                        ref={fileInputRef}
+                        style={{ display: 'none' }}
+                        onChange={handleFileUpload}
+                    />
+
+                    <button
+                        onClick={() => fileInputRef.current?.click()}
+                        style={{
+                            backgroundColor: 'transparent',
+                            border: '1px solid var(--accent-color)',
+                            color: 'var(--accent-color)',
+                            padding: '10px 20px',
+                            fontSize: '1rem',
+                            cursor: 'pointer',
+                            display: 'block',
+                            width: '100%',
+                            marginBottom: '15px'
+                        }}
+                    >
+                        [ UPLOAD GEDCOM (.GED) ]
+                    </button>
+
+                    <button
+                        onClick={handleLoadMock}
+                        style={{
+                            backgroundColor: 'transparent',
+                            border: '1px dashed var(--secondary-color)',
+                            color: 'var(--secondary-color)',
+                            padding: '10px 20px',
+                            fontSize: '0.9rem',
+                            cursor: 'pointer',
+                            display: 'block',
+                            width: '100%'
+                        }}
+                    >
+                        [ LOAD DEMO DATASET ]
+                    </button>
+                </div>
+            </motion.div>
+        );
+    }
+
+    if (!person) return <div style={{ color: 'var(--text-color)' }}>CARICAMENTO DATI...</div>;
 
     return (
         <motion.div
@@ -42,9 +189,25 @@ export const Dashboard: React.FC<DashboardProps> = ({ defaultPersonId }) => {
             transition={{ duration: 0.5 }}
             style={{ display: 'flex', flexDirection: 'column', flex: 1 }}
         >
-            <div style={{ marginBottom: '20px', padding: '10px', border: 'var(--border-style)', backgroundColor: 'var(--tile-bg)' }}>
+            <div style={{ marginBottom: '20px', padding: '10px', border: 'var(--border-style)', backgroundColor: 'var(--tile-bg)', position: 'relative' }}>
+                <div style={{ position: 'absolute', top: '10px', right: '10px' }}>
+                    <button
+                        onClick={handleExport}
+                        style={{
+                            backgroundColor: 'transparent',
+                            border: '1px solid var(--accent-color)',
+                            color: 'var(--accent-color)',
+                            padding: '5px 10px',
+                            fontSize: '0.8rem',
+                            cursor: 'pointer'
+                        }}
+                    >
+                        [ EXPORT ZIP ]
+                    </button>
+                </div>
+
                 <h2 style={{ margin: 0, color: 'var(--accent-color)' }}>{person.name} {person.surname}</h2>
-                <p style={{ margin: '5px 0 0', fontSize: '0.9rem' }}>
+                <p style={{ margin: '5px 0 0', fontSize: '0.9rem', color: 'var(--text-color)' }}>
                     ID: {person.id} | B: {person.birth || '???'} | D: {person.death || '???'}
                 </p>
 
@@ -63,7 +226,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ defaultPersonId }) => {
                             maxWidth: '300px'
                         }}
                     >
-                        {sortedPersons.map((p: any) => (
+                        {personsList.map((p: any) => (
                             <option key={p.id} value={p.id}>
                                 {p.isMaleAncestor ? '★ ' : ''}{p.surname} {p.name} ({p.id})
                             </option>

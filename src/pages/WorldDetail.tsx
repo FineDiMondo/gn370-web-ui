@@ -160,7 +160,10 @@ export const WorldDetail: React.FC = () => {
                                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', marginTop: '15px' }}>
                                     {worldData.data.heraldry.map((svgStr: string, i: number) => {
                                         // NVH-03: DOMPurify stringente per rimuovere possibili XSS dagli SVG
-                                        const cleanSVG = DOMPurify.sanitize(svgStr, { USE_PROFILES: { svg: true } });
+                                        const cleanSVG = DOMPurify.sanitize(svgStr, {
+                                            USE_PROFILES: { svg: true },
+                                            FORBID_ATTR: ['onclick', 'onmouseover', 'onload', 'onerror', 'onfocus', 'onblur']
+                                        });
                                         return (
                                             <div
                                                 key={i}

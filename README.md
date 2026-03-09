@@ -1,73 +1,63 @@
-# React + TypeScript + Vite
+# Prototipo GN370 V2.0 - Nove Mondi Interface
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Questo repository contiene il prototipo React/Vite dell'interfaccia 9 Mondi (Genealogia Sicula).
 
-Currently, two official plugins are available:
+## Installazione & Sviluppo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Struttura del progetto
+- `src/components`: Componenti UI (WorldTile, BootSequence)
+- `src/pages`: Pagine primarie (Dashboard, WorldDetail)
+- `src/utils/gedcomParser.ts`: Parser GEDCOM client-side
+- `src/data`: Database fittizi / fixtures fallbacks
+- `public/test_fixtures`: File .ged minimali per testing
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Collaudo Invarianti & CI/CD (Playwright)
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Per validare le invarianti di boot e UI (come descritto nel report QA), raccomandiamo l'uso di **Playwright**.
+
+### Setup Playwright
+
+```bash
+npm init playwright@latest
+```
+
+All'interno di `tests/gn370.spec.ts`, è possibile verificare le invarianti principali:
+
+```typescript
+import { test, expect } from '@playwright/test';
+
+test.describe('GN370 Invariants Testing', () => {
+
+  test('I1 & I2: Boot state defaults to EMPTY', async ({ page }) => {
+    await page.goto('http://localhost:5173');
+    // Aspetta fine boot sequence
+    await page.waitForTimeout(5000); 
+
+    // Verifica globale DB_STATUS
+    const dbStatus = await page.evaluate(() => window.__GN370_DB_STATUS);
+    expect(dbStatus).toBe('EMPTY');
+    
+    // UI deve mostrare sistema in attesa
+    await expect(page.locator('text=SISTEMA IN ATTESA')).toBeVisible();
+  });
+
+  test('I3: Context openedRecord is null at boot', async ({ page }) => {
+    await page.goto('http://localhost:5173');
+    await page.waitForTimeout(5000); 
+    const openedRecord = await page.evaluate(() => window.GN370?.CTX?.openedRecord);
+    expect(openedRecord).toBeNull();
+  });
+
+  // Aggiungere test I6/I7 per export ZIP usando page.waitForEvent('download')
+});
+```
+
+Per lanciare i test localmente (dopo aver avviato il server dev):
+```bash
+npx playwright test
 ```
