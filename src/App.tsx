@@ -48,8 +48,8 @@ export const App: React.FC = () => {
             <HashRouter>
               <AnimatePresence mode="wait">
                 <Routes>
-                  <Route path="/" element={<Dashboard defaultPersonId="I290" />} />
-                  <Route path="/world/:worldId" element={<WorldDetail defaultPersonId="I290" />} />
+                  <Route path="/" element={<Dashboard defaultPersonId="I99" />} />
+                  <Route path="/world/:personId/:worldId" element={<WorldDetail />} />
                 </Routes>
               </AnimatePresence>
             </HashRouter>

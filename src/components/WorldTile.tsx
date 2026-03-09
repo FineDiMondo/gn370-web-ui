@@ -6,13 +6,16 @@ import type { WorldMetadata } from '../data/mockData';
 interface WorldTileProps {
     worldInfo: WorldMetadata;
     worldKey: string;
+    personId: string;
 }
 
-export const WorldTile: React.FC<WorldTileProps> = ({ worldInfo, worldKey }) => {
+export const WorldTile: React.FC<WorldTileProps> = ({ worldInfo, worldKey, personId }) => {
     const navigate = useNavigate();
 
     const handlePress = () => {
-        navigate(`/world/${worldKey}`);
+        if (worldInfo.is_active) {
+            navigate(`/world/${personId}/${worldKey}`);
+        }
     };
 
     return (

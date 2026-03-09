@@ -3,24 +3,19 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import dbData from '../data/db.json';
 
-interface WorldDetailProps {
-    defaultPersonId: string;
-}
-
-export const WorldDetail: React.FC<WorldDetailProps> = ({ defaultPersonId }) => {
-    const { worldId } = useParams<{ worldId: string }>();
+export const WorldDetail: React.FC = () => {
+    const { personId, worldId } = useParams<{ personId: string, worldId: string }>();
     const navigate = useNavigate();
     const [person, setPerson] = useState<any>(null);
     const [worldData, setWorldData] = useState<any>(null);
 
     useEffect(() => {
-        // In a real app we'd get the person ID from state or URL. We use default for now.
-        const currentPerson = (dbData.persons as any)[defaultPersonId] || Object.values(dbData.persons)[0];
+        const currentPerson = (dbData.persons as any)[personId || ''] || Object.values(dbData.persons)[0];
         setPerson(currentPerson);
         if (worldId && currentPerson.worlds[worldId]) {
             setWorldData(currentPerson.worlds[worldId]);
         }
-    }, [worldId, defaultPersonId]);
+    }, [worldId, personId]);
 
     if (!person || !worldData) return <div style={{ color: 'var(--alert-color)' }}>DATI MONDO NON TROVATI.</div>;
 

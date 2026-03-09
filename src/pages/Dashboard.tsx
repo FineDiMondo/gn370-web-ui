@@ -82,7 +82,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ defaultPersonId }) => {
                 aspectRatio: '1 / 1' // Helps maintain a square proportion for the whole grid
             }}>
                 {Object.entries(person.worlds || {}).map(([key, world]: [string, any]) => (
-                    <WorldTile key={key} worldKey={key} worldInfo={world} />
+                    <WorldTile key={key} worldKey={key} worldInfo={world} personId={person.id} />
                 ))}
             </div>
         </motion.div>
