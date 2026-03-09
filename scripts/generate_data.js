@@ -1,0 +1,192 @@
+import fs from 'fs';
+import path from 'path';
+
+// Files and Paths
+const GEDCOM_PATH = path.resolve('../gedcom-api-enricher/output_giardina_negrini.ged');
+const DOCS_DIR = path.resolve('../gedcom-api-enricher/docs');
+const PUBLIC_DOCS_DIR = path.resolve('./public/docs/famiglie');
+const DB_OUTPUT_PATH = path.resolve('./src/data/db.json');
+
+// Assicuriamoci che la directory pubblica per i documenti esista
+if (!fs.existsSync(PUBLIC_DOCS_DIR)) {
+    fs.mkdirSync(PUBLIC_DOCS_DIR, { recursive: true });
+}
+
+// Struttura base del DB
+const db = {
+    persons: {}
+};
+
+// Lettura e parsing semplice del file GEDCOM
+function parse_gedcom(filepath) {
+    if (!fs.existsSync(filepath)) {
+        console.error(`File GEDCOM non trovato: ${filepath}`);
+        return;
+    }
+
+    const content = fs.readFileSync(filepath, 'utf-8');
+    const lines = content.split(/\r?\n/);
+
+    let currentPersonId = null;
+    let currentPersonData = null;
+
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
+        if (!line) continue;
+
+        // Nuovo Individuo: '0 @I1@ INDI'
+        const indiMatch = line.match(/^0\s+@([^@]+)@\s+INDI$/);
+        if (indiMatch) {
+            if (currentPersonData) {
+                db.persons[currentPersonId] = currentPersonData;
+            }
+            currentPersonId = indiMatch[1];
+            currentPersonData = {
+                id: currentPersonId,
+                name: 'Sconosciuto',
+                surname: '',
+                birth: '',
+                death: '',
+                docs: [],
+                worlds: generateDefaultWorlds()
+            };
+            continue;
+        }
+
+        if (!currentPersonData) continue;
+
+        // Nome
+        if (line.startsWith('1 NAME')) {
+            const nameMatch = line.match(/1 NAME (.*)/);
+            if (nameMatch) {
+                currentPersonData.name = nameMatch[1].replace(/\//g, '').trim();
+                const surnameMatch = line.match(/\/(.*?)\//);
+                if (surnameMatch) {
+                    currentPersonData.surname = surnameMatch[1].trim();
+                }
+            }
+        }
+
+        // Date
+        if (line.startsWith('1 BIRT')) {
+            let j = i + 1;
+            while (j < lines.length && !lines[j].startsWith('1 ') && !lines[j].startsWith('0 ')) {
+                if (lines[j].startsWith('2 DATE')) currentPersonData.birth = lines[j].substring(7).trim();
+                j++;
+            }
+        }
+
+        if (line.startsWith('1 DEAT')) {
+            let j = i + 1;
+            while (j < lines.length && !lines[j].startsWith('1 ') && !lines[j].startsWith('0 ')) {
+                if (lines[j].startsWith('2 DATE')) currentPersonData.death = lines[j].substring(7).trim();
+                j++;
+            }
+        }
+    }
+    // Salva l'ultimo
+    if (currentPersonData) {
+        db.persons[currentPersonId] = currentPersonData;
+    }
+}
+
+// Costruisce la dashboard dei 9 Mondi per l'individuo
+function generateDefaultWorlds() {
+    return {
+        "1_origini": { id: "1", name: "ORIGINI", is_active: false, color_var: "var(--accent-color)", data: {} },
+        "2_cicli": { id: "2", name: "CICLI", is_active: false, color_var: "var(--text-color)", data: { events: [] } },
+        "3_doni": { id: "3", name: "DONI", is_active: false, color_var: "var(--secondary-color)", data: null },
+        "4_ombre": { id: "4", name: "OMBRE", is_active: false, color_var: "var(--alert-color)", data: null },
+        "5_contesto": { id: "5", name: "CONTESTO", is_active: false, color_var: "var(--hint-color)", data: null },
+        "6_struttura": { id: "6", name: "STRUTTURA", is_active: false, color_var: "var(--accent-color)", data: null },
+        "7_eredita": { id: "7", name: "EREDITÀ", is_active: false, color_var: "var(--secondary-color)", data: null },
+        "8_nebbia": { id: "8", name: "NEBBIA", is_active: false, color_var: "var(--hint-color)", data: null },
+        "9_radici": { id: "9", name: "RADICI", is_active: false, color_var: "var(--text-color)", data: null }
+    };
+}
+
+// Associa la documentazione alle persone e popola i Mondi (Es. Origini, Cicli)
+function processAndMapDocs() {
+    if (!fs.existsSync(DOCS_DIR)) return;
+
+    const files = fs.readdirSync(DOCS_DIR);
+
+    // Per ogni file in docs
+    files.forEach(file => {
+        const ext = path.extname(file).toLowerCase();
+        if (ext !== '.md' && ext !== '.txt' && ext !== '.csv' && ext !== '.docx') return;
+
+        const fileNameUpper = file.toUpperCase();
+
+        // Trova l'individuo o la famiglia più probabile a cui associarlo nel GEDCOM
+        for (const [id, person] of Object.entries(db.persons)) {
+            // Match euristico: se il nome del file contiene pezzi del nome della persona
+            const nameParts = person.name.toUpperCase().split(' ');
+            let hasMatch = false;
+
+            // Semplice match: se il cognome GIARDINA sta nel file e (anche LUIGI o ANTONINO)
+            if (person.surname && fileNameUpper.includes(person.surname.toUpperCase())) {
+                // Ulteriore filtro: se c'è un first name
+                if (nameParts[0] && fileNameUpper.includes(nameParts[0])) {
+                    hasMatch = true;
+                } else if (fileNameUpper.includes("GENEALOGIA") || fileNameUpper.includes("ALBERO") || fileNameUpper.includes("CASATE")) {
+                    // Documento di famiglia generico, assegnalo a tutti quelli col cognome se vogliamo, o solo al "Root"
+                    hasMatch = true;
+                }
+            }
+
+            if (hasMatch) {
+                // Copia il file nella cartella frontend
+                const destFamilyFolder = path.join(PUBLIC_DOCS_DIR, person.surname || 'Generale');
+                if (!fs.existsSync(destFamilyFolder)) fs.mkdirSync(destFamilyFolder, { recursive: true });
+
+                const sourcePath = path.join(DOCS_DIR, file);
+                const destPath = path.join(destFamilyFolder, file);
+                fs.copyFileSync(sourcePath, destPath);
+
+                // Registra il file nella lista dei documenti della persona
+                const relUrl = `/docs/famiglie/${person.surname || 'Generale'}/${file}`;
+                if (!person.docs.includes(relUrl)) {
+                    person.docs.push(relUrl);
+
+                    // Attiva il Mondo 1 (Origini) perché abbiamo documentazione
+                    person.worlds["1_origini"].is_active = true;
+                    person.worlds["1_origini"].data.documents = person.docs;
+                    person.worlds["1_origini"].data.surname = person.surname;
+
+                    // Attiva Mondo 5 / 7 etc in base a keywords
+                    if (fileNameUpper.includes("TIMELINE") || fileNameUpper.includes("STORIA")) {
+                        person.worlds["5_contesto"].is_active = true;
+                    }
+                    if (fileNameUpper.includes("CARICHE") || fileNameUpper.includes("TITOLI") || fileNameUpper.includes("ARALDICA")) {
+                        person.worlds["7_eredita"].is_active = true;
+                        person.worlds["3_doni"].is_active = true;
+                    }
+                }
+            }
+        }
+    });
+}
+
+function finalizeWorlds() {
+    for (const person of Object.values(db.persons)) {
+        // Config Cicli
+        if (person.birth || person.death) {
+            person.worlds["2_cicli"].is_active = true;
+            if (person.birth) person.worlds["2_cicli"].data.events.push(`BIRT: ${person.birth}`);
+            if (person.death) person.worlds["2_cicli"].data.events.push(`DEAT: ${person.death}`);
+        }
+    }
+}
+
+// Esecuzione
+console.log('Inizio Data Ingestion...');
+parse_gedcom(GEDCOM_PATH);
+console.log(`Trovate ${Object.keys(db.persons).length} persone nel GEDCOM.`);
+
+processAndMapDocs();
+finalizeWorlds();
+
+const outputStr = JSON.stringify(db, null, 2);
+fs.writeFileSync(DB_OUTPUT_PATH, outputStr);
+console.log(`DB generato con successo su: ${DB_OUTPUT_PATH}`);

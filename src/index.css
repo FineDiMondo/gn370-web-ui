@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400;700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  --transition-speed: 0.6s;
+  --transition-timing: ease-in-out;
+}
+
+/* Base resets */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  transition: background-color var(--transition-speed) var(--transition-timing),
+    color var(--transition-speed) var(--transition-timing);
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* =========================================
+   THEMES
+   ========================================= */
+
+/* 1. THEME: 370 (Mainframe Terminal) */
+[data-theme="370"] {
+  --bg-color: #000000;
+  --text-color: #00FF00;
+  /* Green */
+  --accent-color: #40E0D0;
+  /* Turquoise */
+  --secondary-color: #0055FF;
+  /* Blue */
+  --alert-color: #FF0000;
+  /* Red */
+  --hint-color: #FFFF00;
+  /* Yellow */
+
+  --font-family: 'Fira Code', 'Courier New', monospace;
+
+  --border-style: 2px solid var(--secondary-color);
+  --border-radius: 0px;
+  --box-shadow: none;
+  --btn-bg: transparent;
+  --btn-text: var(--accent-color);
+
+  --tile-bg: rgba(0, 85, 255, 0.1);
+  --tile-hover-bg: rgba(0, 255, 0, 0.1);
+  --tile-border: 1px solid var(--secondary-color);
+}
+
+/* 2. THEME: Risorgimentale (1860s, Garibaldi, Paper) */
+[data-theme="risorgimentale"] {
+  --bg-color: #F4EFE6;
+  /* Antique paper */
+  --text-color: #3E2723;
+  /* Sepia ink */
+  --accent-color: #C21807;
+  /* Garibaldi Red */
+  --secondary-color: #5D4037;
+  /* Dark brown */
+  --alert-color: #8B0000;
+  /* Dark red */
+  --hint-color: #D4AF37;
+  /* Old gold */
+
+  --font-family: 'Playfair Display', serif;
+
+  --border-style: 1px solid var(--secondary-color);
+  --border-radius: 4px;
+  --box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  --btn-bg: var(--accent-color);
+  --btn-text: #F4EFE6;
+
+  --tile-bg: #EFEBE0;
+  --tile-hover-bg: #E6DFD3;
+  --tile-border: 1px solid #D7CCC8;
+}
+
+/* 3. THEME: Palermitano (Gattopardo / Majolica) */
+[data-theme="palermitano"] {
+  --bg-color: #FDF5E6;
+  /* Ivory */
+  --text-color: #2F4F4F;
+  /* Dark Slate Gray */
+  --accent-color: #2980B9;
+  /* Mediterranean Sea Blue */
+  --secondary-color: #F1C40F;
+  /* Pinecone Gold */
+  --alert-color: #C0392B;
+  /* Deep Red */
+  --hint-color: #556B2F;
+  /* Olive Green */
+
+  --font-family: 'Cinzel', serif;
+
+  --border-style: 2px solid var(--accent-color);
+  --border-radius: 12px;
+  --box-shadow: 0 4px 12px rgba(41, 128, 185, 0.15);
+  --btn-bg: var(--secondary-color);
+  --btn-text: #2F4F4F;
+
+  --tile-bg: #FFFFFF;
+  --tile-hover-bg: #F9F3EA;
+  --tile-border: 2px solid var(--accent-color);
+}
+
+/* 4. THEME: Veronese (Scaligero, Brick, Stone) */
+[data-theme="veronese"] {
+  --bg-color: #E8E5E1;
+  /* Verona stone gray */
+  --text-color: #2C3539;
+  /* Gunmetal */
+  --accent-color: #A54A3A;
+  /* Scaliger Brick Red */
+  --secondary-color: #708090;
+  /* Slate Gray */
+  --alert-color: #800000;
+  /* Maroon */
+  --hint-color: #B8860B;
+  /* Dark Goldenrod */
+
+  --font-family: 'Lora', serif;
+
+  --border-style: 1px solid var(--accent-color);
+  --border-radius: 2px;
+  --box-shadow: 2px 2px 0px var(--accent-color);
+  --btn-bg: var(--secondary-color);
+  --btn-text: #FFFFFF;
+
+  --tile-bg: #DCD9D5;
+  --tile-hover-bg: #D3CDC6;
+  --tile-border: 2px solid var(--secondary-color);
+}
+
+/* =========================================
+   UTILITIES & ANIMATIONS
+   ========================================= */
+
+.blink {
+  animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s ease;
+}
+
+/* Smooth transitions for theme switching on major elements */
+h1,
+h2,
+h3,
+p,
+div,
+span,
+button,
+a {
+  transition: background-color var(--transition-speed) var(--transition-timing),
+    color var(--transition-speed) var(--transition-timing),
+    border-color var(--transition-speed) var(--transition-timing),
+    box-shadow var(--transition-speed) var(--transition-timing),
+    border-radius var(--transition-speed) var(--transition-timing),
+    font-family var(--transition-speed) var(--transition-timing);
+}
