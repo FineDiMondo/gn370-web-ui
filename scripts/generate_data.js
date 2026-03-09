@@ -158,7 +158,7 @@ function processAndMapDocs() {
     // Per ogni file in docs
     files.forEach(file => {
         const ext = path.extname(file).toLowerCase();
-        if (ext !== '.md' && ext !== '.txt' && ext !== '.csv' && ext !== '.docx') return;
+        if (ext !== '.md' && ext !== '.txt' && ext !== '.csv' && ext !== '.docx' && ext !== '.svg') return;
 
         const fileNameUpper = file.toUpperCase();
 
@@ -198,11 +198,22 @@ function processAndMapDocs() {
                     person.worlds["1_origini"].data.documents = person.docs;
                     person.worlds["1_origini"].data.surname = person.surname;
 
+                    // Gestione specifica SVG Araldici (NVH-04)
+                    if (ext === '.svg') {
+                        const svgRaw = fs.readFileSync(sourcePath, 'utf8');
+                        person.worlds["7_eredita"].is_active = true;
+                        person.worlds["7_eredita"].data.heraldry = person.worlds["7_eredita"].data.heraldry || [];
+                        person.worlds["7_eredita"].data.heraldry.push(svgRaw);
+
+                        person.worlds["1_origini"].data.heraldry = person.worlds["1_origini"].data.heraldry || [];
+                        person.worlds["1_origini"].data.heraldry.push(svgRaw);
+                    }
+
                     // Attiva Mondo 5 / 7 etc in base a keywords
                     if (fileNameUpper.includes("TIMELINE") || fileNameUpper.includes("STORIA")) {
                         person.worlds["5_contesto"].is_active = true;
                     }
-                    if (fileNameUpper.includes("CARICHE") || fileNameUpper.includes("TITOLI") || fileNameUpper.includes("ARALDICA")) {
+                    if (fileNameUpper.includes("CARICHE") || fileNameUpper.includes("TITOLI") || fileNameUpper.includes("ARALDICA") || ext === '.svg') {
                         person.worlds["7_eredita"].is_active = true;
                         person.worlds["3_doni"].is_active = true;
                     }

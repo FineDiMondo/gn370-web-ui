@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import dbData from '../data/db.json';
+import DOMPurify from 'dompurify';
 
 export const WorldDetail: React.FC = () => {
     const { personId, worldId } = useParams<{ personId: string, worldId: string }>();
@@ -136,6 +137,37 @@ export const WorldDetail: React.FC = () => {
                                         <li key={i} style={{ marginBottom: '5px' }}>{h}</li>
                                     ))}
                                 </ul>
+                            </div>
+                        )}
+
+                        {worldData.data?.heraldry && (
+                            <div style={{ marginBottom: '20px' }}>
+                                <h3 style={{ color: 'var(--accent-color)', borderBottom: '1px solid var(--accent-color)', paddingBottom: '5px' }}>
+                                    <span style={{ marginRight: '10px' }}>🛡️</span>
+                                    Stemmi Araldici (SVG Vector)
+                                </h3>
+                                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', marginTop: '15px' }}>
+                                    {worldData.data.heraldry.map((svgStr: string, i: number) => {
+                                        // NVH-03: DOMPurify stringente per rimuovere possibili XSS dagli SVG
+                                        const cleanSVG = DOMPurify.sanitize(svgStr, { USE_PROFILES: { svg: true } });
+                                        return (
+                                            <div
+                                                key={i}
+                                                style={{
+                                                    border: '1px dashed var(--secondary-color)',
+                                                    padding: '10px',
+                                                    width: '200px',
+                                                    height: '200px',
+                                                    display: 'flex',
+                                                    justifyContent: 'center',
+                                                    alignItems: 'center',
+                                                    backgroundColor: 'rgba(255,255,255,0.05)'
+                                                }}
+                                                dangerouslySetInnerHTML={{ __html: cleanSVG }}
+                                            />
+                                        );
+                                    })}
+                                </div>
                             </div>
                         )}
 
