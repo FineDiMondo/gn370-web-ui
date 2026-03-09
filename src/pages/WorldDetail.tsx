@@ -142,6 +142,17 @@ export const WorldDetail: React.FC = () => {
 
                         {worldData.data?.heraldry && (
                             <div style={{ marginBottom: '20px' }}>
+                                <style>
+                                    {`
+                                    .svg-container svg {
+                                        width: 100% !important;
+                                        height: 100% !important;
+                                        max-width: 100%;
+                                        max-height: 100%;
+                                        object-fit: contain;
+                                    }
+                                    `}
+                                </style>
                                 <h3 style={{ color: 'var(--accent-color)', borderBottom: '1px solid var(--accent-color)', paddingBottom: '5px' }}>
                                     <span style={{ marginRight: '10px' }}>🛡️</span>
                                     Stemmi Araldici (SVG Vector)
@@ -153,6 +164,7 @@ export const WorldDetail: React.FC = () => {
                                         return (
                                             <div
                                                 key={i}
+                                                className="svg-container"
                                                 style={{
                                                     border: '1px dashed var(--secondary-color)',
                                                     padding: '10px',
@@ -161,7 +173,8 @@ export const WorldDetail: React.FC = () => {
                                                     display: 'flex',
                                                     justifyContent: 'center',
                                                     alignItems: 'center',
-                                                    backgroundColor: 'rgba(255,255,255,0.05)'
+                                                    backgroundColor: 'rgba(255,255,255,0.05)',
+                                                    overflow: 'hidden'
                                                 }}
                                                 dangerouslySetInnerHTML={{ __html: cleanSVG }}
                                             />
