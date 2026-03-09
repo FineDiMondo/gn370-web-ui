@@ -200,7 +200,20 @@ function processAndMapDocs() {
 
                     // Gestione specifica SVG Araldici (NVH-04)
                     if (ext === '.svg') {
-                        const svgRaw = fs.readFileSync(sourcePath, 'utf8');
+                        let svgRaw = fs.readFileSync(sourcePath, 'utf8');
+
+                        // FIX: Molti SVG da Wiki (es. 600x600) non hanno il viewBox, perdendo la scalabilità CSS.
+                        // Iniettiamo viewBox="0 0 width height" se assente.
+                        if (!svgRaw.includes('viewBox=')) {
+                            const widthMatch = svgRaw.match(/width=(["'])(\d+)\1/);
+                            const heightMatch = svgRaw.match(/height=(["'])(\d+)\1/);
+                            if (widthMatch && heightMatch) {
+                                const w = widthMatch[2];
+                                const h = heightMatch[2];
+                                svgRaw = svgRaw.replace('<svg ', `<svg viewBox="0 0 ${w} ${h}" `);
+                            }
+                        }
+
                         person.worlds["7_eredita"].is_active = true;
 
                         person.worlds["7_eredita"].data = person.worlds["7_eredita"].data || {};
