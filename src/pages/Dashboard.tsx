@@ -56,9 +56,12 @@ export const Dashboard: React.FC<DashboardProps> = ({ defaultPersonId }) => {
 
             <div style={{
                 display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))',
+                gridTemplateColumns: 'repeat(3, 1fr)',
                 gap: '15px',
-                width: '100%'
+                width: '100%',
+                maxWidth: '600px', // Forces it to remain a compact block on desktop
+                margin: '0 auto',  // Centers the 3x3 block
+                aspectRatio: '1 / 1' // Helps maintain a square proportion for the whole grid
             }}>
                 {Object.entries(person.worlds || {}).map(([key, world]: [string, any]) => (
                     <WorldTile key={key} worldKey={key} worldInfo={world} />
