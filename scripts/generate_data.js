@@ -213,12 +213,53 @@ function processAndMapDocs() {
 }
 
 function finalizeWorlds() {
-    for (const person of Object.values(db.persons)) {
-        // Config Cicli
+    for (const [id, person] of Object.entries(db.persons)) {
+        // --- MONDO 2: CICLI ---
         if (person.birth || person.death) {
             person.worlds["2_cicli"].is_active = true;
             if (person.birth) person.worlds["2_cicli"].data.events.push(`BIRT: ${person.birth}`);
             if (person.death) person.worlds["2_cicli"].data.events.push(`DEAT: ${person.death}`);
+        }
+
+        // --- MONDO 8: NEBBIA & MONDO 4: OMBRE (Gestione LACUNE ~GAP~) ---
+        const gaps = [];
+        const hints = [];
+
+        // 1. Lacuna Temporale Basica (Date mancanti)
+        if (!person.birth) {
+            gaps.push({ type: 'MISSING_BIRTH', priority: 'MEDIA', description: 'Data di nascita sconosciuta.' });
+            hints.push('Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile).');
+        } else if (person.birth && !person.death && person.birth.includes('15') || person.birth.includes('16') || person.birth.includes('17')) {
+            // Se nato molto tempo fa anticamente ma senza morte:
+            gaps.push({ type: 'MISSING_DEATH', priority: 'ALTA', description: 'Data di morte assente per un individuo storico.' });
+            hints.push('Verifica i registri dei defunti o testamenti notarili coevi.');
+        }
+
+        // 2. Lacune Mogli (isMaleAncestor senza Famiglia definita o senza WIFE chiara nel GEDCOM)
+        // Se è un ascendente maschile, ci aspettiamo che abbia una moglie.
+        if (person.isMaleAncestor) {
+            let foundWife = false;
+            // Cerchiamo le famiglie in cui lui è HUSB
+            for (const fam of Object.values(db.families)) {
+                if (fam.husb === person.id) {
+                    if (fam.wife && db.persons[fam.wife] && db.persons[fam.wife].name !== 'Sconosciuto') {
+                        foundWife = true;
+                    }
+                }
+            }
+            if (!foundWife) {
+                gaps.push({ type: 'GAP-B_MISSING_WIFE', priority: 'ALTA', description: 'Moglie/Coniuge femminile non documentata.' });
+                hints.push('Ricerca Registri Ecclesiastici Matrimoniali Palermo o estratti di matrimonio.');
+            }
+        }
+
+        if (gaps.length > 0) {
+            person.worlds["8_nebbia"].is_active = true;
+            person.worlds["8_nebbia"].data = {
+                title: 'Catalogazione Lacune (\~GAP\~)',
+                gaps: gaps,
+                hints: [...new Set(hints)] // Rimuovi duplicati
+            };
         }
     }
 }

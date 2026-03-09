@@ -946,9 +946,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -1026,9 +1038,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -1106,9 +1130,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -1186,9 +1222,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -1266,9 +1314,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -1746,9 +1806,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -1826,9 +1898,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -1906,9 +1990,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -1986,9 +2082,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -2064,9 +2172,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -2144,9 +2264,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -2224,9 +2356,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -2304,9 +2448,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -2384,9 +2540,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -2464,9 +2632,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -2542,9 +2722,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -2622,9 +2814,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -2702,9 +2906,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -2782,9 +2998,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -2862,9 +3090,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -3022,9 +3262,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -3342,9 +3594,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -3422,9 +3686,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -3502,9 +3778,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -3580,9 +3868,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -3738,9 +4038,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -3816,9 +4128,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -3974,9 +4298,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -5252,9 +5588,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -5490,9 +5838,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -5810,9 +6170,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -5888,9 +6260,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -5968,9 +6352,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -6048,9 +6444,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -6128,9 +6536,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -6208,9 +6628,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -6286,9 +6718,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -6524,9 +6968,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -6922,9 +7378,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -7002,9 +7470,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -7089,9 +7569,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -7329,9 +7821,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -7409,9 +7913,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -7489,9 +8005,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -7896,9 +8424,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -7985,9 +8525,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -8074,9 +8626,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -8154,9 +8718,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -8234,9 +8810,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -8323,9 +8911,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -8403,9 +9003,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -8492,9 +9104,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -8572,9 +9196,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -8661,9 +9297,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -8748,9 +9396,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -8835,9 +9495,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -8924,9 +9596,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -9011,9 +9695,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -9098,9 +9794,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -9185,9 +9893,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -9265,9 +9985,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -9352,9 +10084,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -9432,9 +10176,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -9512,9 +10268,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -9844,9 +10612,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -10018,9 +10798,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -10103,9 +10895,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -10689,9 +11493,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -11632,9 +12448,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -11712,9 +12540,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -11792,9 +12632,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -11872,9 +12724,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -11952,9 +12816,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -12112,9 +12988,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -12352,9 +13240,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -13150,9 +14050,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -13230,9 +14142,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -13310,9 +14234,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -13390,9 +14326,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -13470,9 +14418,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -13550,9 +14510,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -13628,9 +14600,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -13708,9 +14692,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -13788,9 +14784,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -13868,9 +14876,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -13948,9 +14968,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -14028,9 +15060,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -14106,9 +15150,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -14186,9 +15242,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -14266,9 +15334,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -14344,9 +15424,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -14424,9 +15516,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -14504,9 +15608,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -14584,9 +15700,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -14664,9 +15792,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -14744,9 +15884,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -14824,9 +15976,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -14904,9 +16068,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -14982,9 +16158,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -15062,9 +16250,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -15302,9 +16502,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -15382,9 +16594,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -15462,9 +16686,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -15540,9 +16776,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -15620,9 +16868,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -15707,9 +16967,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -15785,9 +17057,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -15865,9 +17149,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -15943,9 +17239,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -16023,9 +17331,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -16103,9 +17423,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -16341,9 +17673,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -16419,9 +17763,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -16737,9 +18093,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -17055,9 +18423,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -17213,9 +18593,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -17291,9 +18683,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -17771,9 +19175,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -17849,9 +19265,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -17927,9 +19355,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -18165,9 +19605,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -18403,9 +19855,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -18481,9 +19945,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -18559,9 +20035,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -18797,9 +20285,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -18877,9 +20377,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -19435,9 +20947,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -19513,9 +21037,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -19591,9 +21127,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -19911,9 +21459,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -20151,9 +21711,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -20231,9 +21803,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_DEATH",
+                "priority": "ALTA",
+                "description": "Data di morte assente per un individuo storico."
+              }
+            ],
+            "hints": [
+              "Verifica i registri dei defunti o testamenti notarili coevi."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -20309,9 +21893,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -20547,9 +22143,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -20865,9 +22473,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -22223,9 +23843,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -22701,9 +24333,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -22859,9 +24503,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -24697,9 +26353,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -24775,9 +26443,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -24853,9 +26533,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -24931,9 +26623,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -25089,9 +26793,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -25887,9 +27603,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -25965,9 +27693,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -26523,9 +28263,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -26841,9 +28593,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -27959,9 +29723,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -28517,9 +30293,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",
@@ -29315,9 +31103,21 @@
         "8_nebbia": {
           "id": "8",
           "name": "NEBBIA",
-          "is_active": false,
+          "is_active": true,
           "color_var": "var(--hint-color)",
-          "data": null
+          "data": {
+            "title": "Catalogazione Lacune (~GAP~)",
+            "gaps": [
+              {
+                "type": "MISSING_BIRTH",
+                "priority": "MEDIA",
+                "description": "Data di nascita sconosciuta."
+              }
+            ],
+            "hints": [
+              "Ricerca nei Registri Parrocchiali pre-unitari o Archivio di Stato (Stato Civile)."
+            ]
+          }
         },
         "9_radici": {
           "id": "9",

@@ -109,11 +109,37 @@ export const WorldDetail: React.FC<WorldDetailProps> = ({ defaultPersonId }) => 
                             </div>
                         )}
 
+                        {worldData.data?.gaps && (
+                            <div style={{ marginBottom: '15px' }}>
+                                <h3 style={{ color: 'var(--alert-color)', textTransform: 'uppercase' }}>
+                                    <span style={{ marginRight: '10px' }}>⚠️</span>
+                                    Lacune Rilevate (~GAP~)
+                                </h3>
+                                <ul>
+                                    {worldData.data.gaps.map((g: any, i: number) => (
+                                        <li key={i} style={{
+                                            marginBottom: '10px',
+                                            padding: '10px',
+                                            borderLeft: `4px solid ${g.priority === 'ALTA' ? 'var(--alert-color)' : 'var(--secondary-color)'}`,
+                                            backgroundColor: 'rgba(0,0,0,0.1)'
+                                        }}>
+                                            <strong>[{g.priority}] {g.type}:</strong> {g.description}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        )}
+
                         {worldData.data?.hints && (
                             <div style={{ marginBottom: '15px' }}>
-                                <h3 style={{ color: 'var(--hint-color)' }}>Suggerimenti di Ricerca:</h3>
+                                <h3 style={{ color: 'var(--hint-color)' }}>
+                                    <span style={{ marginRight: '10px' }}>💡</span>
+                                    Suggerimenti Motore AI (?HINT?)
+                                </h3>
                                 <ul>
-                                    {worldData.data.hints.map((h: string, i: number) => <li key={i}>{h}</li>)}
+                                    {worldData.data.hints.map((h: string, i: number) => (
+                                        <li key={i} style={{ marginBottom: '5px' }}>{h}</li>
+                                    ))}
                                 </ul>
                             </div>
                         )}
