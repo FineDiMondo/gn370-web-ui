@@ -2,7 +2,7 @@ name: Deploy to Cloudflare Pages
 
 on:
   push:
-    branches: [main, feat/piano-completamento-gn370]
+    branches: [master, feat/piano-completamento-gn370]
   workflow_dispatch:
 
 jobs:
@@ -34,7 +34,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: e4ec8913465a45689ac71684108c9354
-          command: pages project create gn370-web-ui --production-branch=main
+          command: pages project create gn370-web-ui --production-branch=master
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
