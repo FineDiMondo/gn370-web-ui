@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { WorldTile } from '../components/WorldTile';
+import { PersonSelector } from '../components/PersonSelector';
 import { motion } from 'framer-motion';
 import { buildAndDownloadZip } from '../utils/zipExport';
 import { journal } from '../utils/journalManager';
@@ -100,27 +101,11 @@ export const Dashboard: React.FC<DashboardProps> = ({ defaultPersonId }) => {
                     ID: {person.id} | B: {person.birth || '???'} | D: {person.death || '???'}
                 </p>
 
-                <div style={{ marginTop: '15px' }}>
-                    <select
-                        value={personId}
-                        onChange={(e) => setPersonId(e.target.value)}
-                        style={{
-                            backgroundColor: 'var(--bg-color)',
-                            color: 'var(--text-color)',
-                            border: '1px solid var(--secondary-color)',
-                            padding: '5px',
-                            fontFamily: 'inherit',
-                            width: '100%',
-                            maxWidth: '300px'
-                        }}
-                    >
-                        {personsList.map((p: any) => (
-                            <option key={p.id} value={p.id}>
-                                {p.isMaleAncestor ? '★ ' : ''}{p.name} ({p.id})
-                            </option>
-                        ))}
-                    </select>
-                </div>
+                <PersonSelector
+                    persons={personsList}
+                    selectedId={personId}
+                    onSelect={setPersonId}
+                />
             </div>
 
             <div style={{
