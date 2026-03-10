@@ -1,211 +1,73 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { WorldTile } from '../components/WorldTile';
 import { motion } from 'framer-motion';
-import { parseGedcomFull, toPersonDataDict } from '../utils/gedcomParser';
 import { buildAndDownloadZip } from '../utils/zipExport';
 import { journal } from '../utils/journalManager';
 import dbDataMock from '../data/db.json';
-
-// Conserva il GEDCOM originale per VH-08 / I17
-let _originalGedcomText: string | null = null;
-let _originalGedcomFilename = 'dataset.ged';
-let _parsedFamilies: Record<string, any> = {};
 
 interface DashboardProps {
     defaultPersonId: string;
 }
 
+function sortPersons(values: any[]): any[] {
+    return [...values].sort((a, b) => {
+        if (a.isMaleAncestor && !b.isMaleAncestor) return -1;
+        if (!a.isMaleAncestor && b.isMaleAncestor) return 1;
+        const sA = a.surname || '', sB = b.surname || '';
+        if (sA !== sB) return sA.localeCompare(sB);
+        return (a.name || '').localeCompare(b.name || '');
+    });
+}
+
 export const Dashboard: React.FC<DashboardProps> = ({ defaultPersonId }) => {
-    const [dbStatus, setDbStatus] = useState<'EMPTY' | 'READY'>(
-        typeof window !== 'undefined' && window.__GN370_DB_STATUS ? window.__GN370_DB_STATUS : 'EMPTY'
-    );
     const [personsList, setPersonsList] = useState<any[]>([]);
     const [personsDict, setPersonsDict] = useState<Record<string, any>>({});
-
     const [personId, setPersonId] = useState(defaultPersonId);
     const [person, setPerson] = useState<any>(null);
-    const fileInputRef = useRef<HTMLInputElement>(null);
 
+    // Boot diretto sul dataset Giardina-Negrini
     useEffect(() => {
-        // Sync with global state
-        if (typeof window !== 'undefined') {
-            window.__GN370_DB_STATUS = dbStatus;
-
-            // Ensure GN370 exists just in case
-            if (!window.GN370) {
-                window.GN370 = { CTX: { openedRecord: null } };
-            }
-
-            if (dbStatus === 'EMPTY') {
-                window.GN370.CTX.openedRecord = null;
-            }
-        }
-    }, [dbStatus]);
-
-    useEffect(() => {
-        if (dbStatus === 'READY' && Object.keys(personsDict).length > 0) {
-            const target = personsDict[personId] || personsList[0];
-            setPerson(target);
-            if (target && target.id && typeof window !== 'undefined' && window.GN370) {
-                window.GN370.CTX.openedRecord = target.id;
-            }
-        } else {
-            setPerson(null);
-        }
-    }, [personId, dbStatus, personsDict, personsList]);
-
-    const handleFileUpload = (event: React.ChangeEvent<HTMLInputElement>) => {
-        const file = event.target.files?.[0];
-        if (!file) return;
-
-        const reader = new FileReader();
-        reader.onload = (e) => {
-            const content = e.target?.result as string;
-            try {
-                // Conserva originale (VH-08 / I17)
-                _originalGedcomText = content;
-                _originalGedcomFilename = file.name;
-
-                const result = parseGedcomFull(content);
-                _parsedFamilies = result.families as Record<string, any>;
-
-                // Invariante I8: verifica conteggio
-                const parsed = toPersonDataDict(result);
-                const parsedCount = Object.keys(parsed).length;
-                if (parsedCount !== result.indiCount) {
-                    console.warn(`GN370 I8: INDI in GEDCOM=${result.indiCount}, PERSON in DB=${parsedCount}`);
-                }
-
-                journal.append('GEDCOM_IMPORT',
-                    `Import ${file.name}: ${result.indiCount} INDI, ${result.famCount} FAM`,
-                    { entity_type: 'GEDCOM', entity_count: result.indiCount }
-                );
-
-                const values = Object.values(parsed);
-
-                // Sort
-                const sorted = values.sort((a: any, b: any) => {
-                    if (a.isMaleAncestor && !b.isMaleAncestor) return -1;
-                    if (!a.isMaleAncestor && b.isMaleAncestor) return 1;
-                    const surnameA = a.surname || '';
-                    const surnameB = b.surname || '';
-                    if (surnameA !== surnameB) return surnameA.localeCompare(surnameB);
-                    const nameA = a.name || '';
-                    const nameB = b.name || '';
-                    return nameA.localeCompare(nameB);
-                });
-
-                if (sorted.length > 0) {
-                    setPersonsDict(parsed);
-                    setPersonsList(sorted);
-                    setPersonId(sorted[0].id);
-                    setDbStatus('READY');
-                } else {
-                    alert('Nessuna persona valida trovata nel GEDCOM.');
-                }
-            } catch (err) {
-                console.error("Errore parsing GEDCOM:", err);
-                alert("Errore durante la lettura del file GEDCOM.");
-            }
-        };
-        reader.readAsText(file);
-    };
-
-    const handleLoadMock = () => {
-        // For testing/fallback since mockData has heraldry and worlds
-        const parsed = dbDataMock.persons;
-        const values = Object.values(parsed);
-        const sorted = values.sort((a: any, b: any) => {
-            if (a.isMaleAncestor && !b.isMaleAncestor) return -1;
-            if (!a.isMaleAncestor && b.isMaleAncestor) return 1;
-            const surnameA = a.surname || '';
-            const surnameB = b.surname || '';
-            if (surnameA !== surnameB) return surnameA.localeCompare(surnameB);
-            const nameA = a.name || '';
-            const nameB = b.name || '';
-            return nameA.localeCompare(nameB);
-        });
+        const parsed = dbDataMock.persons as Record<string, any>;
+        const sorted = sortPersons(Object.values(parsed));
 
         setPersonsDict(parsed);
         setPersonsList(sorted);
 
-        // Se I99 esiste usalo, altrimenti usa il primo palese
-        const hasDefault = !!parsed[defaultPersonId as keyof typeof parsed];
-        setPersonId(hasDefault ? defaultPersonId : sorted[0].id);
+        const hasDefault = !!parsed[defaultPersonId];
+        setPersonId(hasDefault ? defaultPersonId : sorted[0]?.id);
 
-        setDbStatus('READY');
-    };
+        if (typeof window !== 'undefined') {
+            window.__GN370_DB_STATUS = 'READY';
+            if (!window.GN370) window.GN370 = { CTX: { openedRecord: null } };
+        }
+
+        journal.append('SESSION_START', 'GN370 — Giardina-Negrini dataset caricato',
+            { entity_type: 'PERSON', entity_count: sorted.length }
+        );
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
+
+    useEffect(() => {
+        if (Object.keys(personsDict).length > 0) {
+            const target = personsDict[personId] || personsList[0];
+            setPerson(target);
+            if (target?.id && typeof window !== 'undefined' && window.GN370) {
+                window.GN370.CTX.openedRecord = target.id;
+            }
+        }
+    }, [personId, personsDict, personsList]);
 
     const handleExport = async () => {
         try {
             await buildAndDownloadZip({
                 persons: personsDict,
-                families: _parsedFamilies,
-                originalGedcom: _originalGedcomText ?? undefined,
-                originalGedcomFilename: _originalGedcomFilename,
+                families: (dbDataMock as any).families ?? {},
             });
         } catch (err) {
             console.error('GN370 EXPORT ERROR:', err);
             alert('Errore durante la generazione del file ZIP.');
         }
     };
-
-    if (dbStatus === 'EMPTY') {
-        return (
-            <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5 }}
-                style={{ display: 'flex', flexDirection: 'column', flex: 1, alignItems: 'center', justifyContent: 'center' }}
-            >
-                <div style={{ textAlign: 'center', border: 'var(--border-style)', padding: '40px', backgroundColor: 'var(--tile-bg)', maxWidth: '500px' }}>
-                    <h2 style={{ color: 'var(--accent-color)', marginBottom: '20px' }}>SISTEMA IN ATTESA</h2>
-                    <p style={{ color: 'var(--text-color)', marginBottom: '30px' }}>Nessun dataset genealogico attivo nel DOMINIO. Inserire una fonte di verità GEDCOM per inizializzare l'interfaccia 9 Mondi.</p>
-
-                    <input
-                        type="file"
-                        accept=".ged"
-                        ref={fileInputRef}
-                        style={{ display: 'none' }}
-                        onChange={handleFileUpload}
-                    />
-
-                    <button
-                        onClick={() => fileInputRef.current?.click()}
-                        style={{
-                            backgroundColor: 'transparent',
-                            border: '1px solid var(--accent-color)',
-                            color: 'var(--accent-color)',
-                            padding: '10px 20px',
-                            fontSize: '1rem',
-                            cursor: 'pointer',
-                            display: 'block',
-                            width: '100%',
-                            marginBottom: '15px'
-                        }}
-                    >
-                        [ UPLOAD GEDCOM (.GED) ]
-                    </button>
-
-                    <button
-                        onClick={handleLoadMock}
-                        style={{
-                            backgroundColor: 'transparent',
-                            border: '1px dashed var(--secondary-color)',
-                            color: 'var(--secondary-color)',
-                            padding: '10px 20px',
-                            fontSize: '0.9rem',
-                            cursor: 'pointer',
-                            display: 'block',
-                            width: '100%'
-                        }}
-                    >
-                        [ LOAD DEMO DATASET ]
-                    </button>
-                </div>
-            </motion.div>
-        );
-    }
 
     if (!person) return <div style={{ color: 'var(--text-color)' }}>CARICAMENTO DATI...</div>;
 
@@ -238,7 +100,6 @@ export const Dashboard: React.FC<DashboardProps> = ({ defaultPersonId }) => {
                     ID: {person.id} | B: {person.birth || '???'} | D: {person.death || '???'}
                 </p>
 
-                {/* Simple selector for exploring other people */}
                 <div style={{ marginTop: '15px' }}>
                     <select
                         value={personId}
@@ -267,9 +128,9 @@ export const Dashboard: React.FC<DashboardProps> = ({ defaultPersonId }) => {
                 gridTemplateColumns: 'repeat(3, 1fr)',
                 gap: '15px',
                 width: '100%',
-                maxWidth: '600px', // Forces it to remain a compact block on desktop
-                margin: '0 auto',  // Centers the 3x3 block
-                aspectRatio: '1 / 1' // Helps maintain a square proportion for the whole grid
+                maxWidth: '600px',
+                margin: '0 auto',
+                aspectRatio: '1 / 1'
             }}>
                 {Object.entries(person.worlds || {}).map(([key, world]: [string, any]) => (
                     <WorldTile key={key} worldKey={key} worldInfo={world} personId={person.id} />
