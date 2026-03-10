@@ -95,7 +95,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ defaultPersonId }) => {
                     </button>
                 </div>
 
-                <h2 style={{ margin: 0, color: 'var(--accent-color)' }}>{person.name} {person.surname}</h2>
+                <h2 style={{ margin: 0, color: 'var(--accent-color)' }}>{person.name}</h2>
                 <p style={{ margin: '5px 0 0', fontSize: '0.9rem', color: 'var(--text-color)' }}>
                     ID: {person.id} | B: {person.birth || '???'} | D: {person.death || '???'}
                 </p>
@@ -116,7 +116,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ defaultPersonId }) => {
                     >
                         {personsList.map((p: any) => (
                             <option key={p.id} value={p.id}>
-                                {p.isMaleAncestor ? '★ ' : ''}{p.surname} {p.name} ({p.id})
+                                {p.isMaleAncestor ? '★ ' : ''}{p.name} ({p.id})
                             </option>
                         ))}
                     </select>

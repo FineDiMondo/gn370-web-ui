@@ -332,7 +332,7 @@ export const GenealogyTree: React.FC<GenealogyTreeProps> = ({
               onClick={() => navigate(`/world/${n.person.id}/1_origini`)}
               style={{ cursor: 'pointer' }}
               role="button"
-              aria-label={`${n.person.name} ${n.person.surname}`}
+              aria-label={n.person.name}
             >
               {/* Box */}
               <rect
@@ -358,19 +358,24 @@ export const GenealogyTree: React.FC<GenealogyTreeProps> = ({
                 </text>
               )}
 
-              {/* Nome */}
-              <text
-                x={NODE_W / 2}
-                y={label ? 26 : 22}
-                textAnchor="middle"
-                fontSize={11}
-                fontWeight={isSpecial ? 'bold' : 'normal'}
-                fill={accentColor}
-              >
-                {n.person.name.length > 16
-                  ? n.person.name.slice(0, 15) + '…'
-                  : n.person.name}
-              </text>
+              {/* Nome proprio (senza cognome) */}
+              {(() => {
+                const given = n.person.surname
+                  ? n.person.name.replace(n.person.surname, '').trim() || n.person.name
+                  : n.person.name;
+                return (
+                  <text
+                    x={NODE_W / 2}
+                    y={label ? 26 : 22}
+                    textAnchor="middle"
+                    fontSize={11}
+                    fontWeight={isSpecial ? 'bold' : 'normal'}
+                    fill={accentColor}
+                  >
+                    {given.length > 16 ? given.slice(0, 15) + '…' : given}
+                  </text>
+                );
+              })()}
 
               {/* Cognome */}
               <text

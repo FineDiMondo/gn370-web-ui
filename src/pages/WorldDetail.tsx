@@ -307,7 +307,7 @@ function PersonCard({ p, label }: { p: any; label: string }) {
             onMouseLeave={e => (e.currentTarget.style.borderColor = 'var(--secondary-color)')}
         >
             <span style={{ color: 'var(--hint-color)', fontSize: '0.75rem', marginRight: '8px' }}>{label}</span>
-            <strong style={{ color: 'var(--text-color)' }}>{p.name} {p.surname}</strong>
+            <strong style={{ color: 'var(--text-color)' }}>{p.name}</strong>
             {yr && <span style={{ color: 'var(--secondary-color)', marginLeft: '8px', fontSize: '0.8rem' }}>({yr}–{p.death ? p.death.match(/\d{4}/)?.[0] ?? '?' : '?'})</span>}
         </div>
     );
@@ -523,7 +523,7 @@ export const WorldDetail: React.FC = () => {
                         MONDO {worldData.id}: {worldData.name}
                     </span>
                     <div style={{ color: 'var(--secondary-color)', fontSize: '0.8rem' }}>
-                        {person.name} {person.surname}
+                        {person.name}
                     </div>
                 </div>
             </div>
@@ -536,7 +536,7 @@ export const WorldDetail: React.FC = () => {
                 minHeight: '300px',
             }}>
                 <h2 style={{ borderBottom: `1px dashed ${worldData.color_var}`, paddingBottom: '10px', color: 'var(--text-color)', marginTop: 0 }}>
-                    {person.name} {person.surname}
+                    {person.name}
                     <span style={{ color: 'var(--secondary-color)', fontSize: '0.8rem', marginLeft: '12px' }}>
                         {person.birth || '???'} – {person.death || '???'}
                     </span>
@@ -581,7 +581,7 @@ export const WorldDetail: React.FC = () => {
                                     ⏱ Cronologia / Timeline
                                 </h3>
                                 <PersonTimeline
-                                    personName={`${person.name ?? ''} ${person.surname ?? ''}`.trim()}
+                                    personName={person.name ?? ''}
                                     birthYear={birthYearOf(person)}
                                     deathYear={person.death ? parseInt(person.death.match(/\d{4}/)?.[0] ?? '0') || null : null}
                                     rawEvents={worldData.data?.events ?? []}
