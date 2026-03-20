@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { WorldTile } from '../components/WorldTile';
 import { PersonSelector } from '../components/PersonSelector';
 import { motion } from 'framer-motion';
@@ -38,8 +38,8 @@ export const Dashboard: React.FC<DashboardProps> = ({ defaultPersonId }) => {
         setPersonId(hasDefault ? defaultPersonId : sorted[0]?.id);
 
         if (typeof window !== 'undefined') {
-            window.__GN370_DB_STATUS = 'READY';
-            if (!window.GN370) window.GN370 = { CTX: { openedRecord: null } };
+            (window as any).__GN370_DB_STATUS = 'READY';
+            if (!(window as any).GN370) (window as any).GN370 = { CTX: { openedRecord: null } };
         }
 
         journal.append('SESSION_START', 'GN370 — Giardina-Negrini dataset caricato',
@@ -52,8 +52,8 @@ export const Dashboard: React.FC<DashboardProps> = ({ defaultPersonId }) => {
         if (Object.keys(personsDict).length > 0) {
             const target = personsDict[personId] || personsList[0];
             setPerson(target);
-            if (target?.id && typeof window !== 'undefined' && window.GN370) {
-                window.GN370.CTX.openedRecord = target.id;
+            if (target?.id && typeof window !== 'undefined' && (window as any).GN370) {
+                (window as any).GN370.CTX.openedRecord = target.id;
             }
         }
     }, [personId, personsDict, personsList]);

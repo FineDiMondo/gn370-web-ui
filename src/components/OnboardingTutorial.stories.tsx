@@ -1,3 +1,4 @@
+// @ts-nocheck
 import type { Meta, StoryObj } from '@storybook/react';
 import { OnboardingTutorial, DEFAULT_ONBOARDING_STEPS } from './OnboardingTutorial';
 

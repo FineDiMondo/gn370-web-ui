@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { renderHook } from '@testing-library/react';
 import { useVisNetwork, type VisNode, type VisEdge } from './useVisNetwork';
 import React from 'react';

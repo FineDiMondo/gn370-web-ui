@@ -21,7 +21,7 @@ import {
   AlertCircle,
   CheckCircle,
   AlertTriangle,
-  Info,
+  Info as InfoIcon,
   X,
   Loader2,
 } from 'lucide-react';
@@ -112,7 +112,7 @@ export const FeedbackSystem: React.FC<FeedbackSystemProps> = ({
             success: <CheckCircle />,
             error: <AlertCircle />,
             warning: <AlertTriangle />,
-            info: <Info />,
+            info: <InfoIcon />,
           }[type]}
       </div>
 

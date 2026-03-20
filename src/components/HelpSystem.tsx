@@ -10,7 +10,7 @@
  */
 
 import React, { useState, useMemo } from 'react';
-import { Search, ChevronDown, MessageCircle, BookOpen, Play } from 'lucide-react';
+import { Search, ChevronDown, MessageCircle, Play } from 'lucide-react';
 import './HelpSystem.module.css';
 
 export interface HelpArticle {

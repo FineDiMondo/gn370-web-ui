@@ -173,7 +173,10 @@ export const GedcomImportWizard: React.FC<GedcomImportWizardProps> = ({
         } else if (tag === 'NAME' && personCount > 0) {
           currentIndi.name = line.substring(line.indexOf('NAME') + 5).trim();
           if (samplePersons.length < 5) {
-            samplePersons.push({ ...currentIndi });
+            samplePersons.push({
+              name: currentIndi.name || 'Sconosciuto',
+              birthDate: currentIndi.birthDate,
+            });
           }
         } else if (tag === 'BIRT') {
           currentIndi.birthDate = line.substring(line.indexOf('BIRT') + 5).trim();

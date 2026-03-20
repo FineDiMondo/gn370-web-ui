@@ -141,20 +141,23 @@ export const useVisNetwork = ({
 
         // Check if clicked on a node
         let clickedNodeId: string | null = null;
-        for (const [id, pos] of networkRef.current!.simulation!.positions.entries()) {
-          const screenPos = {
-            x: (pos.x + panX.current) * currentZoom.current + canvas.width / 2,
-            y: (pos.y + panY.current) * currentZoom.current + canvas.height / 2,
-          };
+        const sim = networkRef.current?.simulation;
+        if (sim) {
+          for (const [id, pos] of sim.positions.entries()) {
+            const screenPos = {
+              x: (pos.x + panX.current) * currentZoom.current + canvas.width / 2,
+              y: (pos.y + panY.current) * currentZoom.current + canvas.height / 2,
+            };
 
-          const node = networkRef.current!.nodes.get(id);
-          const nodeSize = (node?.size || 20) * currentZoom.current;
+            const node = networkRef.current?.nodes.get(id);
+            const nodeSize = (node?.size || 20) * currentZoom.current;
 
-          if (
-            Math.hypot(mouseX - screenPos.x, mouseY - screenPos.y) < nodeSize
-          ) {
-            clickedNodeId = id;
-            break;
+            if (
+              Math.hypot(mouseX - screenPos.x, mouseY - screenPos.y) < nodeSize
+            ) {
+              clickedNodeId = id;
+              break;
+            }
           }
         }
 
@@ -170,20 +173,23 @@ export const useVisNetwork = ({
 
         // Check if hovering over a node
         let hoveredNodeId: string | null = null;
-        for (const [id, pos] of networkRef.current!.simulation!.positions.entries()) {
-          const screenPos = {
-            x: (pos.x + panX.current) * currentZoom.current + canvas.width / 2,
-            y: (pos.y + panY.current) * currentZoom.current + canvas.height / 2,
-          };
+        const sim = networkRef.current?.simulation;
+        if (sim) {
+          for (const [id, pos] of sim.positions.entries()) {
+            const screenPos = {
+              x: (pos.x + panX.current) * currentZoom.current + canvas.width / 2,
+              y: (pos.y + panY.current) * currentZoom.current + canvas.height / 2,
+            };
 
-          const node = networkRef.current!.nodes.get(id);
-          const nodeSize = (node?.size || 20) * currentZoom.current;
+            const node = networkRef.current?.nodes.get(id);
+            const nodeSize = (node?.size || 20) * currentZoom.current;
 
-          if (
-            Math.hypot(mouseX - screenPos.x, mouseY - screenPos.y) < nodeSize
-          ) {
-            hoveredNodeId = id;
-            break;
+            if (
+              Math.hypot(mouseX - screenPos.x, mouseY - screenPos.y) < nodeSize
+            ) {
+              hoveredNodeId = id;
+              break;
+            }
           }
         }
 
@@ -206,7 +212,8 @@ export const useVisNetwork = ({
       const animate = () => {
         if (!networkRef.current || !ctx) return;
 
-        const sim = networkRef.current.simulation!;
+        const sim = networkRef.current.simulation;
+        if (!sim) return;
 
         // Physics simulation step
         simulatePhysics(sim, nodes, edges);
@@ -363,10 +370,12 @@ export const useVisNetwork = ({
  * Positions nodes naturally based on repulsion and attraction forces
  */
 function simulatePhysics(
-  simulation: VisNetwork['simulation']!,
+  simulation: VisNetwork['simulation'],
   nodes: VisNode[],
   edges: Array<{ from: string; to: string }>
 ) {
+  if (!simulation) return;
+
   const positions = simulation.positions;
   const velocities = simulation.velocities;
   const forces = simulation.forces;
@@ -397,9 +406,11 @@ function simulatePhysics(
       const fx = (force * dx) / dist;
       const fy = (force * dy) / dist;
 
-      const force1 = forces.get(id1)!;
-      force1.x -= fx;
-      force1.y -= fy;
+      const force1 = forces.get(id1);
+      if (force1) {
+        force1.x -= fx;
+        force1.y -= fy;
+      }
     }
   }
 
@@ -417,30 +428,36 @@ function simulatePhysics(
     const fx = (force * dx) / (dist || 1);
     const fy = (force * dy) / (dist || 1);
 
-    const force1 = forces.get(edge.from)!;
-    const force2 = forces.get(edge.to)!;
+    const force1 = forces.get(edge.from);
+    const force2 = forces.get(edge.to);
 
-    force1.x += fx;
-    force1.y += fy;
-    force2.x -= fx;
-    force2.y -= fy;
+    if (force1) {
+      force1.x += fx;
+      force1.y += fy;
+    }
+    if (force2) {
+      force2.x -= fx;
+      force2.y -= fy;
+    }
   }
 
   // Apply forces and update positions
   for (const [id, pos] of positions.entries()) {
-    const force = forces.get(id)!;
-    const vel = velocities.get(id)!;
+    const force = forces.get(id);
+    const vel = velocities.get(id);
 
-    vel.x = (vel.x + force.x * 0.01) * DAMPING;
-    vel.y = (vel.y + force.y * 0.01) * DAMPING;
+    if (force && vel) {
+      vel.x = (vel.x + force.x * 0.01) * DAMPING;
+      vel.y = (vel.y + force.y * 0.01) * DAMPING;
 
-    const speed = Math.hypot(vel.x, vel.y);
-    if (speed > MAX_VELOCITY) {
-      vel.x = (vel.x / speed) * MAX_VELOCITY;
-      vel.y = (vel.y / speed) * MAX_VELOCITY;
+      const speed = Math.hypot(vel.x, vel.y);
+      if (speed > MAX_VELOCITY) {
+        vel.x = (vel.x / speed) * MAX_VELOCITY;
+        vel.y = (vel.y / speed) * MAX_VELOCITY;
+      }
+
+      pos.x += vel.x;
+      pos.y += vel.y;
     }
-
-    pos.x += vel.x;
-    pos.y += vel.y;
   }
 }

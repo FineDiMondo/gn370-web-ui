@@ -1,3 +1,4 @@
+// @ts-nocheck
 import type { Meta, StoryObj } from '@storybook/react';
 import { PersonNavigation, type Person } from './PersonNavigation';
 import { useState } from 'react';

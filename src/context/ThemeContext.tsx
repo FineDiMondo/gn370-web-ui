@@ -12,7 +12,6 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export const ThemeProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
     const [theme, setThemeState] = useState<ThemeType>('370');
-    const [systemPreference, setSystemPreference] = useState<'dark' | 'light'>('dark');
 
     useEffect(() => {
         // Detect system preference
@@ -35,8 +34,8 @@ export const ThemeProvider: React.FC<{ children: ReactNode }> = ({ children }) =
 
         // Listen for system preference changes
         const handleChange = (e: MediaQueryListEvent) => {
-            setSystemPreference(e.matches ? 'dark' : 'light');
-
+            // Check system preference
+            
             // If user hasn't explicitly set a theme, follow system preference
             if (!localStorage.getItem('gn370-theme')) {
                 const newTheme = e.matches ? '370' : 'palermitano';

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import type { Meta, StoryObj } from '@storybook/react';
 import { FamilyTreeViewer, type FamilyTreePerson } from './FamilyTreeViewer';
 import { useState } from 'react';

@@ -235,13 +235,18 @@ class FamilyTreeApiService {
  * Custom error class for API-specific errors
  */
 export class FamilyTreeApiError extends Error {
+  statusCode: number;
+  responseData?: unknown;
+
   constructor(
     message: string,
-    public statusCode: number = 500,
-    public responseData?: unknown
+    statusCode: number = 500,
+    responseData?: unknown
   ) {
     super(message);
     this.name = 'FamilyTreeApiError';
+    this.statusCode = statusCode;
+    this.responseData = responseData;
   }
 }
 

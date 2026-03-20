@@ -5,8 +5,8 @@ import {
   User,
   HelpCircle,
   Settings,
-  LucideIcon,
 } from 'lucide-react';
+import type { LucideIcon } from 'lucide-react';
 import './BottomNavigation.module.css';
 
 export type NavItem = 'home' | 'family' | 'person' | 'help' | 'settings';

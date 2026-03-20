@@ -59,7 +59,7 @@ export const usePerformanceMonitoring = (
         const lcpObserver = new PerformanceObserver((list) => {
           const entries = list.getEntries();
           const lastEntry = entries[entries.length - 1];
-          const lcp = lastEntry.renderTime || lastEntry.loadTime;
+          const lcp = (lastEntry as any).renderTime || (lastEntry as any).loadTime;
 
           vitalsRef.current.lcp = lcp;
           checkThreshold('lcp', lcp);
