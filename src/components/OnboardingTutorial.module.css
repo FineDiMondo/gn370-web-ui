@@ -1,0 +1,241 @@
+/* Onboarding Tutorial - Mobile First */
+
+.onboarding__overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1099;
+  animation: fadeIn 300ms ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.onboarding__box {
+  position: fixed;
+  bottom: 20px;
+  left: 12px;
+  right: 12px;
+  background: var(--bg-card, #0A0E27);
+  border: 2px solid var(--primary, #00D9FF);
+  border-radius: 8px;
+  padding: 20px;
+  z-index: 1100;
+  box-shadow: 0 20px 60px rgba(0, 217, 255, 0.3);
+  animation: slideUp 400ms cubic-bezier(0.34, 1.56, 0.64, 1);
+  max-width: 100%;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.onboarding__close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: none;
+  border: none;
+  color: var(--text-secondary, #A8B5C8);
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 150ms ease;
+}
+
+.onboarding__close:hover {
+  color: var(--primary, #00D9FF);
+}
+
+.onboarding__content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.onboarding__title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary, #FFFFFF);
+}
+
+.onboarding__description {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-secondary, #A8B5C8);
+}
+
+.onboarding__action {
+  background: var(--primary, #00D9FF);
+  color: #000000;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 150ms ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  align-self: flex-start;
+}
+
+.onboarding__action:hover {
+  background: #00AACC;
+  transform: translateY(-2px);
+}
+
+.onboarding__progress {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border, #1A1F3A);
+}
+
+.onboarding__dots {
+  display: flex;
+  gap: 6px;
+}
+
+.onboarding__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--border, #1A1F3A);
+  border: none;
+  cursor: pointer;
+  transition: all 150ms ease;
+  padding: 0;
+}
+
+.onboarding__dot.active {
+  background: var(--primary, #00D9FF);
+  width: 24px;
+  border-radius: 4px;
+}
+
+.onboarding__counter {
+  font-size: 12px;
+  color: var(--text-secondary, #A8B5C8);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.onboarding__controls {
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.onboarding__btn {
+  padding: 10px 14px;
+  border: 1px solid var(--border, #1A1F3A);
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 150ms ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  color: var(--text-secondary, #A8B5C8);
+  background: transparent;
+}
+
+.onboarding__btn:hover:not(:disabled) {
+  border-color: var(--text-secondary, #A8B5C8);
+  color: var(--text-primary, #FFFFFF);
+}
+
+.onboarding__btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.onboarding__btn--primary {
+  background: var(--primary, #00D9FF);
+  color: #000000;
+  border-color: var(--primary, #00D9FF);
+}
+
+.onboarding__btn--primary:hover:not(:disabled) {
+  background: #00AACC;
+  border-color: #00AACC;
+  transform: translateY(-2px);
+}
+
+.onboarding__btn--ghost {
+  color: var(--text-secondary, #A8B5C8);
+}
+
+.onboarding__nav {
+  display: flex;
+  gap: 8px;
+}
+
+.onboarding__btn--nav {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  min-width: 40px;
+}
+
+@media (min-width: 640px) {
+  .onboarding__box {
+    bottom: 40px;
+    left: 50%;
+    right: auto;
+    width: 420px;
+    transform: translateX(-50%);
+    padding: 24px;
+    border-radius: 12px;
+  }
+
+  .onboarding__title {
+    font-size: 20px;
+  }
+
+  .onboarding__description {
+    font-size: 15px;
+  }
+
+  .onboarding__btn {
+    padding: 12px 18px;
+    font-size: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .onboarding__overlay,
+  .onboarding__box {
+    animation: none;
+  }
+
+  .onboarding__dot {
+    transition: none;
+  }
+}

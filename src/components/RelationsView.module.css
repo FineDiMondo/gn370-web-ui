@@ -1,0 +1,245 @@
+.relations-view {
+  display: grid;
+  grid-auto-flow: row;
+  gap: 24px;
+  padding: 20px 16px;
+}
+
+@media (min-width: 640px) {
+  .relations-view {
+    padding: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .relations-view {
+    padding: 32px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Relation Group */
+.relation-group {
+  background-color: var(--bg-card, #0A0E27);
+  border: 1px solid var(--border, #1A1F3A);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.relation-header {
+  padding: 16px;
+  border-bottom: 2px solid var(--border, #1A1F3A);
+  background-color: rgba(0, 217, 255, 0.05);
+}
+
+.relation-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary, #00D9FF);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+.relation-count {
+  font-size: 13px;
+  color: var(--text-secondary, #A8B5C8);
+  margin-top: 4px;
+}
+
+.relation-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.relation-item {
+  padding: 16px;
+  border-bottom: 1px solid var(--border, #1A1F3A);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.relation-item:last-child {
+  border-bottom: none;
+}
+
+.relation-item:hover {
+  background-color: rgba(0, 217, 255, 0.05);
+}
+
+.relation-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--primary, #00D9FF) 0%, #0099CC 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--bg-page, #000000);
+  font-weight: 600;
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.relation-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.relation-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary, #FFFFFF);
+  margin: 0 0 4px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.relation-detail {
+  font-size: 12px;
+  color: var(--text-secondary, #A8B5C8);
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.relation-arrow {
+  color: var(--text-tertiary, #6B7A8C);
+  font-size: 18px;
+  transition: transform 200ms ease-in-out;
+}
+
+.relation-item:hover .relation-arrow {
+  color: var(--primary, #00D9FF);
+  transform: translateX(4px);
+}
+
+/* Empty State */
+.empty-state {
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--text-secondary, #A8B5C8);
+  grid-column: 1 / -1;
+}
+
+.empty-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+  opacity: 0.5;
+}
+
+.empty-text {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: var(--text-primary, #FFFFFF);
+}
+
+.empty-hint {
+  font-size: 13px;
+  color: var(--text-tertiary, #6B7A8C);
+}
+
+/* Matrix View (alternative) */
+.matrix-container {
+  overflow-x: auto;
+  border-radius: 8px;
+  border: 1px solid var(--border, #1A1F3A);
+}
+
+.relation-matrix {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.relation-matrix th,
+.relation-matrix td {
+  padding: 12px;
+  border: 1px solid var(--border, #1A1F3A);
+  text-align: left;
+  font-size: 13px;
+}
+
+.relation-matrix th {
+  background-color: rgba(0, 217, 255, 0.05);
+  font-weight: 600;
+  color: var(--primary, #00D9FF);
+  text-transform: uppercase;
+}
+
+.relation-matrix tr:hover {
+  background-color: rgba(0, 217, 255, 0.02);
+}
+
+.relation-matrix td {
+  color: var(--text-primary, #FFFFFF);
+}
+
+/* Responsive adjustments */
+@media (max-width: 639px) {
+  .relations-view {
+    gap: 16px;
+  }
+
+  .relation-group {
+    margin-bottom: 8px;
+  }
+
+  .relation-item {
+    padding: 12px;
+  }
+
+  .relation-avatar {
+    width: 36px;
+    height: 36px;
+    font-size: 14px;
+  }
+
+  .relation-name {
+    font-size: 13px;
+  }
+
+  .relation-detail {
+    font-size: 11px;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: light) {
+  .relations-view {
+    --bg-card: #FFFFFF;
+    --text-primary: #000000;
+    --text-secondary: #666666;
+    --text-tertiary: #999999;
+    --border: #EEEEEE;
+  }
+
+  .relation-header {
+    background-color: rgba(0, 217, 255, 0.08);
+  }
+
+  .relation-item:hover {
+    background-color: rgba(0, 217, 255, 0.08);
+  }
+
+  .relation-matrix th {
+    background-color: rgba(0, 217, 255, 0.1);
+  }
+
+  .relation-matrix tr:hover {
+    background-color: rgba(0, 217, 255, 0.05);
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .relation-item,
+  .relation-arrow {
+    transition: none;
+  }
+}

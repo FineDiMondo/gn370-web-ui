@@ -1,0 +1,341 @@
+/* WorldCard Component Styles - Mobile First */
+
+.world-card {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  padding: 12px;
+  background-color: var(--bg-card, #0A0E27);
+  border: 2px solid var(--border, #1A1F3A);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 150ms var(--easing-ease, ease);
+  min-height: auto;
+  overflow: hidden;
+  align-items: flex-start;
+}
+
+/* Tablet (640px+) - Switch to vertical layout */
+@media (min-width: 640px) {
+  .world-card {
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    min-height: 340px;
+  }
+}
+
+/* Desktop (1024px+) - Optimize spacing */
+@media (min-width: 1024px) {
+  .world-card {
+    gap: 12px;
+    padding: 24px;
+    min-height: 320px;
+  }
+}
+
+/* Hover & Focus States */
+.world-card:hover {
+  border-color: currentColor;
+  background-color: var(--bg-hover, #141B2F);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 217, 255, 0.1);
+}
+
+.world-card:focus {
+  outline: none;
+}
+
+.world-card:focus-visible .world-card__focus-ring {
+  opacity: 1;
+}
+
+.world-card__focus-ring {
+  position: absolute;
+  inset: -3px;
+  border: 3px solid var(--primary, #00D9FF);
+  border-radius: 10px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 150ms ease;
+}
+
+/* Active State */
+.world-card--active {
+  border-color: currentColor;
+  background-color: var(--bg-hover, #141B2F);
+  box-shadow: inset 0 0 0 2px currentColor;
+}
+
+/* Number Badge */
+.world-card__number {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: rgba(0, 217, 255, 0.1);
+  border-radius: 50%;
+  color: currentColor;
+}
+
+/* Icon */
+.world-card__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: currentColor;
+  opacity: 0.9;
+  flex-shrink: 0;
+  min-width: 48px;
+  min-height: 48px;
+}
+
+@media (min-width: 640px) {
+  .world-card__icon {
+    min-width: auto;
+    min-height: auto;
+  }
+}
+
+.world-card__icon svg {
+  stroke-width: 1.5;
+}
+
+/* Header (Title + Subtitle) */
+.world-card__header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.world-card__title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--text-primary, #FFFFFF);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.world-card__subtitle {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: currentColor;
+  opacity: 0.8;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+/* Description */
+.world-card__description {
+  display: none;
+  margin: 0;
+  padding-top: 8px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text-secondary, #A8B5C8);
+  flex-grow: 1;
+}
+
+@media (min-width: 640px) {
+  .world-card__description {
+    display: block;
+  }
+}
+
+/* Footer with Status */
+.world-card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 8px;
+  border-top: 1px solid var(--border, #1A1F3A);
+  margin-top: 8px;
+}
+
+.world-card__status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.world-card__status-label {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .world-card__status-label {
+    display: inline;
+  }
+}
+
+.world-card__count {
+  opacity: 0.7;
+  font-weight: normal;
+}
+
+/* Tooltip (hidden by default) */
+.world-card__tooltip {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-8px);
+  background-color: rgba(0, 0, 0, 0.95);
+  color: var(--text-primary, #FFFFFF);
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  line-height: 1.4;
+  white-space: max(200px);
+  max-width: 240px;
+  z-index: 1000;
+  pointer-events: none;
+  border: 1px solid var(--border, #1A1F3A);
+}
+
+.world-card:hover .world-card__tooltip {
+  display: block;
+  animation: fadeIn 150ms ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-8px);
+  }
+}
+
+/* Color Variants */
+
+/* Turquoise (ORIGINI) */
+.world-card--turq {
+  border-color: #00D9FF;
+  color: #00D9FF;
+}
+
+.world-card--turq:hover {
+  box-shadow: 0 8px 16px rgba(0, 217, 255, 0.15);
+}
+
+/* Green (CICLI) */
+.world-card--green {
+  border-color: #32FF00;
+  color: #32FF00;
+}
+
+.world-card--green:hover {
+  box-shadow: 0 8px 16px rgba(50, 255, 0, 0.15);
+}
+
+/* Cyan (DONI) */
+.world-card--cyan {
+  border-color: #00FFFF;
+  color: #00FFFF;
+}
+
+.world-card--cyan:hover {
+  box-shadow: 0 8px 16px rgba(0, 255, 255, 0.15);
+}
+
+/* Red (OMBRE) */
+.world-card--red {
+  border-color: #FF0000;
+  color: #FF0000;
+}
+
+.world-card--red:hover {
+  box-shadow: 0 8px 16px rgba(255, 0, 0, 0.15);
+}
+
+/* Yellow (CONTESTO) */
+.world-card--yellow {
+  border-color: #FFD700;
+  color: #FFD700;
+}
+
+.world-card--yellow:hover {
+  box-shadow: 0 8px 16px rgba(255, 215, 0, 0.15);
+}
+
+/* Purple (STRUTTURA) */
+.world-card--purple {
+  border-color: #DA70D6;
+  color: #DA70D6;
+}
+
+.world-card--purple:hover {
+  box-shadow: 0 8px 16px rgba(218, 112, 214, 0.15);
+}
+
+/* Gold (EREDITÀ) */
+.world-card--gold {
+  border-color: #FFB300;
+  color: #FFB300;
+}
+
+.world-card--gold:hover {
+  box-shadow: 0 8px 16px rgba(255, 179, 0, 0.15);
+}
+
+/* Grey (NEBBIA) */
+.world-card--grey {
+  border-color: #6B7A8C;
+  color: #6B7A8C;
+}
+
+.world-card--grey:hover {
+  box-shadow: 0 8px 16px rgba(107, 122, 140, 0.15);
+}
+
+/* Amber (RADICI) */
+.world-card--amber {
+  border-color: #FFA500;
+  color: #FFA500;
+}
+
+.world-card--amber:hover {
+  box-shadow: 0 8px 16px rgba(255, 165, 0, 0.15);
+}
+
+/* Tablet+ adjustments */
+@media (min-width: 640px) {
+  .world-card__number {
+    top: 12px;
+    right: 12px;
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+  }
+
+  .world-card__header {
+    flex: none;
+  }
+
+  .world-card__footer {
+    width: auto;
+    padding-top: 12px;
+    margin-top: auto;
+  }
+}
